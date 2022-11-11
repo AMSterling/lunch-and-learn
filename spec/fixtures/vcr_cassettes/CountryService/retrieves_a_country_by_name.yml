@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://restcountries.com/v3.1/name/Thailand
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 11 Nov 2022 19:15:17 GMT
+      Server:
+      - Apache/2.4.38 (Debian)
+      Cache-Control:
+      - public, immutable, max-age=31556926
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1376'
+    body:
+      encoding: UTF-8
+      string: '[{"name":{"common":"Thailand","official":"Kingdom of Thailand","nativeName":{"tha":{"official":"ราชอาณาจักรไทย","common":"ประเทศไทย"}}},"tld":[".th",".ไทย"],"cca2":"TH","ccn3":"764","cca3":"THA","cioc":"THA","independent":true,"status":"officially-assigned","unMember":true,"currencies":{"THB":{"name":"Thai
+        baht","symbol":"฿"}},"idd":{"root":"+6","suffixes":["6"]},"capital":["Bangkok"],"altSpellings":["TH","Prathet","Thai","Kingdom
+        of Thailand","ราชอาณาจักรไทย","Ratcha Anachak Thai"],"region":"Asia","subregion":"South-Eastern
+        Asia","languages":{"tha":"Thai"},"translations":{"ara":{"official":"مملكة
+        تايلند","common":"تايلند"},"bre":{"official":"Rouantelezh Thailand","common":"Thailand"},"ces":{"official":"Thajské
+        království","common":"Thajsko"},"cym":{"official":"Kingdom of Thailand","common":"Thailand"},"deu":{"official":"Königreich
+        Thailand","common":"Thailand"},"est":{"official":"Tai Kuningriik","common":"Tai"},"fin":{"official":"Thaimaan
+        kuningaskunta","common":"Thaimaa"},"fra":{"official":"Royaume de Thaïlande","common":"Thaïlande"},"hrv":{"official":"Kraljevina
+        Tajland","common":"Tajland"},"hun":{"official":"Thaiföldi Királyság","common":"Thaiföld"},"ita":{"official":"Regno
+        di Thailandia","common":"Tailandia"},"jpn":{"official":"タイ王国","common":"タイ"},"kor":{"official":"타이
+        왕국","common":"태국"},"nld":{"official":"Koninkrijk Thailand","common":"Thailand"},"per":{"official":"پادشاهی
+        تایلند","common":"تایلند"},"pol":{"official":"Królestwo Tajlandii","common":"Tajlandia"},"por":{"official":"Reino
+        da Tailândia","common":"Tailândia"},"rus":{"official":"Королевство Таиланд","common":"Таиланд"},"slk":{"official":"Thajské
+        kráľovstvo","common":"Thajsko"},"spa":{"official":"Reino de Tailandia","common":"Tailandia"},"swe":{"official":"Konungariket
+        Thailand","common":"Thailand"},"tur":{"official":"Tayland Krallığı","common":"Tayland"},"urd":{"official":"مملکتِ
+        تھائی لینڈ","common":"تھائی لینڈ"},"zho":{"official":"泰王国","common":"泰国"}},"latlng":[15.0,100.0],"landlocked":false,"borders":["MMR","KHM","LAO","MYS"],"area":513120.0,"demonyms":{"eng":{"f":"Thai","m":"Thai"},"fra":{"f":"Thaïlandaise","m":"Thaïlandais"}},"flag":"\uD83C\uDDF9\uD83C\uDDED","maps":{"googleMaps":"https://goo.gl/maps/qeU6uqsfW4nCCwzw9","openStreetMaps":"https://www.openstreetmap.org/relation/2067731"},"population":69799978,"gini":{"2019":34.9},"fifa":"THA","car":{"signs":["T"],"side":"left"},"timezones":["UTC+07:00"],"continents":["Asia"],"flags":{"png":"https://flagcdn.com/w320/th.png","svg":"https://flagcdn.com/th.svg"},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/th.png","svg":"https://mainfacts.com/media/images/coats_of_arms/th.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[13.75,100.52]},"postalCode":{"format":"#####","regex":"^(\\d{5})$"}}]'
+  recorded_at: Fri, 11 Nov 2022 19:15:17 GMT
+recorded_with: VCR 6.1.0

@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'CountryService', :vcr do
-  it 'retrieves ' do
+  it 'retrieves a country by name' do
     country = CountryService.get_country('Thailand')
 
     expect(country).to be_an Array
@@ -45,6 +45,16 @@ RSpec.describe 'CountryService', :vcr do
     expect(country[0][:name].keys).to eq([:common, :official, :nativeName])
     expect(country[0][:name][:nativeName].keys).to eq([:tha])
     expect(country[0][:name][:nativeName][:tha].keys).to eq([:official, :common])
+    expect(country[0][:name][:common]).to be_a String
+  end
+
+  it 'retrieves a random country when no argument is passed' do
+    country = CountryService.get_random_country
+
+    expect(country).to be_an Array
+    expect(country.count).to eq 1
+    expect(country[0]).to have_key(:name)
+    expect(country[0][:name]).to have_key(:common)
     expect(country[0][:name][:common]).to be_a String
   end
 end
