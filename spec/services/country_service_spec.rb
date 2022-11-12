@@ -1,60 +1,24 @@
 require 'rails_helper'
 
-RSpec.describe 'CountryService', :vcr do
+RSpec.describe CountryService, :vcr do
   it 'retrieves a country by name' do
-    country = CountryService.get_country('Thailand')
+    country = CountryService.get_country('thailand')
 
-    expect(country).to be_an Array
-    expect(country[0].keys).to eq([
-      :name,
-      :tld,
-      :cca2,
-      :ccn3,
-      :cca3,
-      :cioc,
-      :independent,
-      :status,
-      :unMember,
-      :currencies,
-      :idd,
-      :capital,
-      :altSpellings,
-      :region,
-      :subregion,
-      :languages,
-      :translations,
-      :latlng,
-      :landlocked,
-      :borders,
-      :area,
-      :demonyms,
-      :flag,
-      :maps,
-      :population,
-      :gini,
-      :fifa,
-      :car,
-      :timezones,
-      :continents,
-      :flags,
-      :coatOfArms,
-      :startOfWeek,
-      :capitalInfo,
-      :postalCode
-      ])
-    expect(country[0][:name].keys).to eq([:common, :official, :nativeName])
-    expect(country[0][:name][:nativeName].keys).to eq([:tha])
-    expect(country[0][:name][:nativeName][:tha].keys).to eq([:official, :common])
-    expect(country[0][:name][:common]).to be_a String
+    expect(country).to have_key(:name)
+    expect(country[:name]).to have_key(:common)
+    expect(country[:name][:common]).to eq('Thailand')
   end
 
   it 'retrieves a random country when no argument is passed' do
     country = CountryService.get_random_country
 
-    expect(country).to be_an Array
-    expect(country.count).to eq 1
-    expect(country[0]).to have_key(:name)
-    expect(country[0][:name]).to have_key(:common)
-    expect(country[0][:name][:common]).to be_a String
+    expect(country).to be_a String
+  end
+
+  it 'sends empty array if co country matches' do
+    nonexistent = CountryService.get_country('')
+
+    expect(nonexistent).to be_an Array
+    expect(nonexistent).to eq([:message, "Page Not Found"])
   end
 end
