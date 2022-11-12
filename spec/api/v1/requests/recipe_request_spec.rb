@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'Recipe Resquest' do
+RSpec.describe 'Recipe Resquest', :vcr do
   it 'retrieves recipes for a specified country' do
     country = ('thailand')
 
@@ -47,6 +47,7 @@ RSpec.describe 'Recipe Resquest' do
   end
 
   it 'retrieves recipes from a random country' do
+    allow(CountryService).to receive(:get_random_country).and_return('greece')
     random = CountryService.get_random_country
 
     get "/api/v1/recipes?country=#{random}"
@@ -65,7 +66,7 @@ RSpec.describe 'Recipe Resquest' do
       recipe[:attributes].values.each do |value|
         expect(value).to be_a String
       end
-      expect(recipe[:attributes][:country]).to eq("#{random}")
+      expect(recipe[:attributes][:country]).to eq('Greece')
     end
   end
 end
