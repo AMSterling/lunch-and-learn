@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://restcountries.com/v3.1/name/laos?fullText=true
+    uri: https://restcountries.com/v3.1/name/laos
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 13 Nov 2022 06:01:00 GMT
+      - Sun, 13 Nov 2022 22:00:41 GMT
       Server:
       - Apache/2.4.38 (Debian)
       Cache-Control:
@@ -52,7 +52,7 @@ http_interactions:
         Lao","common":"Laos"},"swe":{"official":"Demokratiska folkrepubliken Laos","common":"Laos"},"tur":{"official":"Laos
         Demokratik Halk Cumhuriyeti","common":"Laos"},"urd":{"official":"عوامی جمہوری
         جمہوریہ لاؤ","common":"لاؤس"},"zho":{"official":"老挝人民民主共和国","common":"老挝"}},"latlng":[18.0,105.0],"landlocked":true,"borders":["MMR","KHM","CHN","THA","VNM"],"area":236800.0,"demonyms":{"eng":{"f":"Laotian","m":"Laotian"},"fra":{"f":"Laotienne","m":"Laotien"}},"flag":"\uD83C\uDDF1\uD83C\uDDE6","maps":{"googleMaps":"https://goo.gl/maps/F3asVB7sRKgSnwbE7","openStreetMaps":"https://www.openstreetmap.org/relation/49903"},"population":7275556,"gini":{"2018":38.8},"fifa":"LAO","car":{"signs":["LAO"],"side":"right"},"timezones":["UTC+07:00"],"continents":["Asia"],"flags":{"png":"https://flagcdn.com/w320/la.png","svg":"https://flagcdn.com/la.svg"},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/la.png","svg":"https://mainfacts.com/media/images/coats_of_arms/la.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[17.97,102.6]},"postalCode":{"format":"#####","regex":"^(\\d{5})$"}}]'
-  recorded_at: Sun, 13 Nov 2022 06:01:00 GMT
+  recorded_at: Sun, 13 Nov 2022 22:00:41 GMT
 - request:
     method: get
     uri: https://youtube.googleapis.com/youtube/v3/search?channelId=UCluQ5yInbeAkkeCndNnUhpw&key=<key>&maxResults=1&part=snippet&q=Laos
@@ -78,7 +78,7 @@ http_interactions:
       - Referer
       - X-Origin
       Date:
-      - Sun, 13 Nov 2022 06:01:01 GMT
+      - Sun, 13 Nov 2022 22:00:41 GMT
       Server:
       - scaffolding on HTTPServer2
       Cache-Control:
@@ -143,7 +143,7 @@ http_interactions:
             }
           ]
         }
-  recorded_at: Sun, 13 Nov 2022 06:01:01 GMT
+  recorded_at: Sun, 13 Nov 2022 22:00:41 GMT
 - request:
     method: get
     uri: https://api.unsplash.com/search/photos?client_id=<client_id>&orientation=squarish&page=1&query=Laos
@@ -207,17 +207,17 @@ http_interactions:
       Accept-Ranges:
       - bytes
       Date:
-      - Sun, 13 Nov 2022 06:01:01 GMT
+      - Sun, 13 Nov 2022 22:00:41 GMT
       Age:
-      - '2305'
+      - '59886'
       X-Served-By:
-      - cache-iad-kcgs7200125-IAD, cache-den8245-DEN
+      - cache-iad-kcgs7200125-IAD, cache-den8258-DEN
       X-Cache:
       - MISS, HIT
       X-Cache-Hits:
       - 0, 1
       X-Timer:
-      - S1668319261.294230,VS0,VE1
+      - S1668376842.730465,VS0,VE1
       Vary:
       - Accept-Encoding, Origin,Authorization,Accept-Language,client-geo-region,Accept
     body:
@@ -281,5 +281,5 @@ http_interactions:
         a nice day and remember: life is motion and expantion, you are young until
         you explore! You can say me real \\\"Thanks\\\" via PayPal \U0001F609\",\"location\":\"Moscow,
         Russia\",\"links\":{\"self\":\"https://api.unsplash.com/users/m_malkovich\",\"html\":\"https://unsplash.com/@m_malkovich\",\"photos\":\"https://api.unsplash.com/users/m_malkovich/photos\",\"likes\":\"https://api.unsplash.com/users/m_malkovich/likes\",\"portfolio\":\"https://api.unsplash.com/users/m_malkovich/portfolio\",\"following\":\"https://api.unsplash.com/users/m_malkovich/following\",\"followers\":\"https://api.unsplash.com/users/m_malkovich/followers\"},\"profile_image\":{\"small\":\"https://images.unsplash.com/profile-1627764216339-2e984bf1a15fimage?ixlib=rb-4.0.3\\u0026crop=faces\\u0026fit=crop\\u0026w=32\\u0026h=32\",\"medium\":\"https://images.unsplash.com/profile-1627764216339-2e984bf1a15fimage?ixlib=rb-4.0.3\\u0026crop=faces\\u0026fit=crop\\u0026w=64\\u0026h=64\",\"large\":\"https://images.unsplash.com/profile-1627764216339-2e984bf1a15fimage?ixlib=rb-4.0.3\\u0026crop=faces\\u0026fit=crop\\u0026w=128\\u0026h=128\"},\"instagram_username\":\"style.nx\",\"total_collections\":8,\"total_likes\":10,\"total_photos\":194,\"accepted_tos\":true,\"for_hire\":true,\"social\":{\"instagram_username\":\"style.nx\",\"portfolio_url\":\"https://www.shutterstock.com/g/Petr+Sidorov+NX?rid=283843597\\u0026utm_medium=email\\u0026utm_source=ctrbreferral-link\",\"twitter_username\":null,\"paypal_email\":null}},\"tags\":[]}]}"
-  recorded_at: Sun, 13 Nov 2022 06:01:01 GMT
+  recorded_at: Sun, 13 Nov 2022 22:00:41 GMT
 recorded_with: VCR 6.1.0
