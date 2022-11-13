@@ -29,6 +29,7 @@ RSpec.describe UnsplashService, :vcr do
         :user,
         :tags
         ])
+      # expect(pic[:description]).to be_a String
       expect(pic[:alt_description]).to be_a String
       expect(pic[:urls]).to be_a Hash
       expect(pic[:urls].keys).to eq([:raw, :full, :regular, :small, :thumb, :small_s3])
