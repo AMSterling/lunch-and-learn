@@ -25,7 +25,7 @@ http_interactions:
       - Referer
       - X-Origin
       Date:
-      - Sun, 13 Nov 2022 02:38:20 GMT
+      - Sun, 13 Nov 2022 03:11:29 GMT
       Server:
       - scaffolding on HTTPServer2
       Cache-Control:
@@ -43,7 +43,7 @@ http_interactions:
       - chunked
     body:
       encoding: UTF-8
-      string: "{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"mIGaEIADOXNmHPLH_ozMgsc2op8\",\n
+      string: "{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"2b_94oPAsDNnqzkY0IyxL2W651A\",\n
         \ \"nextPageToken\": \"CAoQAA\",\n  \"regionCode\": \"US\",\n  \"pageInfo\":
         {\n    \"totalResults\": 1000000,\n    \"resultsPerPage\": 10\n  },\n  \"items\":
         [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"Vr56HqSOxK0zQHjS_5D13B6vjKk\",\n
@@ -78,22 +78,6 @@ http_interactions:
         \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
         \       \"channelTitle\": \"keis one\",\n        \"liveBroadcastContent\":
         \"none\",\n        \"publishTime\": \"2022-11-12T11:45:02Z\"\n      }\n    },\n
-        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"VJ8vh9PGCjSq-hQ8BFgrfvuzpZw\",\n
-        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
-        \"0GDwDqfzWEE\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
-        \"2022-11-11T11:45:00Z\",\n        \"channelId\": \"UCO5IhWS7_CIU1HoAkffBzcg\",\n
-        \       \"title\": \"Vientiane, Laos - First Impressions - Not what I expected!!
-        \U0001F1F1\U0001F1E6\",\n        \"description\": \"Today is my first Day
-        in Vientiane, and my first time visiting Laos!! I am super excited to be exploring
-        Vientiane. I have always ...\",\n        \"thumbnails\": {\n          \"default\":
-        {\n            \"url\": \"https://i.ytimg.com/vi/0GDwDqfzWEE/default.jpg\",\n
-        \           \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\":
-        {\n            \"url\": \"https://i.ytimg.com/vi/0GDwDqfzWEE/mqdefault.jpg\",\n
-        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
-        {\n            \"url\": \"https://i.ytimg.com/vi/0GDwDqfzWEE/hqdefault.jpg\",\n
-        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
-        \       \"channelTitle\": \"keis one\",\n        \"liveBroadcastContent\":
-        \"none\",\n        \"publishTime\": \"2022-11-11T11:45:00Z\"\n      }\n    },\n
         \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"dJw8PumsuuqiT9dZX0vJ1eC0Mms\",\n
         \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
         \"dbmZQDySpzY\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
@@ -109,6 +93,21 @@ http_interactions:
         \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
         \       \"channelTitle\": \"Geography Now\",\n        \"liveBroadcastContent\":
         \"none\",\n        \"publishTime\": \"2018-01-31T12:24:17Z\"\n      }\n    },\n
+        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"CXmSe6mdaVab6KlUY6yRFV-ABP8\",\n
+        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
+        \"zywGdN6gpb8\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
+        \"2022-07-19T19:15:03Z\",\n        \"channelId\": \"UCNxtcQvltD2kJmjf7yFjogA\",\n
+        \       \"title\": \"10 Best Places to Visit in Laos - Travel Video\",\n        \"description\":
+        \"Laos #bestplacesinlaos #travellaos Subscribe now with all notifications
+        on for more travelvideos, best traveldestinations, top 10 ...\",\n        \"thumbnails\":
+        {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/zywGdN6gpb8/default.jpg\",\n
+        \           \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/zywGdN6gpb8/mqdefault.jpg\",\n
+        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/zywGdN6gpb8/hqdefault.jpg\",\n
+        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
+        \       \"channelTitle\": \"Travel The World\",\n        \"liveBroadcastContent\":
+        \"none\",\n        \"publishTime\": \"2022-07-19T19:15:03Z\"\n      }\n    },\n
         \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"AZVFKvZMTEibRhHwvZhXQIHwV44\",\n
         \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
         \"bFYvS6-jWdU\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
@@ -125,21 +124,6 @@ http_interactions:
         \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
         \       \"channelTitle\": \"Global Travel Mate\",\n        \"liveBroadcastContent\":
         \"none\",\n        \"publishTime\": \"2022-11-01T12:00:23Z\"\n      }\n    },\n
-        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"CXmSe6mdaVab6KlUY6yRFV-ABP8\",\n
-        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
-        \"zywGdN6gpb8\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
-        \"2022-07-19T19:15:03Z\",\n        \"channelId\": \"UCNxtcQvltD2kJmjf7yFjogA\",\n
-        \       \"title\": \"10 Best Places to Visit in Laos - Travel Video\",\n        \"description\":
-        \"Laos #bestplacesinlaos #travellaos Subscribe now with all notifications
-        on for more travelvideos, best traveldestinations, top 10 ...\",\n        \"thumbnails\":
-        {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/zywGdN6gpb8/default.jpg\",\n
-        \           \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\":
-        {\n            \"url\": \"https://i.ytimg.com/vi/zywGdN6gpb8/mqdefault.jpg\",\n
-        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
-        {\n            \"url\": \"https://i.ytimg.com/vi/zywGdN6gpb8/hqdefault.jpg\",\n
-        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
-        \       \"channelTitle\": \"Travel The World\",\n        \"liveBroadcastContent\":
-        \"none\",\n        \"publishTime\": \"2022-07-19T19:15:03Z\"\n      }\n    },\n
         \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"cGizQez12BzhCrgkTKm4esyK2sY\",\n
         \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
         \"NfxPIVDnuPo\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
@@ -156,6 +140,22 @@ http_interactions:
         \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
         \       \"channelTitle\": \"Free Documentary\",\n        \"liveBroadcastContent\":
         \"none\",\n        \"publishTime\": \"2022-07-17T13:00:46Z\"\n      }\n    },\n
+        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"VJ8vh9PGCjSq-hQ8BFgrfvuzpZw\",\n
+        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
+        \"0GDwDqfzWEE\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
+        \"2022-11-11T11:45:00Z\",\n        \"channelId\": \"UCO5IhWS7_CIU1HoAkffBzcg\",\n
+        \       \"title\": \"Vientiane, Laos - First Impressions - Not what I expected!!
+        \U0001F1F1\U0001F1E6\",\n        \"description\": \"Today is my first Day
+        in Vientiane, and my first time visiting Laos!! I am super excited to be exploring
+        Vientiane. I have always ...\",\n        \"thumbnails\": {\n          \"default\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/0GDwDqfzWEE/default.jpg\",\n
+        \           \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/0GDwDqfzWEE/mqdefault.jpg\",\n
+        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/0GDwDqfzWEE/hqdefault.jpg\",\n
+        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
+        \       \"channelTitle\": \"keis one\",\n        \"liveBroadcastContent\":
+        \"none\",\n        \"publishTime\": \"2022-11-11T11:45:00Z\"\n      }\n    },\n
         \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"jXPieZqnpxDvNCT7D_LK3XBxmMo\",\n
         \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
         \"QQ8GnDt_75Y\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
@@ -172,38 +172,38 @@ http_interactions:
         \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
         \       \"channelTitle\": \"Timeline - World History Documentaries\",\n        \"liveBroadcastContent\":
         \"none\",\n        \"publishTime\": \"2021-12-16T22:00:15Z\"\n      }\n    },\n
-        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"q2DoTSa1--DV6LpVQcfILsrshPY\",\n
+        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"NEMWY0btZyewo40yo_HfTm2vffM\",\n
         \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
-        \"2HlYKasjSsA\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
-        \"2022-09-30T10:41:55Z\",\n        \"channelId\": \"UCKKj4ZuxwASlhQfITji-vhw\",\n
-        \       \"title\": \"Dangerous relationship with a cute cleaner at a hotel
-        in Laos, I gave her money to keep it secret\",\n        \"description\": \"Thanks
-        for your support The supporter's name will be included in the ending part
-        of the next video ...\",\n        \"thumbnails\": {\n          \"default\":
-        {\n            \"url\": \"https://i.ytimg.com/vi/2HlYKasjSsA/default.jpg\",\n
-        \           \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\":
-        {\n            \"url\": \"https://i.ytimg.com/vi/2HlYKasjSsA/mqdefault.jpg\",\n
-        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
-        {\n            \"url\": \"https://i.ytimg.com/vi/2HlYKasjSsA/hqdefault.jpg\",\n
-        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
-        \       \"channelTitle\": \"Nomad TV\",\n        \"liveBroadcastContent\":
-        \"none\",\n        \"publishTime\": \"2022-09-30T10:41:55Z\"\n      }\n    },\n
-        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"YT0wbaK4TGBMCdXYCtNxcwY_Lmw\",\n
-        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
-        \"8IrjnS1rFdk\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
-        \"2022-11-12T23:00:04Z\",\n        \"channelId\": \"UCmNP7yrbYxxqQ7ftuZn6ueg\",\n
-        \       \"title\": \"Travelling Laos Complaining all the Way | Now in Lao\",\n
-        \       \"description\": \"RANT WARNING!!! I know this video will upset some..
-        but it's not always sunny and roses do not bloom all year round. Travelling
-        ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\":
-        \"https://i.ytimg.com/vi/8IrjnS1rFdk/default.jpg\",\n            \"width\":
+        \"ITRueTNrS7k\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
+        \"2022-11-12T22:00:13Z\",\n        \"channelId\": \"UC4SUWizzKc1tptprBkWjX2Q\",\n
+        \       \"title\": \"Laos’ China-made railway brings connection at a cost\",\n
+        \       \"description\": \"Subscribe to our YouTube channel for free here:
+        https://sc.mp/subscribe-youtube A US$6 billion railway ties the fate of Laos,
+        one ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\":
+        \"https://i.ytimg.com/vi/ITRueTNrS7k/default.jpg\",\n            \"width\":
         120,\n            \"height\": 90\n          },\n          \"medium\": {\n
-        \           \"url\": \"https://i.ytimg.com/vi/8IrjnS1rFdk/mqdefault.jpg\",\n
+        \           \"url\": \"https://i.ytimg.com/vi/ITRueTNrS7k/mqdefault.jpg\",\n
         \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
-        {\n            \"url\": \"https://i.ytimg.com/vi/8IrjnS1rFdk/hqdefault.jpg\",\n
+        {\n            \"url\": \"https://i.ytimg.com/vi/ITRueTNrS7k/hqdefault.jpg\",\n
         \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
-        \       \"channelTitle\": \"Now in Lao\",\n        \"liveBroadcastContent\":
-        \"none\",\n        \"publishTime\": \"2022-11-12T23:00:04Z\"\n      }\n    }\n
+        \       \"channelTitle\": \"South China Morning Post\",\n        \"liveBroadcastContent\":
+        \"none\",\n        \"publishTime\": \"2022-11-12T22:00:13Z\"\n      }\n    },\n
+        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"5-5PntThkWprFtSsYrE_GD-dYJI\",\n
+        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
+        \"5sNFveHpkwI\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
+        \"2019-04-12T18:00:00Z\",\n        \"channelId\": \"UCW39zufHfsuGgpLviKh297Q\",\n
+        \       \"title\": \"The Akha tribe in Laos: Between tradition and modernity
+        | DW Documentary\",\n        \"description\": \"The Akha in Laos live almost
+        untouched by modern civilization. They still adhere to their archaic customs.
+        But they are on the ...\",\n        \"thumbnails\": {\n          \"default\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/5sNFveHpkwI/default.jpg\",\n
+        \           \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/5sNFveHpkwI/mqdefault.jpg\",\n
+        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/5sNFveHpkwI/hqdefault.jpg\",\n
+        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
+        \       \"channelTitle\": \"DW Documentary\",\n        \"liveBroadcastContent\":
+        \"none\",\n        \"publishTime\": \"2019-04-12T18:00:00Z\"\n      }\n    }\n
         \ ]\n}\n"
-  recorded_at: Sun, 13 Nov 2022 02:38:20 GMT
+  recorded_at: Sun, 13 Nov 2022 03:11:29 GMT
 recorded_with: VCR 6.1.0
