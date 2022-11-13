@@ -4,9 +4,9 @@ class YouTubeService
   end
 
   def self.get_videos(country)
-    response = conn.get('/youtube/v3/search?part=snippet&maxResults=10') do |f|
+    response = conn.get('/youtube/v3/search?part=snippet&channelId=UCluQ5yInbeAkkeCndNnUhpw&maxResults=1') do |f|
       f.params['q'] = country
     end
-    JSON.parse(response.body, symbolize_names: true)[:items]
+    JSON.parse(response.body, symbolize_names: true)[:items][0]
   end
 end
