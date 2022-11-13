@@ -13,6 +13,7 @@ RSpec.describe 'Recipe Resquest', :vcr do
     expect(recipes.count).to eq 10
     expect(recipes).to be_an Array
     recipes.each do |recipe|
+      expect(recipe).to_not have_key(:table)
       expect(recipe.keys).to eq([:id, :type, :attributes])
       expect(recipe[:id]).to eq nil
       expect(recipe[:type]).to eq('recipe')
@@ -59,6 +60,7 @@ RSpec.describe 'Recipe Resquest', :vcr do
     expect(recipes.count).to eq 10
     expect(recipes).to be_an Array
     recipes.each do |recipe|
+      expect(recipe).to_not have_key(:table)
       expect(recipe.keys).to eq([:id, :type, :attributes])
       expect(recipe[:id]).to eq nil
       expect(recipe[:type]).to eq('recipe')

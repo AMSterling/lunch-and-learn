@@ -27,18 +27,21 @@ class RecipeFacade
 
   def self.recipe_details
     @recipes.map do |recipe|
-      data = OpenStruct.new(
-        {
-          id: nil,
-          type: 'recipe',
-          attributes: {
-            title: recipe[:recipe][:label],
-            url: recipe[:recipe][:url],
-            country: @country,
-            image: recipe[:recipe][:image]
-          }
-        })
-      data.marshal_dump.each_pair{ |key, value| puts "#{key}: #{value}" }
+      data = {
+        id: nil,
+        type: 'recipe',
+        attributes: {
+          title: recipe[:recipe][:label],
+          url: recipe[:recipe][:url],
+          country: @country,
+          image: recipe[:recipe][:image]
+        }
+      }
     end
   end
+
+  # def recipe_class
+  #   recipe_details
+  #   Recipe = Struct.new(:id, :type, :attributes)
+  # end
 end

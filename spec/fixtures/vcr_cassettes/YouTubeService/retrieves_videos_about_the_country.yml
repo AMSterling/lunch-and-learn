@@ -1,0 +1,209 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://youtube.googleapis.com/youtube/v3/search?key=<key>&maxResults=10&part=snippet&q=laos
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Vary:
+      - Origin
+      - Referer
+      - X-Origin
+      Date:
+      - Sun, 13 Nov 2022 02:38:20 GMT
+      Server:
+      - scaffolding on HTTPServer2
+      Cache-Control:
+      - private
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"mIGaEIADOXNmHPLH_ozMgsc2op8\",\n
+        \ \"nextPageToken\": \"CAoQAA\",\n  \"regionCode\": \"US\",\n  \"pageInfo\":
+        {\n    \"totalResults\": 1000000,\n    \"resultsPerPage\": 10\n  },\n  \"items\":
+        [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"Vr56HqSOxK0zQHjS_5D13B6vjKk\",\n
+        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
+        \"nOpmGFkntb4\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
+        \"2022-11-12T11:00:39Z\",\n        \"channelId\": \"UCBQjTfMEcxMlI49KCQAHwYQ\",\n
+        \       \"title\": \"The BEST WAY to Travel Luang Prabang, LAOS \U0001F1F1\U0001F1E6\",\n
+        \       \"description\": \"Today we are off on another Laos adventure! We've
+        rented the most adorable and handy little electric car to take us around the
+        ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\":
+        \"https://i.ytimg.com/vi/nOpmGFkntb4/default.jpg\",\n            \"width\":
+        120,\n            \"height\": 90\n          },\n          \"medium\": {\n
+        \           \"url\": \"https://i.ytimg.com/vi/nOpmGFkntb4/mqdefault.jpg\",\n
+        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/nOpmGFkntb4/hqdefault.jpg\",\n
+        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
+        \       \"channelTitle\": \"2Passports 1Dream\",\n        \"liveBroadcastContent\":
+        \"none\",\n        \"publishTime\": \"2022-11-12T11:00:39Z\"\n      }\n    },\n
+        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"mnQgu-pMt3_45yUowZ4YDWxHM7E\",\n
+        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
+        \"pH6pVEVx96w\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
+        \"2022-11-12T11:45:02Z\",\n        \"channelId\": \"UCO5IhWS7_CIU1HoAkffBzcg\",\n
+        \       \"title\": \"My Night market Disaster in Vientiane, Laos \U0001F1F1\U0001F1E6\",\n
+        \       \"description\": \"I went to visit the night market in Vientiane,
+        I was planning to check out some of the local seafood, however hit a small
+        bump in the ...\",\n        \"thumbnails\": {\n          \"default\": {\n
+        \           \"url\": \"https://i.ytimg.com/vi/pH6pVEVx96w/default.jpg\",\n
+        \           \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/pH6pVEVx96w/mqdefault.jpg\",\n
+        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/pH6pVEVx96w/hqdefault.jpg\",\n
+        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
+        \       \"channelTitle\": \"keis one\",\n        \"liveBroadcastContent\":
+        \"none\",\n        \"publishTime\": \"2022-11-12T11:45:02Z\"\n      }\n    },\n
+        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"VJ8vh9PGCjSq-hQ8BFgrfvuzpZw\",\n
+        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
+        \"0GDwDqfzWEE\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
+        \"2022-11-11T11:45:00Z\",\n        \"channelId\": \"UCO5IhWS7_CIU1HoAkffBzcg\",\n
+        \       \"title\": \"Vientiane, Laos - First Impressions - Not what I expected!!
+        \U0001F1F1\U0001F1E6\",\n        \"description\": \"Today is my first Day
+        in Vientiane, and my first time visiting Laos!! I am super excited to be exploring
+        Vientiane. I have always ...\",\n        \"thumbnails\": {\n          \"default\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/0GDwDqfzWEE/default.jpg\",\n
+        \           \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/0GDwDqfzWEE/mqdefault.jpg\",\n
+        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/0GDwDqfzWEE/hqdefault.jpg\",\n
+        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
+        \       \"channelTitle\": \"keis one\",\n        \"liveBroadcastContent\":
+        \"none\",\n        \"publishTime\": \"2022-11-11T11:45:00Z\"\n      }\n    },\n
+        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"dJw8PumsuuqiT9dZX0vJ1eC0Mms\",\n
+        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
+        \"dbmZQDySpzY\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
+        \"2018-01-31T12:24:17Z\",\n        \"channelId\": \"UCmmPgObSUPw1HL2lq6H4ffA\",\n
+        \       \"title\": \"Geography Now! LAOS\",\n        \"description\": \"No
+        but seriously, what is up with those fireballs? Check out http://www.GeographyNow.com
+        ! You asked for merch so we made it ...\",\n        \"thumbnails\": {\n          \"default\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/dbmZQDySpzY/default.jpg\",\n
+        \           \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/dbmZQDySpzY/mqdefault.jpg\",\n
+        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/dbmZQDySpzY/hqdefault.jpg\",\n
+        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
+        \       \"channelTitle\": \"Geography Now\",\n        \"liveBroadcastContent\":
+        \"none\",\n        \"publishTime\": \"2018-01-31T12:24:17Z\"\n      }\n    },\n
+        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"AZVFKvZMTEibRhHwvZhXQIHwV44\",\n
+        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
+        \"bFYvS6-jWdU\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
+        \"2022-11-01T12:00:23Z\",\n        \"channelId\": \"UCrPsv-Ke_8rjbONI1NpUrMw\",\n
+        \       \"title\": \"HOW IS VIENTIANE NOW? Capital of \U0001F1F1\U0001F1E6
+        Laos in One Day!\",\n        \"description\": \"Great day in Vientiane, the
+        capital of Laos. Located on the Mekong River the city has 950000 inhabitants.
+        Laos opened on May ...\",\n        \"thumbnails\": {\n          \"default\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/bFYvS6-jWdU/default.jpg\",\n
+        \           \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/bFYvS6-jWdU/mqdefault.jpg\",\n
+        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/bFYvS6-jWdU/hqdefault.jpg\",\n
+        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
+        \       \"channelTitle\": \"Global Travel Mate\",\n        \"liveBroadcastContent\":
+        \"none\",\n        \"publishTime\": \"2022-11-01T12:00:23Z\"\n      }\n    },\n
+        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"CXmSe6mdaVab6KlUY6yRFV-ABP8\",\n
+        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
+        \"zywGdN6gpb8\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
+        \"2022-07-19T19:15:03Z\",\n        \"channelId\": \"UCNxtcQvltD2kJmjf7yFjogA\",\n
+        \       \"title\": \"10 Best Places to Visit in Laos - Travel Video\",\n        \"description\":
+        \"Laos #bestplacesinlaos #travellaos Subscribe now with all notifications
+        on for more travelvideos, best traveldestinations, top 10 ...\",\n        \"thumbnails\":
+        {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/zywGdN6gpb8/default.jpg\",\n
+        \           \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/zywGdN6gpb8/mqdefault.jpg\",\n
+        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/zywGdN6gpb8/hqdefault.jpg\",\n
+        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
+        \       \"channelTitle\": \"Travel The World\",\n        \"liveBroadcastContent\":
+        \"none\",\n        \"publishTime\": \"2022-07-19T19:15:03Z\"\n      }\n    },\n
+        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"cGizQez12BzhCrgkTKm4esyK2sY\",\n
+        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
+        \"NfxPIVDnuPo\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
+        \"2022-07-17T13:00:46Z\",\n        \"channelId\": \"UCijcd0GR0fkxCAZwkiuWqtQ\",\n
+        \       \"title\": \"Amazing Quest: Stories from Laos | Somewhere on Earth:
+        Laos | Free Documentary\",\n        \"description\": \"Somewhere on Earth
+        - Laos | Free Documentary Somewhere on Earth - Hawaii: https://youtu.be/P6uYS16GqeI
+        Leua, an itinerant ...\",\n        \"thumbnails\": {\n          \"default\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/NfxPIVDnuPo/default.jpg\",\n
+        \           \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/NfxPIVDnuPo/mqdefault.jpg\",\n
+        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/NfxPIVDnuPo/hqdefault.jpg\",\n
+        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
+        \       \"channelTitle\": \"Free Documentary\",\n        \"liveBroadcastContent\":
+        \"none\",\n        \"publishTime\": \"2022-07-17T13:00:46Z\"\n      }\n    },\n
+        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"jXPieZqnpxDvNCT7D_LK3XBxmMo\",\n
+        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
+        \"QQ8GnDt_75Y\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
+        \"2021-12-16T22:00:15Z\",\n        \"channelId\": \"UC88lvyJe7aHZmcvzvubDFRg\",\n
+        \       \"title\": \"The Untold Story Of  The CIA&#39;s War In Laos | America&#39;s
+        Secret War | Timeline\",\n        \"description\": \"While the United States
+        was publicly engaged in the Vietnam War, a secret conflict was raging just
+        next door in the country of Laos ...\",\n        \"thumbnails\": {\n          \"default\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/QQ8GnDt_75Y/default.jpg\",\n
+        \           \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/QQ8GnDt_75Y/mqdefault.jpg\",\n
+        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/QQ8GnDt_75Y/hqdefault.jpg\",\n
+        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
+        \       \"channelTitle\": \"Timeline - World History Documentaries\",\n        \"liveBroadcastContent\":
+        \"none\",\n        \"publishTime\": \"2021-12-16T22:00:15Z\"\n      }\n    },\n
+        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"q2DoTSa1--DV6LpVQcfILsrshPY\",\n
+        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
+        \"2HlYKasjSsA\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
+        \"2022-09-30T10:41:55Z\",\n        \"channelId\": \"UCKKj4ZuxwASlhQfITji-vhw\",\n
+        \       \"title\": \"Dangerous relationship with a cute cleaner at a hotel
+        in Laos, I gave her money to keep it secret\",\n        \"description\": \"Thanks
+        for your support The supporter's name will be included in the ending part
+        of the next video ...\",\n        \"thumbnails\": {\n          \"default\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/2HlYKasjSsA/default.jpg\",\n
+        \           \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/2HlYKasjSsA/mqdefault.jpg\",\n
+        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/2HlYKasjSsA/hqdefault.jpg\",\n
+        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
+        \       \"channelTitle\": \"Nomad TV\",\n        \"liveBroadcastContent\":
+        \"none\",\n        \"publishTime\": \"2022-09-30T10:41:55Z\"\n      }\n    },\n
+        \   {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"YT0wbaK4TGBMCdXYCtNxcwY_Lmw\",\n
+        \     \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\":
+        \"8IrjnS1rFdk\"\n      },\n      \"snippet\": {\n        \"publishedAt\":
+        \"2022-11-12T23:00:04Z\",\n        \"channelId\": \"UCmNP7yrbYxxqQ7ftuZn6ueg\",\n
+        \       \"title\": \"Travelling Laos Complaining all the Way | Now in Lao\",\n
+        \       \"description\": \"RANT WARNING!!! I know this video will upset some..
+        but it's not always sunny and roses do not bloom all year round. Travelling
+        ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\":
+        \"https://i.ytimg.com/vi/8IrjnS1rFdk/default.jpg\",\n            \"width\":
+        120,\n            \"height\": 90\n          },\n          \"medium\": {\n
+        \           \"url\": \"https://i.ytimg.com/vi/8IrjnS1rFdk/mqdefault.jpg\",\n
+        \           \"width\": 320,\n            \"height\": 180\n          },\n          \"high\":
+        {\n            \"url\": \"https://i.ytimg.com/vi/8IrjnS1rFdk/hqdefault.jpg\",\n
+        \           \"width\": 480,\n            \"height\": 360\n          }\n        },\n
+        \       \"channelTitle\": \"Now in Lao\",\n        \"liveBroadcastContent\":
+        \"none\",\n        \"publishTime\": \"2022-11-12T23:00:04Z\"\n      }\n    }\n
+        \ ]\n}\n"
+  recorded_at: Sun, 13 Nov 2022 02:38:20 GMT
+recorded_with: VCR 6.1.0

@@ -66,4 +66,9 @@ RSpec.describe RecipeFacade, :vcr do
     expect(recipes).to be_an Array
     expect(recipes).to eq([])
   end
+
+  # it 'is a recipe class' do
+  # 
+  #
+  # end
 end
