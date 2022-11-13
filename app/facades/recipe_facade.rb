@@ -1,25 +1,24 @@
 class RecipeFacade
-  def self.recipes_from_randomized
-    random_country = CountryService.get_random_country
-    @recipes = RecipeService.get_recipe_by_country(@country = random_country)
-
-    recipe_details
+  def self.randomized
+    CountryService.get_random_country
   end
 
   def self.recipes_from_country(searched_country)
-    random_country = CountryService.get_random_country
-    country_result = CountryService.get_country(searched_country)
-    if country_result == [:message, "Page Not Found"]
-      data = []
-    elsif country_result == [:status, 404]
-      data = []
-    # elsif random_country = CountryService.get_random_country
-    #   @recipes = RecipeService.get_recipe_by_country(@country = random_country)
-    #
-    #   recipe_details
+    case
+    when searched_country
+      country_result = CountryService.get_country(searched_country)
+      if country_result == [:message, "Page Not Found"]
+        data = []
+      elsif country_result == [:status, 404]
+        data = []
+      else
+        valid_country = country_result[:name][:common].parameterize(preserve_case: true)
+        @recipes = RecipeService.get_recipe_by_country(@country = valid_country)
+
+        recipe_details
+      end
     else
-      valid_country = country_result[:name][:common]
-      @recipes = RecipeService.get_recipe_by_country(@country = valid_country)
+      @recipes = RecipeService.get_recipe_by_country(@country = self.randomized)
 
       recipe_details
     end
@@ -39,9 +38,4 @@ class RecipeFacade
       }
     end
   end
-
-  # def recipe_class
-  #   recipe_details
-  #   Recipe = Struct.new(:id, :type, :attributes)
-  # end
 end
