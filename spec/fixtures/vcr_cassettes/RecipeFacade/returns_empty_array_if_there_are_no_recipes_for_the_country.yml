@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=S%C3%A3o%20Tom%C3%A9%20and%20Pr%C3%ADncipe&type=public
+    uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=Sao%20Tome%20and%20Principe&type=public
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Mon, 14 Nov 2022 04:01:55 GMT
+      - Mon, 14 Nov 2022 06:05:11 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -33,13 +33,13 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 GMT
       X-Served-By:
-      - ip-10-0-1-125.ec2.internal/10.0.1.125
+      - ip-10-0-1-36.ec2.internal/10.0.1.36
       Strict-Transport-Security:
       - max-age=15552001
       X-Request-Id:
-      - 94badc84e4036a0c0a7a45eb286b593f
+      - 033f04c66a9d1e35b9929fb463245e0b
     body:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
-  recorded_at: Mon, 14 Nov 2022 04:01:55 GMT
+  recorded_at: Mon, 14 Nov 2022 06:05:11 GMT
 recorded_with: VCR 6.1.0

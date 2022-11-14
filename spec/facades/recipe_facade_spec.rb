@@ -46,6 +46,7 @@ RSpec.describe RecipeFacade, :vcr do
   end
 
   it 'returns recipes from a randomly chosen country' do
+    allow(CountryService).to receive(:get_random_country).and_return('Russia')
     recipes = RecipeFacade.randomized
 
     expect(recipes).to be_an Array
@@ -75,16 +76,11 @@ RSpec.describe RecipeFacade, :vcr do
   end
 
   it 'returns empty array if there are no recipes for the country' do
-    allow(CountryService).to receive(:get_random_country).and_return('São Tomé and Príncipe')
+    allow(CountryService).to receive(:get_random_country).and_return('Sao Tome and Principe')
+
     recipes = RecipeFacade.randomized
 
     expect(recipes).to be_an Array
     expect(recipes).to eq([])
-  end
-
-  it 'returns a random country' do
-    country = RecipeFacade.random_country
-
-    expect(country).to be_a String
   end
 end

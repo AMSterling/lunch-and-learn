@@ -1,10 +1,7 @@
 class RecipeFacade
-  def self.random_country
-    CountryService.get_random_country
-  end
-
   def self.randomized
-    @recipes = RecipeService.get_recipe_by_country(@country = self.random_country)
+    random_country = CountryService.get_random_country
+    @recipes = RecipeService.get_recipe_by_country(@country = random_country)
       if !@recipes.present?
         []
       else
