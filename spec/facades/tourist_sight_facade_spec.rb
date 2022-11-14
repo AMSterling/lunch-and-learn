@@ -5,11 +5,14 @@ RSpec.describe TouristSightFacade, :vcr do
     sights = TouristSightFacade.capital_sights('france')
 
     expect(sights).to be_an Array
-    expect(sights).to be_all TouristSight
     sights.each do |sight|
-      expect(sight.name).to be_a String
-      expect(sight.address).to be_a String
-      expect(sight.place_id).to be_a String
+      expect(sight.keys).to eq([:id, :type, :attributes])
+      expect(sight[:id]).to be_nil
+      expect(sight[:type]).to eq('tourist_sight')
+      expect(sight[:attributes].keys).to eq([:name, :address, :place_id])
+      expect(sight[:attributes][:name]).to be_a String
+      expect(sight[:attributes][:address]).to be_a String
+      expect(sight[:attributes][:place_id]).to be_a String
     end
   end
 end
