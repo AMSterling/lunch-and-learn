@@ -74,6 +74,7 @@ VCR.configure do |config|
   config.filter_sensitive_data('<app_key>') { ENV['edamam_recipe_api'] }
   config.filter_sensitive_data('<key>') { ENV['YouTube_API'] }
   config.filter_sensitive_data('<client_id>') { ENV['Access_Key'] }
+  config.filter_sensitive_data('<apiKey>') { ENV['geoapify_key'] }
   config.configure_rspec_metadata!
   config.default_cassette_options = { re_record_interval: 5.days }
   config.allow_http_connections_when_no_cassette = true
