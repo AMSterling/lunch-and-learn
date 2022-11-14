@@ -2,7 +2,6 @@ class LearningResourceFacade
   def self.media_by_country(searched_country)
     country_result = CountryService.get_country(searched_country)[:name][:common]
     yt_video = YouTubeService.get_videos(country_result)
-    require "pry"; binding.pry
     @pics = UnsplashService.get_images(country_result)
 
     data = OpenStruct.new({
