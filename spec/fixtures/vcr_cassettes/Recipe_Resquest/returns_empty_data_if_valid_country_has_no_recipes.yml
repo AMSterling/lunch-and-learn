@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://restcountries.com/v3.1/name/Sao%20Tome%20and%20Principe
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 14 Nov 2022 06:35:51 GMT
+      Server:
+      - Apache/2.4.38 (Debian)
+      Cache-Control:
+      - public, immutable, max-age=31556926
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1613'
+    body:
+      encoding: UTF-8
+      string: '[{"name":{"common":"São Tomé and Príncipe","official":"Democratic Republic
+        of São Tomé and Príncipe","nativeName":{"por":{"official":"República Democrática
+        do São Tomé e Príncipe","common":"São Tomé e Príncipe"}}},"tld":[".st"],"cca2":"ST","ccn3":"678","cca3":"STP","cioc":"STP","independent":true,"status":"officially-assigned","unMember":true,"currencies":{"STN":{"name":"São
+        Tomé and Príncipe dobra","symbol":"Db"}},"idd":{"root":"+2","suffixes":["39"]},"capital":["São
+        Tomé"],"altSpellings":["ST","Democratic Republic of São Tomé and Príncipe","Sao
+        Tome and Principe","República Democrática de São Tomé e Príncipe"],"region":"Africa","subregion":"Middle
+        Africa","languages":{"por":"Portuguese"},"translations":{"ara":{"official":"جمهورية
+        ساو تومي وبرينسيب الديمقراطية","common":"ساو تومي وبرينسيب"},"bre":{"official":"Republik
+        Demokratel São Tomé ha Príncipe","common":"São Tomé ha Príncipe"},"ces":{"official":"Demokratická
+        republika Svatý Tomáš a Princův ostrov","common":"Svatý Tomáš a Princův ostrov"},"cym":{"official":"Democratic
+        Republic of São Tomé and Príncipe","common":"São Tomé and Príncipe"},"deu":{"official":"Demokratische
+        Republik São Tomé und Príncipe","common":"São Tomé und Príncipe"},"est":{"official":"São
+        Tomé ja Príncipe Demokraatlik Vabariik","common":"São Tomé ja Príncipe"},"fin":{"official":"São
+        Tomé ja Príncipen demokraattinen tasavalta","common":"São Téme ja Príncipe"},"fra":{"official":"République
+        démocratique de São Tomé et Príncipe","common":"São Tomé et Príncipe"},"hrv":{"official":"Demokratska
+        Republika São Tome i Principe","common":"Sveti Toma i Princip"},"hun":{"official":"São
+        Tomé és Príncipe Demokratikus Köztársaság","common":"São Tomé és Príncipe"},"ita":{"official":"Repubblica
+        democratica di São Tomé e Príncipe","common":"São Tomé e Príncipe"},"jpn":{"official":"サントメ·プリンシペ民主共和国","common":"サントメ・プリンシペ"},"kor":{"official":"상투메
+        프린시페 민주 공화국","common":"상투메 프린시페"},"nld":{"official":"Democratische Republiek
+        Sao Tomé en Principe","common":"Sao Tomé en Principe"},"per":{"official":"جمهوری
+        دموکراتیک سائوتومه و پرنسیپ","common":"سائوتومه و پرنسیپ"},"pol":{"official":"Demokratyczna
+        Republika Wysp Świętego Tomasza i Książęcej","common":"Wyspy Świętego Tomasza
+        i Książęca"},"por":{"official":"República Democrática de São Tomé e Príncipe","common":"São
+        Tomé e Príncipe"},"rus":{"official":"Демократическая Республика Сан-Томе и
+        Принсипи","common":"Сан-Томе и Принсипи"},"slk":{"official":"Demokratická
+        republika Svätého Tomáša A princovho ostrova","common":"Svätý Tomáš a Princov
+        ostrov"},"spa":{"official":"República Democrática de Santo Tomé y Príncipe","common":"Santo
+        Tomé y Príncipe"},"swe":{"official":"Demokratiska republiken São Tomé och
+        Príncipe","common":"São Tomé och Príncipe"},"tur":{"official":"São Tomé ve
+        Príncipe Demokratik Cumhuriyeti","common":"São Tomé ve Príncipe"},"urd":{"official":"جمہوریہ
+        ساؤ ٹومے و پرنسپے","common":"ساؤ ٹومے و پرنسپے"},"zho":{"official":"圣多美和普林西比民主共和国","common":"圣多美和普林西比"}},"latlng":[1.0,7.0],"landlocked":false,"area":964.0,"demonyms":{"eng":{"f":"Sao
+        Tomean","m":"Sao Tomean"},"fra":{"f":"Santoméenne","m":"Santoméen"}},"flag":"\uD83C\uDDF8\uD83C\uDDF9","maps":{"googleMaps":"https://goo.gl/maps/9EUppm13RtPX9oF46","openStreetMaps":"https://www.openstreetmap.org/relation/535880"},"population":219161,"gini":{"2017":56.3},"fifa":"STP","car":{"signs":["STP"],"side":"right"},"timezones":["UTC"],"continents":["Africa"],"flags":{"png":"https://flagcdn.com/w320/st.png","svg":"https://flagcdn.com/st.svg"},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/st.png","svg":"https://mainfacts.com/media/images/coats_of_arms/st.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[0.34,6.73]}}]'
+  recorded_at: Mon, 14 Nov 2022 06:35:51 GMT
+recorded_with: VCR 6.1.0

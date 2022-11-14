@@ -47,6 +47,19 @@ RSpec.describe 'Recipe Resquest', :vcr do
     expect(response_body).to eq({:data=>[]})
   end
 
+  # it 'returns empty data if valid country has no recipes' do
+  #   country = 'Sao%20Tome%20and%20Principe'
+  #   allow(RecipeService).to receive(:get_recipe_by_country).with(country)
+  #   RecipeFacade.recipes_from_country(country)
+  #
+  #   get "/api/v1/recipes?country=#{country}"
+  #
+  #   expect(response).to be_successful
+  #   response_body = JSON.parse(response.body, symbolize_names: true)
+  #
+  #   expect(response_body).to eq({:data=>[]})
+  # end
+
   it 'retrieves recipes from a random country whose name included special characters' do
     allow(CountryService).to receive(:get_random_country).and_return('Curaçao')
     random = CountryService.get_random_country.parameterize(preserve_case: true, separator: ' ')
@@ -101,8 +114,6 @@ RSpec.describe 'Recipe Resquest', :vcr do
   it 'returns empty data when no recipes for randomized country' do
     allow(CountryService).to receive(:get_random_country).and_return('Sao Tome and Principe')
     random = CountryService.get_random_country
-    # allow(RecipeService).to receive(:get_recipe_by_country).with(random)
-    # RecipeService.get_recipe_by_country(random)
     RecipeFacade.randomized
 
     get "/api/v1/recipes?"
