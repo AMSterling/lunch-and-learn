@@ -79,5 +79,10 @@ RSpec.describe CountryService, :vcr do
     expect(country[:capital]).to be_an Array
     expect(country[:capital]).to eq(['Paris'])
     expect(country[:capital][0]).to eq('Paris')
+    expect(country[:capitalInfo]).to be_a Hash
+    expect(country[:capitalInfo]).to have_key(:latlng)
+    expect(country[:capitalInfo][:latlng]).to eq([48.87, 2.33])
+    expect(country[:capitalInfo][:latlng][0]).to eq(48.87)
+    expect(country[:capitalInfo][:latlng][1]).to eq(2.33)
   end
 end
