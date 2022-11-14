@@ -15,10 +15,18 @@ RSpec.describe CountryService, :vcr do
     expect(country).to be_a String
   end
 
-  it 'sends empty array if co country matches' do
+  it 'returns array with message if search is left empty' do
     nonexistent = CountryService.get_country('')
 
     expect(nonexistent).to be_an Array
     expect(nonexistent).to eq([:message, "Page Not Found"])
+  end
+
+  it 'returns bad status if no country matches user input' do
+
+    fake_country = CountryService.get_country('chicken')
+
+    expect(fake_country).to be_an Array
+    expect(fake_country).to eq([:status, 404])
   end
 end
