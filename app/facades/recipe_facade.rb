@@ -1,11 +1,14 @@
 class RecipeFacade
+  def self.random_country
+    CountryService.get_random_country
+  end
+
   def self.randomized
-    random_country = CountryService.get_random_country
-    @recipes = RecipeService.get_recipe_by_country(@country = random_country)
-      if @recipes.present?
-        recipe_details
-      else
+    @recipes = RecipeService.get_recipe_by_country(@country = self.random_country)
+      if !@recipes.present?
         []
+      else
+        recipe_details
       end
   end
 
@@ -20,10 +23,10 @@ class RecipeFacade
       else
         valid_country = country_result[:name][:common].parameterize(preserve_case: true)
         @recipes = RecipeService.get_recipe_by_country(@country = valid_country)
-          if @recipes.present?
-            recipe_details
-          else
+          if !@recipes.present?
             []
+          else
+            recipe_details
           end
       end
     else
