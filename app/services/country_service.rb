@@ -10,7 +10,7 @@ class CountryService
 
   def self.get_random_country
     response = conn.get('/v3.1/all')
-    results = JSON.parse(response.body, symbolize_names: true)
-    results[0][:name][:common].parameterize(preserve_case: true)
+    results = JSON.parse(response.body, symbolize_names: true).shuffle
+    results[0][:name][:common].parameterize(preserve_case: true, separator: ' ')
   end
 end
