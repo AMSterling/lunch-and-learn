@@ -31,15 +31,22 @@ RSpec.describe RecipeFacade, :vcr do
     end
   end
 
-  it 'returns empty array if no country exists' do
+  it 'returns empty array if country is blank' do
     recipes = RecipeFacade.recipes_from_country('')
 
     expect(recipes).to be_an Array
     expect(recipes).to eq([])
   end
 
+  it 'returns empty array if no country exists' do
+    recipes = RecipeFacade.recipes_from_country('jfireomfjeo')
+
+    expect(recipes).to be_an Array
+    expect(recipes).to eq([])
+  end
+
   it 'returns recipes from a randomly chosen country' do
-    recipes = RecipeFacade.recipes_from_country(RecipeFacade.randomized)
+    recipes = RecipeFacade.randomized
 
     expect(recipes).to be_an Array
     recipes.each do |recipe|
