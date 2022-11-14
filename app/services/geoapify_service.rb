@@ -3,8 +3,8 @@ class GeoapifyService
     Faraday.new(url: 'https://api.geoapify.com', params: { apiKey: ENV['geoapify_key'] })
   end
 
-  def self.get_sights(lnglat)
-    response = conn.get('/v2/places?categories=tourism.sights', { filter:  })
-    JSON.parse(response.body, symbolize_names: true)[:hits].take(10)
+  def self.get_sights(country)
+    response = conn.get("/v2/places?categories=tourism.sights&filter=circle:#{country.lng},#{country.lat},20000")
+    parse = JSON.parse(response.body, symbolize_names: true)[:features]
   end
 end
