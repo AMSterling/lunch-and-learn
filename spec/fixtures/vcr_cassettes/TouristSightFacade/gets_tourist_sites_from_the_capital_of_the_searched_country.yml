@@ -1,0 +1,330 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://restcountries.com/v3.1/name/france
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 14 Nov 2022 19:02:42 GMT
+      Server:
+      - Apache/2.4.38 (Debian)
+      Cache-Control:
+      - public, immutable, max-age=31556926
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1374'
+    body:
+      encoding: UTF-8
+      string: '[{"name":{"common":"France","official":"French Republic","nativeName":{"fra":{"official":"République
+        française","common":"France"}}},"tld":[".fr"],"cca2":"FR","ccn3":"250","cca3":"FRA","cioc":"FRA","independent":true,"status":"officially-assigned","unMember":true,"currencies":{"EUR":{"name":"Euro","symbol":"€"}},"idd":{"root":"+3","suffixes":["3"]},"capital":["Paris"],"altSpellings":["FR","French
+        Republic","République française"],"region":"Europe","subregion":"Western Europe","languages":{"fra":"French"},"translations":{"ara":{"official":"الجمهورية
+        الفرنسية","common":"فرنسا"},"bre":{"official":"Republik Frañs","common":"Frañs"},"ces":{"official":"Francouzská
+        republika","common":"Francie"},"cym":{"official":"French Republic","common":"France"},"deu":{"official":"Französische
+        Republik","common":"Frankreich"},"est":{"official":"Prantsuse Vabariik","common":"Prantsusmaa"},"fin":{"official":"Ranskan
+        tasavalta","common":"Ranska"},"fra":{"official":"République française","common":"France"},"hrv":{"official":"Francuska
+        Republika","common":"Francuska"},"hun":{"official":"Francia Köztársaság","common":"Franciaország"},"ita":{"official":"Repubblica
+        francese","common":"Francia"},"jpn":{"official":"フランス共和国","common":"フランス"},"kor":{"official":"프랑스
+        공화국","common":"프랑스"},"nld":{"official":"Franse Republiek","common":"Frankrijk"},"per":{"official":"جمهوری
+        فرانسه","common":"فرانسه"},"pol":{"official":"Republika Francuska","common":"Francja"},"por":{"official":"República
+        Francesa","common":"França"},"rus":{"official":"Французская Республика","common":"Франция"},"slk":{"official":"Francúzska
+        republika","common":"Francúzsko"},"spa":{"official":"República francés","common":"Francia"},"swe":{"official":"Republiken
+        Frankrike","common":"Frankrike"},"tur":{"official":"Fransa Cumhuriyeti","common":"Fransa"},"urd":{"official":"جمہوریہ
+        فرانس","common":"فرانس"},"zho":{"official":"法兰西共和国","common":"法国"}},"latlng":[46.0,2.0],"landlocked":false,"borders":["AND","BEL","DEU","ITA","LUX","MCO","ESP","CHE"],"area":551695.0,"demonyms":{"eng":{"f":"French","m":"French"},"fra":{"f":"Française","m":"Français"}},"flag":"\uD83C\uDDEB\uD83C\uDDF7","maps":{"googleMaps":"https://goo.gl/maps/g7QxxSFsWyTPKuzd7","openStreetMaps":"https://www.openstreetmap.org/relation/1403916"},"population":67391582,"gini":{"2018":32.4},"fifa":"FRA","car":{"signs":["F"],"side":"right"},"timezones":["UTC-10:00","UTC-09:30","UTC-09:00","UTC-08:00","UTC-04:00","UTC-03:00","UTC+01:00","UTC+02:00","UTC+03:00","UTC+04:00","UTC+05:00","UTC+10:00","UTC+11:00","UTC+12:00"],"continents":["Europe"],"flags":{"png":"https://flagcdn.com/w320/fr.png","svg":"https://flagcdn.com/fr.svg"},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/fr.png","svg":"https://mainfacts.com/media/images/coats_of_arms/fr.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[48.87,2.33]},"postalCode":{"format":"#####","regex":"^(\\d{5})$"}}]'
+  recorded_at: Mon, 14 Nov 2022 19:02:42 GMT
+- request:
+    method: get
+    uri: https://api.geoapify.com/v2/places?apiKey=<apiKey>&categories=tourism.sights&filter=circle:2.33,48.87,20000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 14 Nov 2022 19:02:50 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Api-Version:
+      - '1.0'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - accept, accept-language, content-language, access-control-max-age, access-control-allow-headers,
+        access-control-allow-methods, access-control-allow-origin, allow, api-version,
+        cf-ray, content-encoding, content-type, date, expect-ct, server, status, vary,
+        cache-control, etag, last-modified, expires, host, cf-ipcountry, cdn-loop,
+        accept-encoding, x-forwarded-for, x-forwarded-proto, cf-visitor, user-agent,
+        cf-connecting-ip, x-forwarded-port
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, OPTIONS, PUT
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Vary:
+      - Accept-Encoding
+      - Accept-Encoding
+      Cache-Control:
+      - private, max-age=0, no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=o%2B3ozVA9WBM1OkQF8S1oiwREtE4CLy5UBGWfy9kgtMs340Vi5sBB1GU68izSBb6YpoB4s%2BbrUYyFdpCoTvrRKiCtvescy3I0jeRsuvYLvQvjzoWjr0H1TwPzXgsoqDpv1x4%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 76a200c34f768117-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"Maison
+        de Chateaubriand","housenumber":"87","street":"Rue de Chateaubriand","quarter":"Robinson","suburb":"La
+        Butte Rouge","city":"Châtenay-Malabry","municipality":"Antony","county":"Hauts-de-Seine","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"92290","country":"France","country_code":"fr","lon":2.2642505154094605,"lat":48.77268875,"formatted":"Maison
+        de Chateaubriand, 87 Rue de Chateaubriand, 92290 Châtenay-Malabry, France","address_line1":"Maison
+        de Chateaubriand","address_line2":"87 Rue de Chateaubriand, 92290 Châtenay-Malabry,
+        France","categories":["building","building.historic","building.tourism","entertainment","entertainment.museum","fee","heritage","tourism","tourism.sights"],"details":["details","details.contact","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"fee":"full:3;discount:1,5;free:1st
+        sunday of month","name":"Maison de Chateaubriand","email":"reservations-chateaubriand@cg92.fr","image":"https://commons.wikimedia.org/wiki/Category:Maison_de_Chateaubriand","phone":"+33155521300","osm_id":89674206,"ref:mhs":"PA00088087","tourism":"museum","website":"http://maison-de-chateaubriand.hauts-de-seine.net/web/chateaubriand/la-maison-de-chateaubriand","building":"yes","heritage":2,"historic":"manor","operator":"Département
+        des Hauts de Seine","osm_type":"w","wikidata":"Q2509432","addr:city":"Châtenay-Malabry","wikipedia":"fr:Maison
+        de Chateaubriand","addr:street":"Rue de Chateaubriand","ref:FR:label":"Maisons
+        des Illustres","addr:postcode":92290,"opening_hours":"Mar-Oct: Tu-Su 10:00-12:00,13:00-18:00;
+        Nov-Feb: Tu-Su 10:00-12:00, 13:00 - 16:00","addr:housenumber":87,"heritage:operator":"mhs","mhs:inscription_date":"1978-01-24"}},"place_id":"515d1f5d62721d024059cf1b831ae7624840f00102f901de515805000000009203174d6169736f6e2064652043686174656175627269616e64"},"geometry":{"type":"Point","coordinates":[2.264378326861261,48.772677721040615]}},{"type":"Feature","properties":{"name":"Collège
+        des Bernardins","housenumber":"20","street":"Rue de Poissy","city_block":"Quartier
+        Saint-Victor","suburb":"5th Arrondissement","district":"Paris","city":"Paris","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"75005","country":"France","country_code":"fr","lon":2.3519828978158808,"lat":48.84883415,"formatted":"Collège
+        des Bernardins, 20 Rue de Poissy, 75005 Paris, France","address_line1":"Collège
+        des Bernardins","address_line2":"20 Rue de Poissy, 75005 Paris, France","categories":["building","building.entertainment","building.historic","building.tourism","entertainment","entertainment.culture","entertainment.culture.arts_centre","tourism","tourism.attraction","tourism.sights"],"details":["details","details.contact","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Collège
+        des Bernardins","email":"accueil@collegedesbernardins.fr","phone":"+33 1 53
+        10 74 44","osm_id":26584053,"amenity":"arts_centre","tourism":"attraction","website":"https://www.collegedesbernardins.fr/","building":"yes","historic":"building","osm_type":"w","wikidata":"Q960165","addr:street":"Rue
+        de Poissy","addr:postcode":75005,"opening_hours":"Mo-sa 10:00-18:00; Su 14:00-18:00","addr:housenumber":20}},"place_id":"51f9513861f2d00240591ead34dda66c4840f00102f901f5a3950100000000920317436f6c6cc3a8676520646573204265726e617264696e73"},"geometry":{"type":"Point","coordinates":[2.3520248027145922,48.848842287751026]}},{"type":"Feature","properties":{"name":"Cimetière
+        militaire américain","street":"Avenue du Professeur Léon Bernard","suburb":"Quartier
+        Mont-Valérien","city":"Suresnes","municipality":"Arrondissement of Nanterre","county":"Hauts-de-Seine","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"92150","country":"France","country_code":"fr","lon":2.2176805639193016,"lat":48.87228175,"formatted":"Suresnes
+        American Cemetery and Memorial, Avenue du Professeur Léon Bernard, 92150 Suresnes,
+        France","address_line1":"Suresnes American Cemetery and Memorial","address_line2":"Avenue
+        du Professeur Léon Bernard, 92150 Suresnes, France","categories":["tourism","tourism.sights"],"details":["details","details.contact","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Cimetière
+        militaire américain","tomb":"war_grave","type":"multipolygon","phone":"+33
+        1 46 25 01 70","osm_id":35545148,"landuse":"cemetery","name:en":"Suresnes
+        American Cemetery and Memorial","website":"http://www.abmc.gov/cemeteries-memorials/europe/suresnes-american-cemetery","cemetery":"war_cemetery","historic":"cemetery","osm_type":"w","wikidata":"Q2972491","wikipedia":"fr:Cimetière
+        américain de Suresnes","opening_hours":"Mo-Su 09:00-17:00; Dec 25,Jan 01 off"}},"place_id":"511f9490d0a3bd014059808ad671a46f4840f00102f9013c601e020000000092031f43696d657469c3a87265206d696c69746169726520616dc3a972696361696e"},"geometry":{"type":"Point","coordinates":[2.2175976080057036,48.872205953365665]}},{"type":"Feature","properties":{"name":"Immeuble
+        Molitor","street":"Rue Nungesser et Coli","suburb":"Quartier d''Auteuil","district":"Paris","city":"Paris","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"75016","country":"France","country_code":"fr","lon":2.25128194339504,"lat":48.843390150000005,"formatted":"Immeuble
+        Molitor, Rue Nungesser et Coli, 75016 Paris, France","address_line1":"Immeuble
+        Molitor","address_line2":"Rue Nungesser et Coli, 75016 Paris, France","categories":["building","building.historic","building.tourism","entertainment","entertainment.museum","heritage","tourism","tourism.sights"],"details":["details","details.building","details.contact","details.heritage","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Immeuble
+        Molitor","email":"reservation@fondationlecorbusier.fr","phone":"+33 1 42 88
+        75 72","osm_id":67503044,"ref:mhs":"PA00088075","tourism":"museum","website":"http://www.fondationlecorbusier.fr","building":"yes","heritage":2,"historic":"building","osm_type":"w","wikidata":"Q3796698","architect":"Le
+        Corbusier;Pierre Jeanneret","wikipedia":"fr:Immeuble Molitor","start_date":1934,"contact:city":"Paris","opening_hours":"Sa
+        10:00-13:00, 13:30-17:00","contact:street":"Rue Nungesser et Coli","building:levels":8,"contact:postcode":75016,"heritage:operator":"mhs","contact:housenumber":24,"mhs:inscription_date":"2017-06-09"}},"place_id":"513925f4bd9f02024059e6980b52f46b4840f00102f901c403060400000000920310496d6d6575626c65204d6f6c69746f72"},"geometry":{"type":"Point","coordinates":[2.2512812461979164,48.84339356962464]}},{"type":"Feature","properties":{"name":"Château
+        d''Asnières","housenumber":"89","street":"Rue du Château","suburb":"Centre-Ville","city":"Asnières-sur-Seine","municipality":"Arrondissement
+        of Nanterre","county":"Hauts-de-Seine","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"92600","country":"France","country_code":"fr","lon":2.2935362849192593,"lat":48.910521349999996,"formatted":"Château
+        d''Asnières, 89 Rue du Château, 92600 Asnières-sur-Seine, France","address_line1":"Château
+        d''Asnières","address_line2":"89 Rue du Château, 92600 Asnières-sur-Seine,
+        France","categories":["building","building.historic","building.tourism","entertainment","entertainment.museum","heritage","tourism","tourism.sights","tourism.sights.castle"],"details":["details","details.building","details.contact","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Château
+        d''Asnières","phone":"+33171078225","height":12,"osm_id":70789657,"ref:mhs":"PA00088062","tourism":"museum","website":"http://www.asnieres-sur-seine.fr/Tourisme-international/Patrimoine/Le-chateau","building":"yes","heritage":2,"historic":"castle","osm_type":"w","wikidata":"Q2968138","addr:city":"Asnières-sur-Seine","max_level":1,"min_level":-1,"wikipedia":"fr:Château
+        d''Asnières","roof:shape":"hipped","addr:street":"Rue du Château","roof:height":2,"addr:postcode":92600,"building:part":"no","opening_hours":"Fr
+        14:30-18:30; Sa 10:00-13:30,14:30-18:30","roof:material":"slate","building:levels":2,"addr:housenumber":89,"heritage:operator":"mhs","mhs:inscription_date":1996}},"place_id":"511dea6cd42a5902405985bd6be38b744840f00102f901192a3804000000009203144368c3a27465617520642741736e69c3a8726573"},"geometry":{"type":"Point","coordinates":[2.293538722585494,48.910519054038595]}},{"type":"Feature","properties":{"name":"Château
+        Chanorier","housenumber":"12","street":"Grande Rue","city":"Croissy-sur-Seine","municipality":"Saint-Germain-en-Laye","county":"Yvelines","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"78290","country":"France","country_code":"fr","lon":2.1519786438939157,"lat":48.8778858,"formatted":"Château
+        Chanorier, 12 Grande Rue, 78290 Croissy-sur-Seine, France","address_line1":"Château
+        Chanorier","address_line2":"12 Grande Rue, 78290 Croissy-sur-Seine, France","categories":["building","building.historic","building.public_and_civil","tourism","tourism.sights","tourism.sights.castle"],"details":["details","details.building","details.contact","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Château
+        Chanorier","email":"chanorier@croissy.com","phone":"+33130150841","osm_id":150246001,"website":"https://www.croissy.com/culture-sport-et-loisirs/chanorier.html","building":"public","historic":"castle","osm_type":"w","wikidata":"Q2969083","addr:city":"Croissy-sur-Seine","addr:street":"Grande
+        Rue","addr:postcode":78290,"opening_hours":"Tu-Su 10:00-18:00","building:levels":2,"addr:housenumber":12,"wikimedia_commons":"Category:Château
+        de Croissy-sur-Seine"}},"place_id":"512a9b659453370140599e8480e45e704840f00102f9017192f408000000009203124368c3a274656175204368616e6f72696572"},"geometry":{"type":"Point","coordinates":[2.1520148843295788,48.87789589190764]}},{"type":"Feature","properties":{"name":"Crypte
+        Archéologique du Parvis Notre-Dame","street":"Parvis Notre-Dame - Place Jean-Paul
+        II","city_block":"Quartier Les Îles","suburb":"4th Arrondissement","district":"Paris","city":"Paris","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"75004","country":"France","country_code":"fr","lon":2.348198116376467,"lat":48.85354265,"formatted":"Crypte
+        Archéologique du Parvis Notre-Dame, Parvis Notre-Dame - Place Jean-Paul II,
+        75004 Paris, France","address_line1":"Crypte Archéologique du Parvis Notre-Dame","address_line2":"Parvis
+        Notre-Dame - Place Jean-Paul II, 75004 Paris, France","categories":["entertainment","entertainment.museum","no_access","tourism","tourism.sights","tourism.sights.archaeological_site"],"details":["details","details.contact","details.facilities","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"fax":"+33143293055","fare":"full:7;discount:5;free:
+        under 14","name":"Crypte Archéologique du Parvis Notre-Dame","phone":"+33155425010","access":"no","osm_id":159896046,"name:ko":"노트르담","tourism":"museum","website":"http://crypte.paris.fr/","historic":"archaeological_site","location":"underground","operator":"Musée
+        Carnavalet","osm_type":"w","wikidata":"Q3005760","site_type":"crypt","wikipedia":"fr:Crypte
+        archéologique du parvis Notre-Dame","website:en":"http://crypte.paris.fr/en/crypt","wheelchair":"no","opening_hours":"none"}},"place_id":"516039593614c9024059307dac45416d4840f00102f901eed187090000000092032a4372797074652041726368c3a96f6c6f676971756520647520506172766973204e6f7472652d44616d65"},"geometry":{"type":"Point","coordinates":[2.348183083150772,48.85355444834056]}},{"type":"Feature","properties":{"name":"Palais
+        du Louvre","street":"Rue Saint-Honoré","city_block":"Quartier du Palais Royal","suburb":"1st
+        Arrondissement","district":"Paris","city":"Paris","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"75001","country":"France","country_code":"fr","lon":2.3368747442628885,"lat":48.86147245,"formatted":"Louvre
+        Palace, Rue Saint-Honoré, 75001 Paris, France","address_line1":"Louvre Palace","address_line2":"Rue
+        Saint-Honoré, 75001 Paris, France","categories":["building","building.historic","building.tourism","heritage","tourism","tourism.attraction","tourism.sights","tourism.sights.castle","wheelchair","wheelchair.yes"],"details":["details","details.contact","details.facilities","details.heritage","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Palais
+        du Louvre","image":"http://upload.wikimedia.org/wikipedia/commons/6/66/Louvre_Museum_Wikimedia_Commons.jpg","phone":"+33
+        1 40205050","osm_id":-3262297,"name:de":"Louvre","name:en":"Louvre Palace","name:ja":"ルーブル美術館","name:pl":"Luwr","name:ru":"Лувр","name:zh":"卢浮宫博物馆","tourism":"attraction","website":"https://www.louvre.fr/","building":"castle","heritage":2,"historic":"castle","osm_type":"r","wikidata":"Q1075988","addr:city":"Paris","wikipedia":"fr:Palais
+        du Louvre","importance":"international","wheelchair":"yes","castle_type":"stately","addr:postcode":75001,"roof:material":"metal","image:panorama":"http://upload.wikimedia.org/wikipedia/commons/d/d2/Jardin_du_Carrousel.jpg","toilets:wheelchair":"yes"}},"place_id":"511623f111d2af024059369a02f2356e4840f00101f90159c731000000000092031050616c616973206475204c6f75767265"},"geometry":{"type":"Point","coordinates":[2.3358498956407727,48.86102128150053]}},{"type":"Feature","properties":{"name":"Tour
+        Eiffel","housenumber":"5","street":"Avenue Anatole France","city_block":"Quartier
+        du Gros-Caillou","suburb":"7th Arrondissement","district":"Paris","city":"Paris","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"75007","country":"France","country_code":"fr","lon":2.2944990543196795,"lat":48.858260200000004,"formatted":"Eiffel
+        Tower, 5 Avenue Anatole France, 75007 Paris, France","address_line1":"Eiffel
+        Tower","address_line2":"5 Avenue Anatole France, 75007 Paris, France","categories":["building","building.historic","building.tourism","fee","heritage","man_made","man_made.tower","tourism","tourism.attraction","tourism.sights","tourism.sights.tower","wheelchair","wheelchair.yes"],"details":["details","details.building","details.facilities","details.heritage","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"fee":"10-25€","3dmr":4,"name":"Tour
+        Eiffel","image":"https://fr.wikipedia.org/wiki/Fichier:Tour_Eiffel_Wikimedia_Commons.jpg","layer":2,"height":324,"osm_id":5013364,"name:af":"Eiffel-toring","name:ar":"برج
+        إيفل","name:ba":"Эйфель башняһы","name:be":"Вежа Эйфеля","name:cs":"Eiffelova
+        věž","name:da":"Eiffeltårnet","name:de":"Eiffelturm","name:el":"Πύργος του
+        Άιφελ","name:en":"Eiffel Tower","name:eo":"Eiffel-Turo","name:es":"Torre Eiffel","name:et":"Eiffeli
+        torn","name:fa":"برج ایفل","name:fi":"Eiffel-torni","name:fr":"Tour Eiffel","name:hi":"एफ़िल
+        टॉवर","name:hr":"Eiffelov toranj","name:hu":"Eiffel-torony","name:ia":"Turre
+        Eiffel","name:id":"Menara Eiffel","name:io":"Turmo Eiffel","name:it":"Torre
+        Eiffel","name:ja":"エッフェル塔","name:ko":"에펠탑","name:ku":"Barûya Eyfelê","name:la":"Turris
+        Eiffelia","name:lb":"Eiffeltuerm","name:nl":"Eiffeltoren","name:pl":"Wieża
+        Eiffla","name:pt":"Torre Eiffel","name:ru":"Эйфелева башня","name:sk":"Eiffelova
+        veža","name:sl":"Eifflov stolp","name:sr":"Ајфелова кула","name:sv":"Eiffeltornet","name:ta":"ஈபெல்
+        கோபுரம்","name:tr":"Eyfel Kulesi","name:tt":"Эйфель манарасы","name:uk":"Ейфелева
+        вежа","name:vi":"Tháp Eiffel","name:vo":"Tüm di Eiffel","name:zh":"埃菲尔铁塔","ref:mhs":"PA00088801","tourism":"attraction","website":"https://www.toureiffel.paris/","building":"tower","engineer":"Gustave
+        Eiffel;Maurice Koechlin;Émile Nouguier","heritage":3,"historic":"yes","man_made":"tower","name:ast":"Torrne
+        Eiffel","operator":"Société d’Exploitation de la Tour Eiffel","osm_type":"w","wikidata":"Q243","addr:city":"Paris","architect":"Stephen
+        Sauvestre","wikipedia":"fr:Tour Eiffel","importance":"international","min_height":0,"start_date":1889,"tower:type":"communication;observation","wheelchair":"yes","addr:street":"Avenue
+        Anatole France","alt_name:sr":"Ајфелов торањ","ref:FR:ANFR":548894,"name:zh-Hant":"艾菲爾鐵塔","addr:postcode":75007,"opening_hours":"09:30-23:45;
+        Jun 21-Sep 2: 09:00-00:45; Jul 14,Jul 15 off","building:shape":"pyramidal","building:colour":"#706550","addr:housenumber":5,"alt_name:zh-Hans":"巴黎铁塔","alt_name:zh-Hant":"巴黎鐵塔","tourism:visitors":7000000,"building:material":"iron","heritage:operator":"mhs","wikimedia_commons":"Category:Eiffel
+        Tower","tower:construction":"lattice","communication:radio":"fm","mhs:inscription_date":"1964-06-24","communication:television":"dvb-t"}},"place_id":"5179f09b7e205b0240591ba00887db6d4840f00102f901747f4c000000000092030b546f75722045696666656c"},"geometry":{"type":"Point","coordinates":[2.2944955722178375,48.858261946879985]}},{"type":"Feature","properties":{"name":"Arc
+        de Triomphe","street":"Passage du Souvenir","city_block":"Quartier du Faubourg-du-Roule","suburb":"8th
+        Arrondissement of Paris","district":"Paris","city":"Paris","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"75008","country":"France","country_code":"fr","lon":2.295037226037673,"lat":48.8737791,"formatted":"Arch
+        of Triumph, Passage du Souvenir, 75008 Paris, France","address_line1":"Arch
+        of Triumph","address_line2":"Passage du Souvenir, 75008 Paris, France","categories":["building","building.historic","building.tourism","heritage","tourism","tourism.attraction","tourism.sights","tourism.sights.memorial","tourism.sights.memorial.monument"],"details":["details","details.building","details.facilities","details.heritage","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"fare":"full:12;discount:9;group
+        9;school_group 30;school_group_zep 20","name":"Arc de Triomphe","image":"http://upload.wikimedia.org/wikipedia/commons/e/e9/Arc_de_triomphe_Paris.jpg","height":50,"osm_id":226413508,"name:ar":"قوس
+        النصر باريس الشانزليزية","name:ca":"Arc de triomf de l’Étoile","name:cs":"Vítězný
+        oblouk","name:da":"Triumfbuen","name:de":"Triumphbogen","name:el":"Αψίδα του
+        Θριάμβου","name:en":"Arch of Triumph","name:es":"Arco de Triunfo","name:fi":"Riemukaari","name:he":"שער
+        הניצחון בפריז","name:hi":"विजय स्मारक","name:id":"Gapura Kemenangan","name:it":"Arco
+        di Trionfo","name:ja":"凱旋門","name:ko":"에투알 개선문","name:pl":"Łuk Triumfalny","name:pt":"Arco
+        do Triunfo","name:ru":"Триумфальная арка","name:sk":"Víťazný oblúk","name:vi":"Khải
+        Hoàn Môn","name:zh":"凯旋门","ref:mhs":"PA00088804","tourism":"attraction","website":"http://www.paris-arc-de-triomphe.fr/","alt_name":"Arc
+        de triomphe de l’Étoile","building":"yes","heritage":2,"historic":"monument","operator":"Centre
+        des monuments nationaux","osm_type":"w","wikidata":"Q64436","architect":"Jean-François
+        Chalgrin","wikipedia":"fr:Arc de triomphe de l''Étoile","start_date":"1836-07-29","wheelchair":"no","roof:levels":1,"opening_hours":"Apr
+        2-Jan 31: Mo-Su 10:00-22:30; Apr 1,Sep 30: Mo-Su 10:00-23:00; Oct 1,Dec 31:
+        Mo-Su 10:00-22:30; Jan 1,May 1,May 8,Jul 14,Nov 11,Dec 25: off","building:levels":13,"heritage:operator":"mhs","mhs:inscription_date":"1896-02-06","building:architecture":"neoclassicism","building:levels:underground":1}},"place_id":"5188d7ca803c5c024059ae3f07f0d76f4840f00102f901c4cb7e0d0000000092030f417263206465205472696f6d706865"},"geometry":{"type":"Point","coordinates":[2.295037275495762,48.87377739290183]}},{"type":"Feature","properties":{"name":"Château
+        de la Grange","street":"Allée de la Grille","suburb":"La Mare Armée","city":"Yerres","municipality":"Arrondissement
+        d''Évry","county":"Essonne","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"91330","country":"France","country_code":"fr","lon":2.4955140878597275,"lat":48.72922845,"formatted":"Château
+        de la Grange, Allée de la Grille, 91330 Yerres, France","address_line1":"Château
+        de la Grange","address_line2":"Allée de la Grille, 91330 Yerres, France","categories":["heritage","tourism","tourism.sights","tourism.sights.castle"],"details":["details","details.contact","details.heritage","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Château
+        de la Grange","email":"saxe@leshotelsparticuliers.com","image":"https://upload.wikimedia.org/wikipedia/commons/a/a0/Ch%C3%A2teau_de_la_Grange.jpg","phone":"+331
+        69 48 78 53","osm_id":793841002,"ref:mhs":"PA00088050","website":"https://www.chateaudumarechaldesaxe.com/","alt_name":"Château
+        de la Grange","heritage":2,"historic":"castle","osm_type":"w","wikidata":"Q2971253","wikipedia":"fr:Château
+        de la Grange (Yerres)","start_date":1617,"castle_type":"stately","heritage:operator":"mhs","mhs:inscription_date":"1971-04-08"}},"place_id":"51f8f1e1fbdef6034059f76a0d90575d4840f00102f9016a0d512f000000009203154368c3a274656175206465206c61204772616e6765"},"geometry":{"type":"Point","coordinates":[2.4955424955680847,48.729234701682735]}},{"type":"Feature","properties":{"name":"Hôtel
+        des Invalides","street":"Cour de Metz","suburb":"Quartier des Invalides","district":"Paris","city":"Paris","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"75007","country":"France","country_code":"fr","lon":2.3133430973100904,"lat":48.855953650000004,"formatted":"Hôtel
+        des Invalides, Cour de Metz, 75007 Paris, France","address_line1":"Hôtel des
+        Invalides","address_line2":"Cour de Metz, 75007 Paris, France","categories":["building","building.historic","building.tourism","tourism","tourism.attraction","tourism.sights"],"details":["details","details.contact","details.facilities","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Hôtel
+        des Invalides","phone":"+33 810 11 33 99","osm_id":-1463538,"name:de":"Invalidenheim","name:sk":"Invalidovňa","tourism":"attraction","website":"http://www.invalides.org/","building":"yes","historic":"building","osm_type":"r","wikidata":"Q188977","wikipedia":"fr:Hôtel
+        des Invalides","wheelchair":"no"}},"place_id":"518bb745d64a800240592ba1fab68e6d4840f00101f901f25416000000000092031448c3b474656c2064657320496e76616c69646573"},"geometry":{"type":"Point","coordinates":[2.3126427402521066,48.85591780889293]}},{"type":"Feature","properties":{"name":"Château
+        de Versailles","street":"Avenue de Nepveu Sud","suburb":"Saint-Louis","city":"Versailles","municipality":"Versailles","county":"Yvelines","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"78000","country":"France","country_code":"fr","lon":2.120285270992599,"lat":48.804425249999994,"formatted":"Palace
+        of Versailles, Avenue de Nepveu Sud, 78000 Versailles, France","address_line1":"Palace
+        of Versailles","address_line2":"Avenue de Nepveu Sud, 78000 Versailles, France","categories":["building","building.historic","building.tourism","tourism","tourism.attraction","tourism.sights","tourism.sights.castle"],"details":["details","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Château
+        de Versailles","osm_id":-1149002,"name:cs":"Versailles","name:de":"Schloss
+        Versailles","name:en":"Palace of Versailles","name:fr":"Château de Versailles","name:hr":"Palača
+        Versaj","name:ko":"베르샤유 궁전","name:pt":"Palácio de Versalhes","name:ru":"Версальский
+        дворец","name:zh":"凡爾賽宮","tourism":"attraction","website":"http://www.chateauversailles.fr/","building":"palace","historic":"castle","osm_type":"r","wikidata":"Q2946","wikipedia":"fr:Château
+        de Versailles","castle_type":"palace","opening_hours":"Tu-Su 09:00-18:30"}},"place_id":"5121eccde491f80040597a974719f9664840f00101f9014a881100000000009203164368c3a274656175206465205665727361696c6c6573"},"geometry":{"type":"Point","coordinates":[2.121372020277264,48.80447689052285]}},{"type":"Feature","properties":{"name":"Château
+        de Vincennes","street":"Avenue du Général de Gaulle","suburb":"Vignerons","city":"Vincennes","municipality":"Nogent-sur-Marne","county":"Val-de-Marne","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"94300","country":"France","country_code":"fr","lon":2.4358057877896617,"lat":48.8429069,"formatted":"Château
+        de Vincennes, Avenue du Général de Gaulle, 94300 Vincennes, France","address_line1":"Château
+        de Vincennes","address_line2":"Avenue du Général de Gaulle, 94300 Vincennes,
+        France","categories":["heritage","tourism","tourism.attraction","tourism.sights","tourism.sights.castle"],"details":["details","details.contact","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Château
+        de Vincennes","phone":"+33 1 43 28 15 48","osm_id":23032971,"ref:mhs":"PA00086567","tourism":"attraction","website":"http://www.chateau-vincennes.fr","heritage":2,"historic":"castle","osm_type":"w","wikidata":"Q663673","wikipedia":"fr:Château
+        de Vincennes","description":"Plus haut donjon d''Europe","heritage:operator":"mhs","year_of_construction":"C14"}},"place_id":"5157fbc380cf7c034059671109a8df6b4840f00102f9018b745f01000000009203154368c3a2746561752064652056696e63656e6e6573"},"geometry":{"type":"Point","coordinates":[2.4359426555451296,48.842762951305126]}},{"type":"Feature","properties":{"name":"Ministère
+        de la Justice","housenumber":"13","street":"Place Vendôme","city_block":"Quartier
+        Vendôme","suburb":"1st Arrondissement","district":"Paris","city":"Paris","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"75001","country":"France","country_code":"fr","lon":2.3284917053951233,"lat":48.8677371,"formatted":"Ministère
+        de la Justice, 13 Place Vendôme, 75001 Paris, France","address_line1":"Ministère
+        de la Justice","address_line2":"13 Place Vendôme, 75001 Paris, France","categories":["building","building.historic","building.office","office","office.government","office.government.ministry","tourism","tourism.sights"],"details":["details","details.building","details.contact","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Ministère
+        de la Justice","layer":1,"phone":"+33 1 44 77 60 60","office":"government","osm_id":54175265,"website":"https://www.justice.gouv.fr/","building":"yes","historic":"manor","osm_type":"w","wikidata":"Q3145763","addr:city":"Paris","government":"ministry","addr:street":"Place
+        Vendôme","addr:postcode":75001,"building:levels":"office","addr:housenumber":13}},"place_id":"5187c75b0c8fa0024059f0b366f3126f4840f00102f90121a63a03000000009203184d696e697374c3a87265206465206c61204a757374696365"},"geometry":{"type":"Point","coordinates":[2.3283978429325916,48.86776583208837]}},{"type":"Feature","properties":{"name":"Maison
+        de François Coignet","housenumber":"72","street":"Rue Charles Michels","suburb":"Pleyel
+        - Confluence","city":"Saint-Denis","municipality":"Saint-Denis","county":"Seine-Saint-Denis","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"93200","country":"France","country_code":"fr","lon":2.341800180416131,"lat":48.9308246,"formatted":"Maison
+        de François Coignet, 72 Rue Charles Michels, 93200 Saint-Denis, France","address_line1":"Maison
+        de François Coignet","address_line2":"72 Rue Charles Michels, 93200 Saint-Denis,
+        France","categories":["building","building.historic","tourism","tourism.sights"],"details":["details","details.contact","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Maison
+        de François Coignet","email":"lamaisoncoignet@gmail.com","phone":"+33.6 63
+        25 09 61","osm_id":63989226,"website":"http://www.lamaisoncoignet.com/","building":"yes","historic":"building","osm_type":"w","wikidata":"Q3279364","addr:city":"Saint-Denis","addr:street":"Rue
+        Charles Michels","addr:postcode":93200,"addr:housenumber":72}},"place_id":"512ad0dcc607bc024059a89b7b1326774840f00102f901ea65d0030000000092031b4d6169736f6e206465204672616ec3a76f697320436f69676e6574"},"geometry":{"type":"Point","coordinates":[2.341811708081896,48.93084949050473]}},{"type":"Feature","properties":{"name":"Église
+        Notre-Dame de Boulogne","housenumber":"2","street":"Rue de l''Église","suburb":"Parchamp
+        - Albert Kahn","city":"Boulogne-Billancourt","municipality":"Boulogne-Billancourt","county":"Hauts-de-Seine","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"92100","country":"France","country_code":"fr","lon":2.236515608434548,"lat":48.8459601,"formatted":"Église
+        Notre-Dame de Boulogne, 2 Rue de l''Église, 92100 Boulogne-Billancourt, France","address_line1":"Église
+        Notre-Dame de Boulogne","address_line2":"2 Rue de l''Église, 92100 Boulogne-Billancourt,
+        France","categories":["building","building.historic","building.place_of_worship","heritage","tourism","tourism.sights","tourism.sights.place_of_worship","tourism.sights.place_of_worship.church"],"details":["details","details.contact","details.heritage","details.place_of_worship","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Église
+        Notre-Dame de Boulogne","email":"nd.boulogne@freesurf.fr","phone":"+33 1 46
+        05 15 06","osm_id":64304966,"amenity":"place_of_worship","ref:mhs":"PA00088073","website":"http://www.notre-dame-de-boulogne.fr/","alt_name":"Notre-Dame
+        de Boulogne","building":"church","heritage":2,"historic":"heritage","osm_type":"w","religion":"christian","wikidata":"Q3580380","addr:city":"Boulogne-Billancourt","wikipedia":"fr:Église
+        Notre-Dame de Boulogne","ref:FR:CEF":"92012_02","addr:street":"Rue de l''Église","denomination":"catholic","addr:postcode":92100,"addr:housenumber":2,"heritage:operator":"mhs","mhs:inscription_date":1862}},"place_id":"513b3403826ae4014059fd0a7457486c4840f00102f9014637d5030000000092031ec389676c697365204e6f7472652d44616d6520646520426f756c6f676e65"},"geometry":{"type":"Point","coordinates":[2.236531272623805,48.84595769086989]}},{"type":"Feature","properties":{"name":"La
+        Petite Bibliothèque ronde","housenumber":"14","street":"Rue de Champagne","suburb":"Cité-Jardin
+        de la Plaine","city":"Clamart","municipality":"Antony","county":"Hauts-de-Seine","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"92140","country":"France","country_code":"fr","lon":2.247132909026411,"lat":48.7860982,"formatted":"La
+        Petite Bibliothèque ronde, 14 Rue de Champagne, 92140 Clamart, France","address_line1":"La
+        Petite Bibliothèque ronde","address_line2":"14 Rue de Champagne, 92140 Clamart,
+        France","categories":["access","access.yes","building","building.historic","building.public_and_civil","education","education.library","heritage","tourism","tourism.sights"],"details":["details","details.building","details.contact","details.heritage","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"La
+        Petite Bibliothèque ronde","email":"petite.biblio.ronde@gmail.com","phone":"+33
+        1 41 36 04 30","access":"yes","osm_id":71716642,"amenity":"library","network":"http://www.lapetitebibliothequeronde.com/","ref:mhs":"PA00125464","website":"http://www.lapetitebibliothequeronde.com","building":"yes","heritage":2,"historic":"building","operator":"Ville
+        de Clamart","osm_type":"w","ref:isil":"FR-920235101","wikidata":"Q3211502","addr:city":"Clamart","architect":"Gérard
+        Thurnauer / Jean Renaudie / Jean-Louis Véret / Pierre Riboulet","wikipedia":"fr:La
+        Petite Bibliothèque ronde","start_date":1965,"addr:street":"Rue de Champagne","addr:postcode":92140,"operator:type":"public","contact:twitter":"https://twitter.com/pbronde","addr:housenumber":14,"contact:facebook":"https://www.facebook.com/lapetitebibliothequeronde/","contact:instagram":"https://www.instagram.com/petitebibliothequeronde/","heritage:operator":"mhs","mhs:inscription_date":"2009-09-03","building:architecture":"modern"}},"place_id":"518b2b97e121fa014059cdcff5ec9e644840f00102f901224f46040000000092031d4c6120506574697465204269626c696f7468c3a871756520726f6e6465"},"geometry":{"type":"Point","coordinates":[2.247134935785146,48.78610002520109]}},{"type":"Feature","properties":{"name":"Église
+        Saint-Pierre - Saint-Paul","housenumber":"3","street":"Place de l''Église","suburb":"Centre-ville","city":"Ivry-sur-Seine","municipality":"Arrondissement
+        de L''Haÿ-les-Roses","county":"Val-de-Marne","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"94200","country":"France","country_code":"fr","lon":2.3827998992981687,"lat":48.8109637,"formatted":"Église
+        Saint-Pierre - Saint-Paul, 3 Place de l''Église, 94200 Ivry-sur-Seine, France","address_line1":"Église
+        Saint-Pierre - Saint-Paul","address_line2":"3 Place de l''Église, 94200 Ivry-sur-Seine,
+        France","categories":["building","building.historic","building.place_of_worship","heritage","tourism","tourism.sights","tourism.sights.place_of_worship","tourism.sights.place_of_worship.church","wheelchair","wheelchair.limited"],"details":["details","details.building","details.contact","details.facilities","details.heritage","details.place_of_worship","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Église
+        Saint-Pierre - Saint-Paul","phone":"+33 1 45 21 06 65","height":23,"osm_id":79150389,"amenity":"place_of_worship","ref:mhs":"PA00079880","website":"https://www.ivry-eglise.catholique.fr/","building":"church","heritage":3,"historic":"church","osm_type":"w","religion":"christian","wikidata":"Q3583534","addr:city":"Ivry-sur-Seine","wikipedia":"fr:Église
+        Saint-Pierre-Saint-Paul d''Ivry-sur-Seine","ref:FR:CEF":"94041_03","wheelchair":"limited","addr:street":"Place
+        de l''Église","denomination":"roman_catholic","addr:postcode":94200,"addr:housenumber":3,"heritage:operator":"mhs","mhs:inscription_date":"1929-04-10"}},"place_id":"51df9c7abb0f1003405996885d27cd674840f00102f90135bdb70400000000920321c389676c697365205361696e742d506965727265202d205361696e742d5061756c"},"geometry":{"type":"Point","coordinates":[2.3828425070565653,48.810948296232866]}},{"type":"Feature","properties":{"name":"Manufacture
+        des Gobelins","street":"Avenue des Gobelins","city_block":"Quartier de Croulebarbe","suburb":"13th
+        Arrondissement","district":"Paris","city":"Paris","state":"Ile-de-France","region":"Metropolitan
+        France","postcode":"75013","country":"France","country_code":"fr","lon":2.352002642748307,"lat":48.8344412,"formatted":"Manufacture
+        des Gobelins, Avenue des Gobelins, 75013 Paris, France","address_line1":"Manufacture
+        des Gobelins","address_line2":"Avenue des Gobelins, 75013 Paris, France","categories":["entertainment","entertainment.museum","production","production.factory","tourism.sights","wheelchair","wheelchair.yes"],"details":["details","details.facilities","details.production","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Manufacture
+        des Gobelins","osm_id":161119956,"landuse":"industrial","product":"tapestry","tourism":"museum","website":"http://www.mobiliernational.culture.gouv.fr/fr/nous-connaitre/les-manufactures/manufacture-des-gobelins","alt_name":"Manufacture
+        Nationale des Gobelins","man_made":"works","osm_type":"w","wikidata":"Q732312","wikipedia":"fr:Manufacture
+        des Gobelins","wheelchair":"yes","opening_hours":"Tu-Su 11:00-18:00; Dec 25
+        off; Jan 01 off; May 01 off; Dec 31 11:00-17:00","contact:street":"Avenue
+        des Gobelins","contact:housenumber":42}},"place_id":"51462f41e60dd1024059c74fc9dbd56a4840f00102f901d47e9a09000000009203184d616e75666163747572652064657320476f62656c696e73"},"geometry":{"type":"Point","coordinates":[2.352077292312887,48.83465144471807]}}]}'
+  recorded_at: Mon, 14 Nov 2022 19:02:50 GMT
+recorded_with: VCR 6.1.0
