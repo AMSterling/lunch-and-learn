@@ -59,7 +59,7 @@ RSpec.describe 'Recipe Resquest', :vcr do
     response_body = JSON.parse(response.body, symbolize_names: true)
     recipes = response_body[:data]
 
-    # expect(recipes.count).to eq 10
+    expect(recipes.count).to eq 20
     expect(recipes).to be_an Array
     recipes.each do |recipe|
       expect(recipe).to_not have_key(:table)
@@ -87,7 +87,7 @@ RSpec.describe 'Recipe Resquest', :vcr do
     response_body = JSON.parse(response.body, symbolize_names: true)
     recipes = response_body[:data]
 
-    # expect(recipes.count).to eq 10
+    expect(recipes.count).to eq 20
     expect(recipes).to be_an Array
     recipes.each do |recipe|
       expect(recipe).to_not have_key(:table)
