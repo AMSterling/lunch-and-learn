@@ -5,6 +5,6 @@ class RecipeService
 
   def self.get_recipe_by_country(country)
     response = conn.get('/api/recipes/v2?type=public', { q: country })
-    JSON.parse(response.body, symbolize_names: true)[:hits].take(10)
+    JSON.parse(response.body, symbolize_names: true)[:hits]
   end
 end

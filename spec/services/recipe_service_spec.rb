@@ -5,10 +5,10 @@ RSpec.describe RecipeService, :vcr do
     recipes = RecipeService.get_recipe_by_country('thailand')
 
     expect(recipes).to be_an Array
-    expect(recipes.count).to eq 10
+    expect(recipes.count).to eq 20
     recipes.each do |recipe|
       expect(recipe.keys).to eq([:recipe, :_links])
-      expect(recipe[:recipe].keys).to eq([
+      expect(recipe[:recipe].keys).to include(
         :uri,
         :label,
         :image,
@@ -17,21 +17,16 @@ RSpec.describe RecipeService, :vcr do
         :url,
         :shareAs,
         :yield,
-        :dietLabels,
-        :healthLabels,
-        :cautions,
-        :ingredientLines,
         :ingredients,
         :calories,
         :totalWeight,
         :totalTime,
         :cuisineType,
         :mealType,
-        :dishType,
         :totalNutrients,
         :totalDaily,
         :digest
-        ])
+        )
       expect(recipe[:recipe][:url]).to be_a String
       expect(recipe[:recipe][:label]).to be_a String
       expect(recipe[:recipe][:image]).to be_a String

@@ -10,7 +10,7 @@ RSpec.describe 'Recipe Resquest', :vcr do
     response_body = JSON.parse(response.body, symbolize_names: true)
     recipes = response_body[:data]
 
-    expect(recipes.count).to eq 10
+    expect(recipes.count).to eq 20
     expect(recipes).to be_an Array
     recipes.each do |recipe|
       expect(recipe).to_not have_key(:table)
@@ -59,7 +59,7 @@ RSpec.describe 'Recipe Resquest', :vcr do
     response_body = JSON.parse(response.body, symbolize_names: true)
     recipes = response_body[:data]
 
-    expect(recipes.count).to eq 10
+    # expect(recipes.count).to eq 10
     expect(recipes).to be_an Array
     recipes.each do |recipe|
       expect(recipe).to_not have_key(:table)
@@ -87,7 +87,7 @@ RSpec.describe 'Recipe Resquest', :vcr do
     response_body = JSON.parse(response.body, symbolize_names: true)
     recipes = response_body[:data]
 
-    expect(recipes.count).to eq 10
+    # expect(recipes.count).to eq 10
     expect(recipes).to be_an Array
     recipes.each do |recipe|
       expect(recipe).to_not have_key(:table)
@@ -114,18 +114,17 @@ RSpec.describe 'Recipe Resquest', :vcr do
     expect(response).to be_successful
     response_body = JSON.parse(response.body, symbolize_names: true)
 
-    expect(response_body).to eq({:data=>[]})
+    expect(response_body).to eq({:data=>['message', 'No recipes for Sao Tome and Principe']})
   end
 
-  # it 'returns empty data when no recipes for valid country' do
-  #   allow(CountryService).to receive(:get_country).and_return('Sao Tome and Principe')
-  #   country = 'Sao Tome and Principe'
-  #
-  #   get "/api/v1/recipes?country=#{country}"
-  #
-  #   expect(response).to be_successful
-  #   response_body = JSON.parse(response.body, symbolize_names: true)
-  #
-  #   expect(response_body).to eq({:data=>[]})
-  # end
+  it 'returns empty data when no recipes for valid country' do
+    country = 'Guinea-Bissau'
+
+    get "/api/v1/recipes?country=#{country}"
+
+    expect(response).to be_successful
+    response_body = JSON.parse(response.body, symbolize_names: true)
+
+    expect(response_body).to eq({:data=>['message', 'No recipes for Guinea-Bissau']})
+  end
 end

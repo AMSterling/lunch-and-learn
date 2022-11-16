@@ -3,8 +3,8 @@ class RecipeFacade
     random_country = CountryService.get_random_country
     @recipes = RecipeService.get_recipe_by_country(@country = random_country)
       if !@recipes.present?
-        []
-      else
+        [:message, "No recipes for #{random_country}"]
+      elsif @recipes.present?
         recipe_details
       end
   end
@@ -21,7 +21,7 @@ class RecipeFacade
         valid_country = country_result[:name][:common].parameterize(preserve_case: true, separator: ' ')
         @recipes = RecipeService.get_recipe_by_country(@country = valid_country)
           if !@recipes.present?
-            []
+            [:message, "No recipes for #{valid_country}"]
           else
             recipe_details
           end
