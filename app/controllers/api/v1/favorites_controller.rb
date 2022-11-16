@@ -5,7 +5,7 @@ class Api::V1::FavoritesController < ApplicationController
       favorites = user.favorites
       render json: FavoriteSerializer.new(favorites), status: 200
     else
-      render json: { errors: 'param missing' }, status: 400
+      render json: { errors: 'Missing parameter' }, status: 400
     end
   end
 
@@ -15,9 +15,9 @@ class Api::V1::FavoritesController < ApplicationController
       new_favorite = Favorite.new(favorite_params)
       new_favorite.user_id = user.id
       new_favorite.save
-      render json: {success: 'Favorite added successfully' }, status: 201
+      render json: { success: 'Favorite added successfully' }, status: 201
     else
-      render json: { errors: 'param missing or api key invalid' }, status: 400
+      render json: { errors: 'Missing parameter or invalid API key' }, status: 400
     end
   end
 

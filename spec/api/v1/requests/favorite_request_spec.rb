@@ -19,13 +19,13 @@ RSpec.describe 'Favorite Request' do
     response_body = JSON.parse(response.body, symbolize_names: true)
     created_favorite = Favorite.last
 
-    expect(response_body).to eq({:success=>"Favorite added successfully"})
+    expect(response_body).to eq({ :success=>'Favorite added successfully' })
   end
 
   it 'retrieves the user favorites' do
     favorite_params = ({
       api_key: user.api_key,
-      country: 'thailand',
+      country: 'Thailand',
       recipe_link: 'https://www.tastingtable.com/.....',
       recipe_title: 'Crab Fried Rice (Khaao Pad Bpu)'
       })
@@ -48,7 +48,7 @@ RSpec.describe 'Favorite Request' do
       expect(favorite[:type]).to eq('favorite')
       expect(favorite[:attributes].keys).to eq([:country, :recipe_link, :recipe_title, :created_at])
       expect(favorite[:attributes][:country]).to be_a String
-      expect(favorite[:attributes][:country]).to eq('thailand')
+      expect(favorite[:attributes][:country]).to eq('Thailand')
       expect(favorite[:attributes][:recipe_link]).to be_a String
       expect(favorite[:attributes][:recipe_link]).to eq('https://www.tastingtable.com/.....')
       expect(favorite[:attributes][:recipe_title]).to be_a String
@@ -72,7 +72,8 @@ RSpec.describe 'Favorite Request' do
     response_body = JSON.parse(response.body, symbolize_names: true)
 
     expect(response).to have_http_status(400)
-    expect(response.body).to include('param missing or api key invalid')
+    expect(response.body).to include('Missing parameter or invalid API key')
+    expect(response.body).to eq("{\"errors\":\"Missing parameter or invalid API key\"}")
   end
 
   it 'cannot get favorites if api_key is missing or invalid' do
@@ -89,6 +90,7 @@ RSpec.describe 'Favorite Request' do
     response_body = JSON.parse(response.body, symbolize_names: true)
 
     expect(response).to have_http_status(400)
-    expect(response.body).to include('param missing')
+    expect(response.body).to include('Missing parameter')
+    expect(response.body).to eq("{\"errors\":\"Missing parameter\"}")
   end
 end
