@@ -204,11 +204,6 @@ Happy path endpoints to use in Postman running a local server `rails s`
   /api/v1/favorites
   ```
 
-  DELETE a favorite from user passing 'api_key: <user_api_key>, favorite_id: <favorite.id>' as JSON in request body
-  ```
-  /api/v1/favorites
-  ```
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
