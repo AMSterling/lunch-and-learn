@@ -10,6 +10,7 @@ RSpec.describe RecipeFacade, :vcr do
       expect(recipe[:id]).to be_nil
       expect(recipe[:type]).to eq('recipe')
       expect(recipe[:attributes]).to be_a Hash
+      expect(recipe[:attributes]).to_not have_key(:id)
       expect(recipe[:attributes]).to_not have_key(:uri)
       expect(recipe[:attributes]).to_not have_key(:label)
       expect(recipe[:attributes]).to_not have_key(:images)
@@ -55,6 +56,7 @@ RSpec.describe RecipeFacade, :vcr do
       expect(recipe[:id]).to be_nil
       expect(recipe[:type]).to eq('recipe')
       expect(recipe[:attributes]).to be_a Hash
+      expect(recipe[:attributes]).to_not have_key(:id)
       expect(recipe[:attributes]).to_not have_key(:uri)
       expect(recipe[:attributes]).to_not have_key(:label)
       expect(recipe[:attributes]).to_not have_key(:images)

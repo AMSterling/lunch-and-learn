@@ -21,6 +21,7 @@ RSpec.describe LearningResourceFacade, :vcr do
     resources.attributes[:images].each do |image|
       expect(image.keys).to eq([:alt_tag, :url])
       expect(image).to_not have_key(:id)
+      expect(image.values).to be_all String
       expect(image[:alt_tag]).to be_a String
       expect(image[:url]).to be_a String
     end

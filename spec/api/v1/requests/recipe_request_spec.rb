@@ -17,7 +17,9 @@ RSpec.describe 'Recipe Resquest', :vcr do
       expect(recipe.keys).to eq([:id, :type, :attributes])
       expect(recipe[:id]).to eq nil
       expect(recipe[:type]).to eq('recipe')
+      expect(recipe[:attributes]).to_not have_key(:id)
       expect(recipe[:attributes].keys).to eq([:title, :url, :country, :image])
+      expect(recipe[:attributes].values).to be_all String
       recipe[:attributes].values.each do |value|
         expect(value).to be_a String
       end
@@ -64,7 +66,9 @@ RSpec.describe 'Recipe Resquest', :vcr do
       expect(recipe.keys).to eq([:id, :type, :attributes])
       expect(recipe[:id]).to eq nil
       expect(recipe[:type]).to eq('recipe')
+      expect(recipe[:attributes]).to_not have_key(:id)
       expect(recipe[:attributes].keys).to eq([:title, :url, :country, :image])
+      expect(recipe[:attributes].values).to be_all String
       recipe[:attributes].values.each do |value|
         expect(value).to be_a String
       end
@@ -90,7 +94,9 @@ RSpec.describe 'Recipe Resquest', :vcr do
       expect(recipe.keys).to eq([:id, :type, :attributes])
       expect(recipe[:id]).to eq nil
       expect(recipe[:type]).to eq('recipe')
+      expect(recipe[:attributes]).to_not have_key(:id)
       expect(recipe[:attributes].keys).to eq([:title, :url, :country, :image])
+      expect(recipe[:attributes].values).to be_all String
       recipe[:attributes].values.each do |value|
         expect(value).to be_a String
       end

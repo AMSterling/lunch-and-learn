@@ -23,16 +23,16 @@ RSpec.describe 'User Requests' do
     expect(response_body[:data]).to have_key(:type)
     expect(response_body[:data][:type]).to eq('user')
     expect(response_body[:data]).to have_key(:attributes)
-    expect(response_body[:data][:attributes]).to have_key(:name)
-    expect(response_body[:data][:attributes][:name]).to eq(created_user.name)
-    expect(response_body[:data][:attributes]).to have_key(:email)
-    expect(response_body[:data][:attributes][:email]).to eq(created_user.email)
+    expect(response_body[:data][:attributes].keys).to eq([:name, :email, :api_key])
+    expect(response_body[:data][:attributes].values).to be_all String
+    expect(response_body[:data][:attributes]).to_not have_key(:id)
     expect(response_body[:data][:attributes]).to_not have_key(:password)
     expect(response_body[:data][:attributes]).to_not have_key(:password_confirmation)
+    expect(response_body[:data][:attributes][:name]).to eq(created_user.name)
+    expect(response_body[:data][:attributes][:email]).to eq(created_user.email)
+    expect(response_body[:data][:attributes][:api_key]).to eq(created_user.api_key)
     expect(created_user.name).to eq(user_params[:name])
     expect(created_user.email).to eq(user_params[:email])
-    expect(response_body[:data][:attributes]).to have_key(:api_key)
-    expect(response_body[:data][:attributes][:api_key]).to be_a String
     expect(created_user.password_digest).to be_a String
     expect(created_user.api_key).to be_a String
   end
@@ -77,6 +77,6 @@ RSpec.describe 'User Requests' do
     post '/api/v1/users', headers: headers, params: JSON.generate(new_user_params)
 
     expect(response).to have_http_status(422)
-    expect(response.body).to include('Email has already been taken')
+    expect(response.body).to eq('Email has already been taken')
   end
 end
