@@ -57,4 +57,38 @@ RSpec.describe 'Favorite Request' do
       expect(favorite[:attributes]).to_not have_key(:updated_at)
     end
   end
+
+  it 'cannot create favorite if api_key is missing or invalid' do
+    favorite_params = ({
+      country: 'thailand',
+      recipe_link: 'https://www.tastingtable.com/.....',
+      recipe_title: 'Crab Fried Rice (Khaao Pad Bpu)'
+      })
+
+    headers = { 'CONTENT_TYPE' => 'application/json' }
+
+    post '/api/v1/favorites', headers: headers, params: JSON.generate(favorite_params)
+
+    response_body = JSON.parse(response.body, symbolize_names: true)
+
+    expect(response).to have_http_status(400)
+    expect(response.body).to include('param missing')
+  end
+
+  it 'cannot get favorites if api_key is missing or invalid' do
+    favorite_params = ({
+      country: 'thailand',
+      recipe_link: 'https://www.tastingtable.com/.....',
+      recipe_title: 'Crab Fried Rice (Khaao Pad Bpu)'
+      })
+
+    headers = { 'CONTENT_TYPE' => 'application/json' }
+
+    get "/api/v1/favorites?api_key="
+
+    response_body = JSON.parse(response.body, symbolize_names: true)
+
+    expect(response).to have_http_status(400)
+    expect(response.body).to include('param missing')
+  end
 end
