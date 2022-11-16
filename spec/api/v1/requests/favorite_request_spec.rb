@@ -72,7 +72,7 @@ RSpec.describe 'Favorite Request' do
     response_body = JSON.parse(response.body, symbolize_names: true)
 
     expect(response).to have_http_status(400)
-    expect(response.body).to include('param missing')
+    expect(response.body).to include('param missing or api key invalid')
   end
 
   it 'cannot get favorites if api_key is missing or invalid' do
@@ -84,7 +84,7 @@ RSpec.describe 'Favorite Request' do
 
     headers = { 'CONTENT_TYPE' => 'application/json' }
 
-    get "/api/v1/favorites?api_key="
+    get '/api/v1/favorites?api_key='
 
     response_body = JSON.parse(response.body, symbolize_names: true)
 
