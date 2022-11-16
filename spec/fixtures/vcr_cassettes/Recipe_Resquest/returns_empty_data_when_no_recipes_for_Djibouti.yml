@@ -1,0 +1,93 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://restcountries.com/v3.1/name/Djibouti
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 16 Nov 2022 20:24:14 GMT
+      Server:
+      - Apache/2.4.38 (Debian)
+      Cache-Control:
+      - public, immutable, max-age=31556926
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1251'
+    body:
+      encoding: UTF-8
+      string: '[{"name":{"common":"Djibouti","official":"Republic of Djibouti","nativeName":{"ara":{"official":"جمهورية
+        جيبوتي","common":"جيبوتي‎"},"fra":{"official":"République de Djibouti","common":"Djibouti"}}},"tld":[".dj"],"cca2":"DJ","ccn3":"262","cca3":"DJI","cioc":"DJI","independent":true,"status":"officially-assigned","unMember":true,"currencies":{"DJF":{"name":"Djiboutian
+        franc","symbol":"Fr"}},"idd":{"root":"+2","suffixes":["53"]},"capital":["Djibouti"],"altSpellings":["DJ","Jabuuti","Gabuuti","Republic
+        of Djibouti","République de Djibouti","Gabuutih Ummuuno","Jamhuuriyadda Jabuuti"],"region":"Africa","subregion":"Eastern
+        Africa","languages":{"ara":"Arabic","fra":"French"},"translations":{"ara":{"official":"جمهورية
+        جيبوتي","common":"جيبوتي"},"bre":{"official":"Republik Djibouti","common":"Djibouti"},"ces":{"official":"Džibutská
+        republika","common":"Džibutsko"},"cym":{"official":"Gweriniaeth Jibwti","common":"Jibwti"},"deu":{"official":"Republik
+        Dschibuti","common":"Dschibuti"},"est":{"official":"Djibouti Vabariik","common":"Djibouti"},"fin":{"official":"Dijiboutin
+        tasavalta","common":"Dijibouti"},"fra":{"official":"République de Djibouti","common":"Djibouti"},"hrv":{"official":"Republika
+        Džibuti","common":"Džibuti"},"hun":{"official":"Dzsibuti Köztársaság","common":"Dzsibuti"},"ita":{"official":"Repubblica
+        di Gibuti","common":"Gibuti"},"jpn":{"official":"ジブチ共和国","common":"ジブチ"},"kor":{"official":"지부티
+        공화국","common":"지부티"},"nld":{"official":"Republiek Djibouti","common":"Djibouti"},"per":{"official":"جمهوری
+        جیبوتی","common":"جیبوتی"},"pol":{"official":"Republika Dżibuti","common":"Dżibuti"},"por":{"official":"República
+        do Djibouti","common":"Djibouti"},"rus":{"official":"Республика Джибути","common":"Джибути"},"slk":{"official":"ǅibutská
+        republika","common":"ǅibutsko"},"spa":{"official":"República de Djibouti","common":"Djibouti"},"swe":{"official":"Republiken
+        Djibouti","common":"Djibouti"},"tur":{"official":"Cibuti Cumhuriyeti","common":"Cibuti"},"urd":{"official":"جمہوریہ
+        جبوتی","common":"جبوتی"},"zho":{"official":"吉布提共和国","common":"吉布提"}},"latlng":[11.5,43.0],"landlocked":false,"borders":["ERI","ETH","SOM"],"area":23200.0,"demonyms":{"eng":{"f":"Djibouti","m":"Djibouti"},"fra":{"f":"Djiboutienne","m":"Djiboutien"}},"flag":"\uD83C\uDDE9\uD83C\uDDEF","maps":{"googleMaps":"https://goo.gl/maps/V1HWfzN3bS1kwf4C6","openStreetMaps":"https://www.openstreetmap.org/relation/192801"},"population":988002,"gini":{"2017":41.6},"fifa":"DJI","car":{"signs":["DJI"],"side":"right"},"timezones":["UTC+03:00"],"continents":["Africa"],"flags":{"png":"https://flagcdn.com/w320/dj.png","svg":"https://flagcdn.com/dj.svg"},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/dj.png","svg":"https://mainfacts.com/media/images/coats_of_arms/dj.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[11.58,43.15]}}]'
+  recorded_at: Wed, 16 Nov 2022 20:24:14 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=Djibouti&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 16 Nov 2022 20:24:15 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-10.ec2.internal/10.0.1.10
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - c34247910f6ba6e2229438b428e4ce14
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Wed, 16 Nov 2022 20:24:15 GMT
+recorded_with: VCR 6.1.0
