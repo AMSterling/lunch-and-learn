@@ -72,6 +72,7 @@ RSpec.describe RecipeFacade, :vcr do
       recipe[:attributes].values.each do |value|
         expect(value).to be_a String
       end
+      expect(recipe[:attributes][:country]).to eq('Russia')
     end
   end
 

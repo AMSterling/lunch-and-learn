@@ -101,8 +101,6 @@ RSpec.describe 'Recipe Resquest', :vcr do
   it 'returns empty data when no recipes for randomized country' do
     allow(CountryService).to receive(:get_random_country).and_return('Sao Tome and Principe')
     random = CountryService.get_random_country
-    # allow(RecipeService).to receive(:get_recipe_by_country).with(random)
-    # RecipeService.get_recipe_by_country(random)
     RecipeFacade.randomized
 
     get "/api/v1/recipes?"
