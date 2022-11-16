@@ -58,7 +58,7 @@ RSpec.describe 'Favorite Request' do
     end
   end
 
-  it 'cannot create favorite if api_key is missing or invalid' do
+  it 'cannot create favorite if api_key is missing' do
     favorite_params = ({
       country: 'thailand',
       recipe_link: 'https://www.tastingtable.com/.....',
@@ -76,7 +76,26 @@ RSpec.describe 'Favorite Request' do
     expect(response_body).to eq({ :errors=>'Missing parameter or invalid API key' })
   end
 
-  it 'cannot get favorites if api_key is missing or invalid' do
+  it 'cannot create favorite if api_key is invalid' do
+    favorite_params = ({
+      api_key: '150165',
+      country: 'thailand',
+      recipe_link: 'https://www.tastingtable.com/.....',
+      recipe_title: 'Crab Fried Rice (Khaao Pad Bpu)'
+      })
+
+    headers = { 'CONTENT_TYPE' => 'application/json' }
+
+    post '/api/v1/favorites', headers: headers, params: JSON.generate(favorite_params)
+
+    response_body = JSON.parse(response.body, symbolize_names: true)
+
+    expect(response).to have_http_status(400)
+    expect(response.body).to include('Missing parameter or invalid API key')
+    expect(response_body).to eq({ :errors=>'Missing parameter or invalid API key' })
+  end
+
+  it 'cannot get favorites if api_key is missing' do
     favorite_params = ({
       country: 'thailand',
       recipe_link: 'https://www.tastingtable.com/.....',
@@ -92,5 +111,23 @@ RSpec.describe 'Favorite Request' do
     expect(response).to have_http_status(400)
     expect(response.body).to include('Missing parameter')
     expect(response_body).to eq({ :errors=>'Missing parameter' })
+  end
+
+  it 'cannot get favorites if api_key is invalid' do
+    favorite_params = ({
+      country: 'thailand',
+      recipe_link: 'https://www.tastingtable.com/.....',
+      recipe_title: 'Crab Fried Rice (Khaao Pad Bpu)'
+      })
+
+    headers = { 'CONTENT_TYPE' => 'application/json' }
+
+    get '/api/v1/favorites?api_key=150165'
+
+    response_body = JSON.parse(response.body, symbolize_names: true)
+
+    expect(response).to have_http_status(400)
+    expect(response.body).to include('Missing parameter or invalid API key')
+    expect(response_body).to eq({ :errors=>'Missing parameter or invalid API key' })
   end
 end
