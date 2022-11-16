@@ -25,6 +25,7 @@ RSpec.describe RecipeFacade, :vcr do
       expect(recipe[:attributes]).to_not have_key(:totalDaily)
       expect(recipe[:attributes]).to_not have_key(:digest)
       expect(recipe[:attributes].keys).to eq([:title, :url, :country, :image])
+      expect(recipe[:attributes].values).to be_all String
       recipe[:attributes].values.each do |value|
         expect(value).to be_a String
       end
@@ -69,16 +70,16 @@ RSpec.describe RecipeFacade, :vcr do
       expect(recipe[:attributes]).to_not have_key(:totalDaily)
       expect(recipe[:attributes]).to_not have_key(:digest)
       expect(recipe[:attributes].keys).to eq([:title, :url, :country, :image])
+      expect(recipe[:attributes].values).to be_all String
+      expect(recipe[:attributes][:country]).to eq('Russia')
       recipe[:attributes].values.each do |value|
         expect(value).to be_a String
       end
-      expect(recipe[:attributes][:country]).to eq('Russia')
     end
   end
 
   it 'returns empty array if there are no recipes for the country' do
     allow(CountryService).to receive(:get_random_country).and_return('Sao Tome and Principe')
-
     recipes = RecipeFacade.randomized
 
     expect(recipes).to be_an Array

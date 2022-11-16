@@ -73,7 +73,7 @@ RSpec.describe 'Favorite Request' do
 
     expect(response).to have_http_status(400)
     expect(response.body).to include('Missing parameter or invalid API key')
-    expect(response.body).to eq("{\"errors\":\"Missing parameter or invalid API key\"}")
+    expect(response_body).to eq({ :errors=>'Missing parameter or invalid API key' })
   end
 
   it 'cannot get favorites if api_key is missing or invalid' do
@@ -91,6 +91,6 @@ RSpec.describe 'Favorite Request' do
 
     expect(response).to have_http_status(400)
     expect(response.body).to include('Missing parameter')
-    expect(response.body).to eq("{\"errors\":\"Missing parameter\"}")
+    expect(response_body).to eq({ :errors=>'Missing parameter' })
   end
 end
