@@ -64,11 +64,11 @@
 
 ### Built With
 
-[![Rails][Rails.org]][Rails-url]
-[![Ruby][Ruby]][Ruby-url]
-[![RSpec][RSpec]][RSpec-url]
-[![Atom][Atom]][Atom-url]
-[![PostgreSQL][PostgreSQL]][PostgreSQL-url]
+* [![Rails][Rails]][Rails-url]
+* [![Ruby][Ruby]][Ruby-url]
+* [![RSpec][RSpec]][RSpec-url]
+* [![Atom][Atom]][Atom-url]
+* [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
