@@ -18,7 +18,7 @@ class RecipeFacade
       elsif country_result == [:status, 404]
         []
       else
-        valid_country = country_result[:name][:common].parameterize(preserve_case: true)
+        valid_country = country_result[:name][:common].parameterize(preserve_case: true, separator: ' ')
         @recipes = RecipeService.get_recipe_by_country(@country = valid_country)
           if !@recipes.present?
             []
