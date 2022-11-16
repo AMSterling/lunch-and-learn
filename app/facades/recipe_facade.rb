@@ -27,7 +27,7 @@ class RecipeFacade
           end
       end
     else
-      self.randomized
+      randomized
     end
   end
 

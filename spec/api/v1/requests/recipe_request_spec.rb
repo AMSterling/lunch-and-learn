@@ -127,4 +127,26 @@ RSpec.describe 'Recipe Resquest', :vcr do
 
     expect(response_body).to eq({:data=>['message', 'No recipes for Guinea-Bissau']})
   end
+
+  it 'returns empty data when no recipes for valid country' do
+    country = 'Kyrgyzstan'
+
+    get "/api/v1/recipes?country=#{country}"
+
+    expect(response).to be_successful
+    response_body = JSON.parse(response.body, symbolize_names: true)
+
+    expect(response_body).to eq({:data=>['message', 'No recipes for Kyrgyzstan']})
+  end
+
+  it 'returns empty data when no recipes for valid country' do
+    country = 'Djibouti'
+
+    get "/api/v1/recipes?country=#{country}"
+
+    expect(response).to be_successful
+    response_body = JSON.parse(response.body, symbolize_names: true)
+
+    expect(response_body).to eq({:data=>['message', 'No recipes for Djibouti']})
+  end
 end

@@ -1239,4 +1239,183 @@ http_interactions:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
   recorded_at: Wed, 16 Nov 2022 19:58:34 GMT
+- request:
+    method: get
+    uri: https://restcountries.com/v3.1/name/Kyrgyzstan
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 16 Nov 2022 20:11:56 GMT
+      Server:
+      - Apache/2.4.38 (Debian)
+      Cache-Control:
+      - public, immutable, max-age=31556926
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1381'
+    body:
+      encoding: UTF-8
+      string: '[{"name":{"common":"Kyrgyzstan","official":"Kyrgyz Republic","nativeName":{"kir":{"official":"Кыргыз
+        Республикасы","common":"Кыргызстан"},"rus":{"official":"Кыргызская Республика","common":"Киргизия"}}},"tld":[".kg"],"cca2":"KG","ccn3":"417","cca3":"KGZ","cioc":"KGZ","independent":true,"status":"officially-assigned","unMember":true,"currencies":{"KGS":{"name":"Kyrgyzstani
+        som","symbol":"с"}},"idd":{"root":"+9","suffixes":["96"]},"capital":["Bishkek"],"altSpellings":["KG","Киргизия","Kyrgyz
+        Republic","Кыргыз Республикасы","Kyrgyz Respublikasy"],"region":"Asia","subregion":"Central
+        Asia","languages":{"kir":"Kyrgyz","rus":"Russian"},"translations":{"ara":{"official":"الجمهورية
+        القيرغيزية","common":"قيرغيزستان"},"bre":{"official":"Republik Kirgiz","common":"Kirgizstan"},"ces":{"official":"Kyrgyzská
+        republika","common":"Kyrgyzstán"},"cym":{"official":"Kyrgyz Republic","common":"Kyrgyzstan"},"deu":{"official":"Kirgisische
+        Republik","common":"Kirgisistan"},"est":{"official":"Kirgiisi Vabariik","common":"Kõrgõzstan"},"fin":{"official":"Kirgisian
+        tasavalta","common":"Kirgisia"},"fra":{"official":"République kirghize","common":"Kirghizistan"},"hrv":{"official":"Kirgistanu","common":"Kirgistan"},"hun":{"official":"Kirgiz
+        Köztársaság","common":"Kirgizisztán"},"ita":{"official":"Kirghizistan","common":"Kirghizistan"},"jpn":{"official":"キルギス共和国","common":"キルギス"},"kor":{"official":"키르기스
+        공화국","common":"키르기스스탄"},"nld":{"official":"Kirgizische Republiek","common":"Kirgizië"},"per":{"official":"جمهوری
+        قِرقیزستان","common":"قرقیزستان"},"pol":{"official":"Republika Kirgiska","common":"Kirgistan"},"por":{"official":"República
+        do Quirguistão","common":"Quirguistão"},"rus":{"official":"Кыргызская Республика","common":"Киргизия"},"slk":{"official":"Kirgizská
+        republika","common":"Kirgizsko"},"spa":{"official":"República Kirguisa","common":"Kirguizistán"},"swe":{"official":"Republiken
+        Kirgizistan","common":"Kirgizistan"},"tur":{"official":"Kırgızistan Cumhuriyeti","common":"Kırgızistan"},"urd":{"official":"جمہوریہ
+        کرغیزستان","common":"کرغیزستان"},"zho":{"official":"吉尔吉斯斯坦共和国","common":"吉尔吉斯斯坦"}},"latlng":[41.0,75.0],"landlocked":true,"borders":["CHN","KAZ","TJK","UZB"],"area":199951.0,"demonyms":{"eng":{"f":"Kirghiz","m":"Kirghiz"},"fra":{"f":"Kirghize","m":"Kirghize"}},"flag":"\uD83C\uDDF0\uD83C\uDDEC","maps":{"googleMaps":"https://goo.gl/maps/SKG8BSMMQVvxkRkB7","openStreetMaps":"https://www.openstreetmap.org/relation/178009"},"population":6591600,"gini":{"2019":29.7},"fifa":"KGZ","car":{"signs":["KS"],"side":"right"},"timezones":["UTC+06:00"],"continents":["Asia"],"flags":{"png":"https://flagcdn.com/w320/kg.png","svg":"https://flagcdn.com/kg.svg"},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/kg.png","svg":"https://mainfacts.com/media/images/coats_of_arms/kg.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[42.87,74.6]},"postalCode":{"format":"######","regex":"^(\\d{6})$"}}]'
+  recorded_at: Wed, 16 Nov 2022 20:11:56 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=Kyrgyzstan&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 429
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 16 Nov 2022 20:11:57 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-10.ec2.internal/10.0.1.10
+      Vary:
+      - accept-encoding
+      Strict-Transport-Security:
+      - max-age=15552001
+    body:
+      encoding: UTF-8
+      string: '{"status":"error","message":"Usage limits are exceeded"}'
+  recorded_at: Wed, 16 Nov 2022 20:11:57 GMT
+- request:
+    method: get
+    uri: https://restcountries.com/v3.1/name/Djibouti
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 16 Nov 2022 20:11:57 GMT
+      Server:
+      - Apache/2.4.38 (Debian)
+      Cache-Control:
+      - public, immutable, max-age=31556926
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1251'
+    body:
+      encoding: UTF-8
+      string: '[{"name":{"common":"Djibouti","official":"Republic of Djibouti","nativeName":{"ara":{"official":"جمهورية
+        جيبوتي","common":"جيبوتي‎"},"fra":{"official":"République de Djibouti","common":"Djibouti"}}},"tld":[".dj"],"cca2":"DJ","ccn3":"262","cca3":"DJI","cioc":"DJI","independent":true,"status":"officially-assigned","unMember":true,"currencies":{"DJF":{"name":"Djiboutian
+        franc","symbol":"Fr"}},"idd":{"root":"+2","suffixes":["53"]},"capital":["Djibouti"],"altSpellings":["DJ","Jabuuti","Gabuuti","Republic
+        of Djibouti","République de Djibouti","Gabuutih Ummuuno","Jamhuuriyadda Jabuuti"],"region":"Africa","subregion":"Eastern
+        Africa","languages":{"ara":"Arabic","fra":"French"},"translations":{"ara":{"official":"جمهورية
+        جيبوتي","common":"جيبوتي"},"bre":{"official":"Republik Djibouti","common":"Djibouti"},"ces":{"official":"Džibutská
+        republika","common":"Džibutsko"},"cym":{"official":"Gweriniaeth Jibwti","common":"Jibwti"},"deu":{"official":"Republik
+        Dschibuti","common":"Dschibuti"},"est":{"official":"Djibouti Vabariik","common":"Djibouti"},"fin":{"official":"Dijiboutin
+        tasavalta","common":"Dijibouti"},"fra":{"official":"République de Djibouti","common":"Djibouti"},"hrv":{"official":"Republika
+        Džibuti","common":"Džibuti"},"hun":{"official":"Dzsibuti Köztársaság","common":"Dzsibuti"},"ita":{"official":"Repubblica
+        di Gibuti","common":"Gibuti"},"jpn":{"official":"ジブチ共和国","common":"ジブチ"},"kor":{"official":"지부티
+        공화국","common":"지부티"},"nld":{"official":"Republiek Djibouti","common":"Djibouti"},"per":{"official":"جمهوری
+        جیبوتی","common":"جیبوتی"},"pol":{"official":"Republika Dżibuti","common":"Dżibuti"},"por":{"official":"República
+        do Djibouti","common":"Djibouti"},"rus":{"official":"Республика Джибути","common":"Джибути"},"slk":{"official":"ǅibutská
+        republika","common":"ǅibutsko"},"spa":{"official":"República de Djibouti","common":"Djibouti"},"swe":{"official":"Republiken
+        Djibouti","common":"Djibouti"},"tur":{"official":"Cibuti Cumhuriyeti","common":"Cibuti"},"urd":{"official":"جمہوریہ
+        جبوتی","common":"جبوتی"},"zho":{"official":"吉布提共和国","common":"吉布提"}},"latlng":[11.5,43.0],"landlocked":false,"borders":["ERI","ETH","SOM"],"area":23200.0,"demonyms":{"eng":{"f":"Djibouti","m":"Djibouti"},"fra":{"f":"Djiboutienne","m":"Djiboutien"}},"flag":"\uD83C\uDDE9\uD83C\uDDEF","maps":{"googleMaps":"https://goo.gl/maps/V1HWfzN3bS1kwf4C6","openStreetMaps":"https://www.openstreetmap.org/relation/192801"},"population":988002,"gini":{"2017":41.6},"fifa":"DJI","car":{"signs":["DJI"],"side":"right"},"timezones":["UTC+03:00"],"continents":["Africa"],"flags":{"png":"https://flagcdn.com/w320/dj.png","svg":"https://flagcdn.com/dj.svg"},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/dj.png","svg":"https://mainfacts.com/media/images/coats_of_arms/dj.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[11.58,43.15]}}]'
+  recorded_at: Wed, 16 Nov 2022 20:11:57 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=Djibouti&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 429
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 16 Nov 2022 20:11:57 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-87.ec2.internal/10.0.1.87
+      Vary:
+      - accept-encoding
+      Strict-Transport-Security:
+      - max-age=15552001
+    body:
+      encoding: UTF-8
+      string: '{"status":"error","message":"Usage limits are exceeded"}'
+  recorded_at: Wed, 16 Nov 2022 20:11:57 GMT
 recorded_with: VCR 6.1.0
