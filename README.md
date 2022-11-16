@@ -77,9 +77,20 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
+Follow installation instructions below. Push to your preferred production server or in your terminal run 
+  ```sh 
+  rails server
+  ``` 
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
 ### Prerequisites
 
-This README makes the assumption that rails is currently active on local machine.
+This is an example of how to list things you need to use the software and how to install them.
+* ruby
+  ```sh
+  rbenv install 2.7.4
+  gem install rails --version 5.2.8
+  ```
 ### Installation
 
 1. Clone the repo
