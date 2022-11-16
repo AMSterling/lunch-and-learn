@@ -5,7 +5,7 @@ Rails.application.routes.draw do
       resources :recipes, only: %i[index]
       resources :learning_resources, only: %i[index]
       resources :users, only: %i[create]
-      resources :api_keys, path: 'api-keys', only: %i[index create destroy]
+      resources :favorites, only: %i[index create]
     end
   end
 end
