@@ -146,17 +146,17 @@ This is an example of how to list things you need to use the software and how to
 
 [bcrypt][bcrypt-docs]
 
-[faraday](https://lostisland.github.io/faraday/)
-
-[figaro](https://github.com/laserlemon/figaro)
-
-[jsonapi-serializer](https://github.com/jsonapi-serializer/jsonapi-serializer)
-
 [capybara](https://github.com/teamcapybara/capybara)
 
 [factory_bot_rails](https://github.com/thoughtbot/factory_bot_rails)
 
 [faker](https://github.com/faker-ruby/faker)
+
+[faraday](https://lostisland.github.io/faraday/)
+
+[figaro](https://github.com/laserlemon/figaro)
+
+[jsonapi-serializer](https://github.com/jsonapi-serializer/jsonapi-serializer)
 
 [pry](https://github.com/pry/pry)
 
