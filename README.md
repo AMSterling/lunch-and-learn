@@ -69,6 +69,7 @@
 * [![RSpec][RSpec]][RSpec-url]
 * [![Atom][Atom]][Atom-url]
 * [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
+* [![Postman][Postman]][Postman-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -244,5 +245,8 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 
 [PostgreSQL]: https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white
 [PostgreSQL-url]: https://www.postgresql.org/
+
+[Postman]: https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white
+[Postman-url]: https://web.postman.co/
 
 [bcrypt-docs]: https://github.com/bcrypt-ruby/bcrypt-ruby
