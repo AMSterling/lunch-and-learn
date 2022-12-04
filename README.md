@@ -148,7 +148,7 @@ This is an example of how to list things you need to use the software and how to
 
 [faraday](https://lostisland.github.io/faraday/)
 
-[Figaro](https://github.com/laserlemon/figaro)
+[figaro](https://github.com/laserlemon/figaro)
 
 [jsonapi-serializer](https://github.com/jsonapi-serializer/jsonapi-serializer)
 
