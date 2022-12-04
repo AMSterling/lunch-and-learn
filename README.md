@@ -12,7 +12,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-  <h2 align="center">Lunch and Learn</h2>
+  <h1 align="center">Lunch and Learn</h1>
 
   <p align="center">
     The Backend portion of a Service Oriented Architecture application to provide a frontend with API endpoints to consume
