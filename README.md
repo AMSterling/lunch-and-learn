@@ -384,6 +384,8 @@ POST /api/v1/user
   DELETE '/api/v1/favorites'
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Tourist Sights
 
 ```sh
