@@ -33,7 +33,18 @@ Backend SOA application to search for cuisines by country and provide opportunit
       </ul>
     </li>
     <li><a href="#gem-documentation">Gem Documentation</a></li>
-    <li><a href="#usage">Usage</a></li>
+    <li>
+      <a href="#endpoints">Endpoints</a>
+      <ul>
+        <li><a href="#recipes">Recipes</a></li>
+        <li><a href="#country-missing">Country Missing</a></li>
+        <li><a href="#learning-resources">Learning Resources</a></li>
+        <li><a href="#create-user">Create User</a></li>
+        <li><a href="#add-favorite">Add Favorite</a></li>
+        <li><a href="#get-favorites">Get Favorites</a></li>
+        <li><a href="#delete-favorite">Delete Favorite</a></li>
+      </ul>
+    </li>  
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -124,25 +135,26 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Usage
+## Endpoints
 
-Happy path endpoints to use in Postman running a local server `rails s`
+Endpoints to use in Postman running a local server `rails s`
 
-Recipes for a random country cuisine
+### Recipes
 
-  ```
+#### Random Country
+```sh
   GET '/api/v1/recipes'
-  ```
+```
 
-  or select a country
+#### Selected Country
 
-  ```
+```sh
   GET '/api/v1/recipes?country=thailand'
-  ```
+```
 
 **Sample Response**
 
-  ```
+```sh
 {
     "data": [
         {
@@ -171,37 +183,43 @@ Recipes for a random country cuisine
         {etc},
     ]
 }
-  ```
+```
 
-Country missing from endpoint
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-  ```
+#### Country Missing
+
+```sh
   GET '/api/v1/recipes?country='
-  ```
+```
 
-**Sample Response**
+**Sample Response(country missing from endpoint)**
 
-  ```
+```sh
   {
     "data": []
   }
-  ```
+```
 
-Video and pictures from a random country
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-  ```
+### Learning Resources
+
+#### Random Country
+
+```sh
   GET  '/api/v1/learning_resources'
-  ```
+```
 
-  or select a country
+  #### or select a country
 
-  ```
+```sh
   GET '/api/v1/learning_resources?country=<country of your choice as parameter>'
-  ```
+```
 
 **Sample Response**
 
-  ```
+```sh
 {
     "data": {
         "id": null,
@@ -233,11 +251,11 @@ Video and pictures from a random country
         }
     }
 }
-  ```
+```
 
 **Sample Response(no video or images found)**
 
-  ```
+```sh
 {
   "data": {
       "id": null,
@@ -249,26 +267,28 @@ Video and pictures from a random country
       }
   }
 }
-  ```
-
-Create User
-
 ```
-POST /api/v1/user
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Create User
+
+```sh
+  POST /api/v1/user
 ```
 
 **Sample Body**
 
-  ```
+```sh
  {
    "name": "Athena Dao",
    "email": "athenadao@bestgirlever.com"
  }
-  ```
+```
 
 **Sample Response**
 
-  ```
+```sh
   {
     "data": {
       "type": "user",
@@ -280,18 +300,19 @@ POST /api/v1/user
       }
     }
   }
-  ```
+```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Add favorite recipes for a user
+### Add Favorite
 
-  ```
+```sh
   POST '/api/v1/favorites'
-  ```
+```
 
 **Sample Body**
 
-```
+```sh
  {
     "api_key": "jgn983hy48thw9begh98h4539h4",
     "country": "thailand",
@@ -302,21 +323,23 @@ Add favorite recipes for a user
 
 **Sample Response**
 
-```
+```sh
  {
     "success": "Favorite added successfully"
  }
 ```
 
-Get favorite recipes for a user
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-  ```
+### Get Favorites
+
+```sh
   GET '/api/v1/favorites'
-  ```
+```
 
 **Sample Body**
 
-```
+```sh
  {
    "api_key": "jgn983hy48thw9begh98h4539h4"
  }
@@ -324,7 +347,7 @@ Get favorite recipes for a user
 
 **Sample Response**
 
-```
+```sh
 {
    "data": [
        {
@@ -351,12 +374,13 @@ Get favorite recipes for a user
 }    
 ```
 
-Delete a favorite recipe for a user
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-  ```
+### Delete Favorite
+
+```sh
   DELETE '/api/v1/favorites'
-  ```
-
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
