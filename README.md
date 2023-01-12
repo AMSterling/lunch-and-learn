@@ -95,7 +95,7 @@ edamam_recipe_api: 'YOUR EDAMAM KEY'
 YouTube_API: 'YOUR YOUTUBE KEY'
 Secret key: 'YOUR YOUTUBE SECRET KEY'
 
-Access_Key: 'YOUR UNSPLASH ACCESS KEY'
+Unsplash_Access_Key: 'YOUR UNSPLASH ACCESS KEY'
 
 geoapify_key: 'YOUR GEOAPIFY KEY'
 ```
