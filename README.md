@@ -160,8 +160,10 @@ Happy path endpoints to use in Postman running a local server `rails s`
 
 Tourist sights for country
 
+  ```
   GET '/api/v1/tourist_sights?country=France'
-
+  ```
+  
   **Sample Response**
 
   ```
