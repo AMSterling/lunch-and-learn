@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-  
+
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -8,10 +8,10 @@
 
 <div align="center">
 
-# Lunch and Learn
+# Lunch and Learn Final
 
 [![Rails][Rails]][Rails-url] [![Ruby][Ruby]][Ruby-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![PostgreSQL][PostgreSQL]][PostgreSQL-url] [![Postman][Postman]][Postman-url]
-  
+
 </div>
 
 ## Description
@@ -60,13 +60,13 @@ Rails:
   gem install rails --version 5.2.8
   ```
 API Keys:
-Lunch and Learn uses <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, <a href="https://www.geoapify.com/get-started-with-maps-api" rel="noopener noreferrer">Geoapify API</a>, and <a href="https://unsplash.com/developers" rel="noopener noreferrer">Unsplash API</a>
+Lunch and Learn Final uses <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, <a href="https://www.geoapify.com/get-started-with-maps-api" rel="noopener noreferrer">Geoapify API</a>, <a href="https://restcountries.com/#api-endpoints-v3" rel="noopener noreferrer">RestCountries API V.3</a>, and <a href="https://unsplash.com/developers" rel="noopener noreferrer">Unsplash API</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-  
+
 ### Installation
 
-Instructions to set up a local version of Lunch and Learn:
+Instructions to set up a local version of Lunch and Learn Final:
 
 Fork and clone the project, then install the required gems with `bundle`. A full list of gems that will be installed can be found in the [gemfile](gemfile).
 
@@ -81,13 +81,13 @@ rake db:{drop,create,migrate}
 ```
 
 Run:
-   
+
 ```sh
 bundle exec figaro install
 ```
 
 In config/application.yml add API keys:
-   
+
 ```sh
 edamam_id: 'YOUR EDAMAM ID'
 edamam_recipe_api: 'YOUR EDAMAM KEY'
@@ -100,10 +100,10 @@ Unsplash_Access_Key: 'YOUR UNSPLASH ACCESS KEY'
 geoapify_key: 'YOUR GEOAPIFY KEY'
 ```
 
-Push to your preferred production server or in your terminal run 
- ```sh 
+Push to your preferred production server or in your terminal run
+ ```sh
   rails server
- ``` 
+ ```
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -156,6 +156,48 @@ Happy path endpoints to use in Postman running a local server `rails s`
   GET favorite recipes for a user passing 'api_key: <user_api_key>' as JSON in request body
   ```
   /api/v1/favorites
+  ```
+
+Tourist sights for country
+
+  GET '/api/v1/tourist_sights?country=France'
+
+  **Sample Response**
+
+  ```
+  {
+    "data": [
+        {
+            "id": null,
+            "type": "tourist_sight",
+            "attributes": {
+                "name": "Tour de l'horloge",
+                "address": "Tour de l'horloge, Allée de l'Horloge, 23200 Aubusson, France",
+                "place_id": "51d28..."
+            }
+        },
+        {
+            "id": null,
+            "type": "tourist_sight",
+            "attributes": {
+                "name": "Le Château",
+                "address": "Le Château, D 18, 23150 Ahun, France",
+                "place_id": "51934..."
+            }
+        },
+        {
+            "id": null,
+            "type": "tourist_sight",
+            "attributes": {
+                "name": "Le Chapître",
+                "address": "Le Chapître, Rue du Chapitre, 23200 Aubusson, France",
+                "place_id": "517182..."
+            }
+        },
+        ...,
+        ...,
+    ]
+}
   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
