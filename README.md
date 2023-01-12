@@ -33,7 +33,19 @@ Backend SOA application to search for cuisines by country and provide opportunit
       </ul>
     </li>
     <li><a href="#gem-documentation">Gem Documentation</a></li>
-    <li><a href="#usage">Usage</a></li>
+    <li>
+      <a href="#endpoints">Endpoints</a>
+      <ul>
+        <li><a href="#recipes">Recipes</a></li>
+        <li><a href="#country-missing">Country Missing</a></li>
+        <li><a href="#learning-resources">Learning Resources</a></li>
+        <li><a href="#create-user">Create User</a></li>
+        <li><a href="#add-favorite">Add Favorite</a></li>
+        <li><a href="#get-favorites">Get Favorites</a></li>
+        <li><a href="#delete-favorite">Delete Favorite</a></li>
+        <li><a href="#tourist-sights">Tourist Sights</a></li>
+      </ul>
+    </li>  
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -126,17 +138,19 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Usage
+## Endpoints
 
 Happy path endpoints to use in Postman running a local server `rails s`
 
-Recipes for a random country cuisine
+### Recipes
+
+#### Random Country
 
 ```sh
   GET '/api/v1/recipes'
 ```
 
-  or select a country
+  #### or select a country
 
 ```sh
   GET '/api/v1/recipes?country=thailand'
@@ -175,7 +189,7 @@ Recipes for a random country cuisine
 }
 ```
 
-Country missing from endpoint
+### Country Missing
 
 ```sh
   GET '/api/v1/recipes?country='
@@ -189,13 +203,17 @@ Country missing from endpoint
   }
 ```
 
-Video and pictures from a random country
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Learning Resources
+
+#### Random Country
 
 ```sh
   GET  '/api/v1/learning_resources'
 ```
 
-  or select a country
+  #### or select a country
 
 ```sh
   GET '/api/v1/learning_resources?country=<country of your choice as parameter>'
@@ -253,7 +271,9 @@ Video and pictures from a random country
 }
 ```
 
-Create User
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Create User
 
 ```sh
 POST /api/v1/user
@@ -284,8 +304,9 @@ POST /api/v1/user
   }
 ```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Add favorite recipes for a user
+### Add Favorite
 
 ```sh
   POST '/api/v1/favorites'
@@ -310,7 +331,9 @@ Add favorite recipes for a user
  }
 ```
 
-Get favorite recipes for a user
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Get Favorites
 
 ```sh
   GET '/api/v1/favorites'
@@ -353,13 +376,15 @@ Get favorite recipes for a user
 }    
 ```
 
-Delete a favorite recipe for a user
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Delete Favorite
 
 ```sh
   DELETE '/api/v1/favorites'
 ```
 
-Tourist sights for country
+### Tourist Sights
 
 ```sh
   GET '/api/v1/tourist_sights?country=France'
@@ -404,7 +429,6 @@ Tourist sights for country
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## Contact
 
