@@ -80,7 +80,7 @@ VCR.configure do |config|
   config.filter_sensitive_data('<app_id>') { ENV['edamam_id'] }
   config.filter_sensitive_data('<app_key>') { ENV['edamam_recipe_api'] }
   config.filter_sensitive_data('<key>') { ENV['YouTube_API'] }
-  config.filter_sensitive_data('<client_id>') { ENV['Access_Key'] }
+  config.filter_sensitive_data('<client_id>') { ENV['Unsplash_Access_Key'] }
   config.configure_rspec_metadata!
   config.default_cassette_options = { :record => :new_episodes }
   config.default_cassette_options = { re_record_interval: 5.days }

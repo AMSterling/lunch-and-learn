@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-  
+
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -11,7 +11,7 @@
 # Lunch and Learn
 
 [![Rails][Rails]][Rails-url] [![Ruby][Ruby]][Ruby-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![PostgreSQL][PostgreSQL]][PostgreSQL-url] [![Postman][Postman]][Postman-url]
-  
+
 </div>
 
 ## Description
@@ -60,10 +60,10 @@ Rails:
   gem install rails --version 5.2.8
   ```
 API Keys:
-Lunch and Learn uses <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, and <a href="https://restcountries.com/#api-endpoints-v3" rel="noopener noreferrer">RestCountries API V.3</a>
+Lunch and Learn uses <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, <a href="https://restcountries.com/#api-endpoints-v3" rel="noopener noreferrer">RestCountries API V.3</a>, and , and <a href="https://unsplash.com/developers" rel="noopener noreferrer">Unsplash API</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-  
+
 ### Installation
 
 Instructions to set up a local version of Lunch and Learn:
@@ -81,25 +81,27 @@ rake db:{drop,create,migrate}
 ```
 
 Run:
-   
+
 ```sh
 bundle exec figaro install
 ```
 
 In config/application.yml add API keys:
-   
+
 ```sh
 edamam_id: 'YOUR EDAMAM ID'
 edamam_recipe_api: 'YOUR EDAMAM KEY'
 
 YouTube_API: 'YOUR YOUTUBE KEY'
 Secret key: 'YOUR YOUTUBE SECRET KEY'
+
+Access_Key: 'YOUR UNSPLASH ACCESS KEY'
 ```
 
-Push to your preferred production server or in your terminal run 
- ```sh 
+Push to your preferred production server or in your terminal run
+ ```sh
   rails server
- ``` 
+ ```
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
