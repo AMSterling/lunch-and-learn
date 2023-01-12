@@ -32,6 +32,7 @@ Backend SOA application to search for cuisines by country and provide opportunit
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li><a href="#gem-documentation">Gem Documentation</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -60,6 +61,8 @@ Rails:
   ```
 API Keys:
 Lunch and Learn uses <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, and <a href="https://www.geoapify.com/get-started-with-maps-api" rel="noopener noreferrer">Geoapify API</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
   
 ### Installation
 
@@ -77,24 +80,25 @@ Reset the database:
 rake db:{drop,create,migrate}
 ```
 
+Run:
+   
+```sh
+bundle exec figaro install
+```
 
+In config/application.yml add API keys:
+   
+```sh
+edamam_id: 'YOUR EDAMAM ID'
+edamam_recipe_api: 'YOUR EDAMAM KEY'
 
-   Run
-   ```sh
-   $ bundle exec figaro install
-   ```
-   In config/application.yml add API keys
-   ```sh
-   edamam_id: 'ENTER YOUR API'
-   edamam_recipe_api: 'ENTER YOUR API'
+YouTube_API: 'YOUR YOUTUBE KEY'
 
-   YouTube_API: 'ENTER YOUR API'
+Access_Key: 'YOUR YOUTUBE ACCESS KEY'
+Secret key: 'YOUR YOUTUBE SECRET KEY'
 
-   Access_Key: 'ENTER YOUR API'
-   Secret key: 'ENTER YOUR API'
-
-   geoapify_key: 'ENTER YOUR API'
-   ```
+geoapify_key: 'YOUR GEOAPIFY KEY'
+```
 
 Push to your preferred production server or in your terminal run 
  ```sh 
@@ -102,7 +106,9 @@ Push to your preferred production server or in your terminal run
  ``` 
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-**Gem Documentation**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Gem Documentation
 
 * [bcrypt][bcrypt-docs]
 * [capybara][capybara-docs]
