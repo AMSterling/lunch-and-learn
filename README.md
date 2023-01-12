@@ -15,7 +15,7 @@
   <h1 align="center">Lunch and Learn</h1>
 
   <p align="center">
-    The Backend portion of a Service Oriented Architecture application to provide a frontend with API endpoints to consume
+    The Backend of a Service Oriented Architecture application to provide a Front End with API endpoints to consume
   </p>
   <br>
 </div>
@@ -60,20 +60,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
 
-* [![Rails][Rails]][Rails-url]
-* [![Ruby][Ruby]][Ruby-url]
-* [![RSpec][RSpec]][RSpec-url]
-* [![Atom][Atom]][Atom-url]
-* [![PostgreSQL][PostgreSQL]][PostgreSQL-url]
-* [![Postman][Postman]][Postman-url]
+<div align="center">
+
+[![Rails][Rails]][Rails-url] [![Ruby][Ruby]][Ruby-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![PostgreSQL][PostgreSQL]][PostgreSQL-url] [![Postman][Postman]][Postman-url]
+
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -124,12 +119,13 @@ This is an example of how to list things you need to use the software and how to
    gem 'vcr'
    gem 'webmock'
    ```
-1. Enter your API keys
+1. Enter your API keys from <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, and <a href="https://www.geoapify.com/get-started-with-maps-api" rel="noopener noreferrer">Geoapify API</a>
+
    Run
    ```sh
    $ bundle exec figaro install
    ```
-   File config/application.yml should be created and ignored.
+   In config/application.yml add API keys
    ```sh
    edamam_id: 'ENTER YOUR API'
    edamam_recipe_api: 'ENTER YOUR API'
