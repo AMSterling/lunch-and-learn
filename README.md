@@ -1,36 +1,30 @@
 <a name="readme-top"></a>
-
+  
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+<br>
 
-  <h1 align="center">Lunch and Learn</h1>
+<div align="center">
 
-  <p align="center">
-    The Backend of a Service Oriented Architecture application to provide a Front End with API endpoints to consume
-  </p>
-  <br>
+# Lunch and Learn
+
+[![Rails][Rails]][Rails-url] [![Ruby][Ruby]][Ruby-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![PostgreSQL][PostgreSQL]][PostgreSQL-url] [![Postman][Postman]][Postman-url]
+  
 </div>
 
+## Description
+
+Backend SOA application to search for cuisines by country and provide opportunity to learn more about that country
+
+<br>
 
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#architecture">Architecture</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -39,87 +33,51 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 <br>
 
-
-
-<!-- ABOUT THE PROJECT -->
-## Learning Goals
-
-* Expose an API that aggregates data from multiple external APIs
-* Expose an API that requires an authentication token
-* Expose an API for CRUD functionality
-* Determine completion criteria based on the needs of other developers
-* Test both API consumption and exposure, making use of at least one mocking tool (VCR, Webmock, etc).
-* Implementation of caching
-* Implementation of basic authentication
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Built With
-
-<div align="center">
-
-[![Rails][Rails]][Rails-url] [![Ruby][Ruby]][Ruby-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![PostgreSQL][PostgreSQL]][PostgreSQL-url] [![Postman][Postman]][Postman-url]
-
-</div>
+<!-- Architecture -->
+## Architecture
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Follow installation instructions below. Push to your preferred production server or in your terminal run 
-  ```sh 
-  rails server
-  ``` 
-Then open [http://localhost:3000](http://localhost:3000) in your browser.
-
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* ruby
+
+Ruby:
   ```sh
   rbenv install 2.7.4
+  ```
+Rails:
+  ```sh
   gem install rails --version 5.2.8
   ```
+API Keys:
+Lunch and Learn uses <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, and <a href="https://www.geoapify.com/get-started-with-maps-api" rel="noopener noreferrer">Geoapify API</a>
+  
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone
-   https://github.com/AMSterling/lunch-and-learn
-   ```
-1. Install gems
-   In the main body:
-   ```sh
-   gem 'bcrypt', '~> 3.1.7'
-   gem 'faraday'
-   gem 'figaro'
-   gem 'jsonapi-serializer'
-   ```
-   In group :development, :test do
+Instructions to set up a local version of Lunch and Learn:
 
-   ```sh
-   gem 'pry'
-   gem 'rspec-rails'
-   ```
-   In group :test do
+Fork and clone the project, then install the required gems with `bundle`. A full list of gems that will be installed can be found in the [gemfile](gemfile).
 
-   ```sh
-   gem 'capybara'
-   gem 'factory_bot_rails'
-   gem 'faker'
-   gem 'shoulda-matchers'
-   gem 'simplecov'
-   gem 'vcr'
-   gem 'webmock'
-   ```
-1. Enter your API keys from <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, and <a href="https://www.geoapify.com/get-started-with-maps-api" rel="noopener noreferrer">Geoapify API</a>
+```sh
+bundle install
+```
+
+Reset the database:
+
+```sh
+rake db:{drop,create,migrate}
+```
+
+
 
    Run
    ```sh
@@ -137,6 +95,12 @@ This is an example of how to list things you need to use the software and how to
 
    geoapify_key: 'ENTER YOUR API'
    ```
+
+Push to your preferred production server or in your terminal run 
+ ```sh 
+  rails server
+ ``` 
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 **Gem Documentation**
 
