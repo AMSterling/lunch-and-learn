@@ -60,7 +60,7 @@ Rails:
   gem install rails --version 5.2.8
   ```
 API Keys:
-Lunch and Learn uses <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, and <a href="https://www.geoapify.com/get-started-with-maps-api" rel="noopener noreferrer">Geoapify API</a>
+Lunch and Learn uses <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, and <a href="https://restcountries.com/#api-endpoints-v3" rel="noopener noreferrer">RestCountries API V.3</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
@@ -93,11 +93,7 @@ edamam_id: 'YOUR EDAMAM ID'
 edamam_recipe_api: 'YOUR EDAMAM KEY'
 
 YouTube_API: 'YOUR YOUTUBE KEY'
-
-Access_Key: 'YOUR YOUTUBE ACCESS KEY'
 Secret key: 'YOUR YOUTUBE SECRET KEY'
-
-geoapify_key: 'YOUR GEOAPIFY KEY'
 ```
 
 Push to your preferred production server or in your terminal run 
