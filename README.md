@@ -53,6 +53,8 @@ Backend SOA application to search for cuisines by country and provide opportunit
 <!-- Architecture -->
 ## Architecture
 
+# <img src="app/assets/images/schema-diagram.png">
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
