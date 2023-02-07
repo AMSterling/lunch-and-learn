@@ -477,7 +477,7 @@ Endpoints to use in Postman running a local server `rails s`
 
 ## Contact
 
-AMSterling
+[AMSterling](https://terminal.turing.edu/profiles/1525)
 
 [![GitHub][GitHub Badge]][GitHub-url] [![LinkedIn][LinkedIn]][LinkedIn-url]
 
