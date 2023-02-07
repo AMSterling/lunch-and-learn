@@ -11,6 +11,8 @@
 # Lunch and Learn Final
 
 [![Rails][Rails]][Rails-url] [![Ruby][Ruby]][Ruby-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![PostgreSQL][PostgreSQL]][PostgreSQL-url] [![Postman][Postman]][Postman-url]
+  
+[![XCode][XCode]][XCode-url] [![Homebrew][Homebrew]][Homebrew-url] [![MacOS][MacOS]][MacOS-url]
 
 </div>
 
@@ -61,7 +63,7 @@ Backend SOA application to search for cuisines by country and provide opportunit
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+This is an example of how to list things you need to use the software and how to install them. <a href="https://developer.apple.com/xcode/" target="_blank" rel="noopener noreferrer">Xcode</a> and <a href="https://docs.brew.sh/Installation" target="_blank" rel="noopener noreferrer">Homebrew</a> is recommended for Mac.
 
 Ruby:
   ```sh
@@ -70,6 +72,11 @@ Ruby:
 Rails:
   ```sh
   gem install rails --version 5.2.8
+  ```
+PostgreSQL@14<a href="https://www.postgresql.org/download/" target="_blank" rel="noopener noreferrer">(Windows)</a> or if using Homebrew:
+  ```sh
+  brew install postgresql
+  brew services start postgresql
   ```
 API Keys:
 Lunch and Learn Final uses <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, <a href="https://www.geoapify.com/get-started-with-maps-api" rel="noopener noreferrer">Geoapify API</a>, <a href="https://restcountries.com/#api-endpoints-v3" rel="noopener noreferrer">RestCountries API V.3</a>, and <a href="https://unsplash.com/developers" rel="noopener noreferrer">Unsplash API</a>
@@ -80,7 +87,7 @@ Lunch and Learn Final uses <a href="https://developer.edamam.com/edamam-recipe-a
 
 Instructions to set up a local version of Lunch and Learn Final:
 
-Fork and clone the project, then install the required gems with `bundle`. A full list of gems that will be installed can be found in the [gemfile](gemfile).
+Fork and clone the project, then install the required gems with `bundle`. A full list of gems that will be installed can be found in the [gemfile][gemfile-url].
 
 ```sh
 bundle install
@@ -140,7 +147,7 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Endpoints
 
-Happy path endpoints to use in Postman running a local server `rails s`
+Endpoints to use in Postman running a local server `rails s`
 
 ### Recipes
 
@@ -446,6 +453,7 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 [contributors-url]: https://github.com/AMSterling/lunch-and-learn/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/AMSterling/lunch-and-learn.svg?style=for-the-badge
 [forks-url]: https://github.com/AMSterling/lunch-and-learn/network/members
+[gemfile-url]: https://github.com/AMSterling/lunch-and-learn/blob/final/Gemfile
 [stars-shield]: https://img.shields.io/github/stars/AMSterling/lunch-and-learn.svg?style=for-the-badge
 [stars-url]: https://github.com/AMSterling/lunch-and-learn/stargazers
 [issues-shield]: https://img.shields.io/github/issues/AMSterling/lunch-and-learn.svg?style=for-the-badge
