@@ -510,7 +510,7 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 [Heroku]: https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white
 [Heroku-url]: https://www.heroku.com/
 
-[Homebrew]: https://custom-icon-badges.demolab.com/badge/Homebrew-fbb040?style=for-the-badge&logo=homebrew_logo
+[Homebrew]: https://custom-icon-badges.demolab.com/badge/Homebrew-2e2a24?style=for-the-badge&logo=homebrew_logo
 [Homebrew-url]: https://brew.sh/
 
 [HTML5]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
