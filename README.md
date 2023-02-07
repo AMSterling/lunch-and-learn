@@ -60,6 +60,7 @@ _For more examples, please refer to the [Documentation](https://backend.turing.e
 
 # <img src="app/assets/images/schema-diagram.png">
 
+---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -85,6 +86,7 @@ PostgreSQL@14<a href="https://www.postgresql.org/download/" target="_blank" rel=
 API Keys:
 Lunch and Learn uses <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, <a href="https://www.geoapify.com/get-started-with-maps-api" rel="noopener noreferrer">Geoapify API</a>, <a href="https://restcountries.com/#api-endpoints-v3" rel="noopener noreferrer">RestCountries API V.3</a>, and <a href="https://unsplash.com/developers" rel="noopener noreferrer">Unsplash API</a>
 
+---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Installation
@@ -109,7 +111,7 @@ Run:
 bundle exec figaro install
 ```
 
-In config/application.yml add API keys:
+In `config/application.yml` add API keys:
 
 ```sh
 edamam_id: 'YOUR EDAMAM ID'
@@ -129,6 +131,7 @@ Push to your preferred production server or in your terminal run
  ```
 Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
+---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Gem Documentation
@@ -147,6 +150,7 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 * [vcr][vcr-docs]
 * [webmock][webmock-docs]
 
+---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Endpoints
@@ -199,6 +203,7 @@ Endpoints to use in Postman running a local server `rails s`
 }
 ```
 
+---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ```sh
@@ -216,6 +221,7 @@ Endpoints to use in Postman running a local server `rails s`
 }
 ```
 
+---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Country Missing
@@ -232,6 +238,7 @@ Endpoints to use in Postman running a local server `rails s`
   }
 ```
 
+---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Learning Resources
@@ -300,6 +307,7 @@ Endpoints to use in Postman running a local server `rails s`
 }
 ```
 
+---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Create User
@@ -333,6 +341,7 @@ Endpoints to use in Postman running a local server `rails s`
   }
 ```
 
+---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Add Favorite
@@ -360,6 +369,7 @@ Endpoints to use in Postman running a local server `rails s`
  }
 ```
 
+---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Get Favorites
@@ -405,6 +415,7 @@ Endpoints to use in Postman running a local server `rails s`
 }    
 ```
 
+---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Delete Favorite
@@ -413,6 +424,7 @@ Endpoints to use in Postman running a local server `rails s`
   DELETE '/api/v1/favorites'
 ```
 
+---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Tourist Sights
@@ -459,6 +471,7 @@ Endpoints to use in Postman running a local server `rails s`
 }
 ```
 
+---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
