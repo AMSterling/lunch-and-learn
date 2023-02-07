@@ -11,7 +11,7 @@
 # Lunch and Learn Final
 
 [![Rails][Rails]][Rails-url] [![Ruby][Ruby]][Ruby-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![PostgreSQL][PostgreSQL]][PostgreSQL-url] [![Postman][Postman]][Postman-url]
-  
+
 [![XCode][XCode]][XCode-url] [![Homebrew][Homebrew]][Homebrew-url] [![MacOS][MacOS]][MacOS-url]
 
 </div>
@@ -112,9 +112,9 @@ edamam_id: 'YOUR EDAMAM ID'
 edamam_recipe_api: 'YOUR EDAMAM KEY'
 
 YouTube_API: 'YOUR YOUTUBE KEY'
-Secret key: 'YOUR YOUTUBE SECRET KEY'
 
 Unsplash_Access_Key: 'YOUR UNSPLASH ACCESS KEY'
+Secret key: 'YOUR UNSPLASH SECRET KEY'
 
 geoapify_key: 'YOUR GEOAPIFY KEY'
 ```
