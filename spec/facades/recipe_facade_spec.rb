@@ -5,7 +5,7 @@ RSpec.describe RecipeFacade, :vcr do
     recipes = RecipeFacade.recipes_from_country('thailand')
 
     expect(recipes).to be_an Array
-    expect(recipes.count).to eq 20
+    expect(recipes.count).to eq 10
     recipes.each do |recipe|
       expect(recipe[:id]).to be_nil
       expect(recipe[:type]).to eq('recipe')
