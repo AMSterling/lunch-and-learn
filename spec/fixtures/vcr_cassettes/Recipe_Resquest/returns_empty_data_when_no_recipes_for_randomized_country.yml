@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.6.0
+      - Faraday v2.7.4
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Mon, 14 Nov 2022 15:56:12 GMT
+      - Tue, 07 Feb 2023 00:27:15 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -33,15 +33,15 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 GMT
       X-Served-By:
-      - ip-10-0-1-10.ec2.internal/10.0.1.10
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
       Strict-Transport-Security:
       - max-age=15552001
       X-Request-Id:
-      - 5bf8528ccc819386526ec7ee104736e3
+      - 7facaffbdda768a5a97dc70815d4c63d
     body:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
-  recorded_at: Mon, 14 Nov 2022 15:56:12 GMT
+  recorded_at: Tue, 07 Feb 2023 00:27:14 GMT
 - request:
     method: get
     uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=Sao%20Tome%20and%20Principe&type=public
@@ -50,7 +50,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.6.0
+      - Faraday v2.7.4
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -63,7 +63,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Mon, 14 Nov 2022 15:56:12 GMT
+      - Tue, 07 Feb 2023 00:27:15 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -75,13 +75,13 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 GMT
       X-Served-By:
-      - ip-10-0-1-87.ec2.internal/10.0.1.87
+      - ip-10-0-1-48.ec2.internal/10.0.1.48
       Strict-Transport-Security:
       - max-age=15552001
       X-Request-Id:
-      - 837b3daa330850f4e2214f1b076e1613
+      - dce220cde1b522cc80d41158e5bc3109
     body:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
-  recorded_at: Mon, 14 Nov 2022 15:56:12 GMT
+  recorded_at: Tue, 07 Feb 2023 00:27:15 GMT
 recorded_with: VCR 6.1.0

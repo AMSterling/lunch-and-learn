@@ -1148,99 +1148,6 @@ http_interactions:
   recorded_at: Wed, 16 Nov 2022 19:47:54 GMT
 - request:
     method: get
-    uri: https://restcountries.com/v3.1/name/Guinea-Bissau
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.7.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Wed, 16 Nov 2022 19:58:33 GMT
-      Server:
-      - Apache/2.4.38 (Debian)
-      Cache-Control:
-      - public, immutable, max-age=31556926
-      Content-Type:
-      - application/json
-      Content-Length:
-      - '1351'
-    body:
-      encoding: UTF-8
-      string: '[{"name":{"common":"Guinea-Bissau","official":"Republic of Guinea-Bissau","nativeName":{"por":{"official":"República
-        da Guiné-Bissau","common":"Guiné-Bissau"},"pov":{"official":"República da
-        Guiné-Bissau","common":"Guiné-Bissau"}}},"tld":[".gw"],"cca2":"GW","ccn3":"624","cca3":"GNB","cioc":"GBS","independent":true,"status":"officially-assigned","unMember":false,"currencies":{"XOF":{"name":"West
-        African CFA franc","symbol":"Fr"}},"idd":{"root":"+2","suffixes":["45"]},"capital":["Bissau"],"altSpellings":["GW","Republic
-        of Guinea-Bissau","República da Guiné-Bissau"],"region":"Africa","subregion":"Western
-        Africa","languages":{"por":"Portuguese","pov":"Upper Guinea Creole"},"translations":{"ara":{"official":"جمهورية
-        غينيا بيساو","common":"غينيا بيساو"},"bre":{"official":"Republik Ginea-Bissau","common":"Ginea-Bissau"},"ces":{"official":"Republika
-        Guinea-Bissau","common":"Guinea-Bissau"},"cym":{"official":"Republic of Guinea-Bissau","common":"Guinea-Bissau"},"deu":{"official":"Republik
-        Guinea-Bissau","common":"Guinea-Bissau"},"est":{"official":"Guinea-Bissau
-        Vabariik","common":"Guinea-Bissau"},"fin":{"official":"Guinea-Bissaun tasavalta","common":"Guinea-Bissau"},"fra":{"official":"République
-        de Guinée-Bissau","common":"Guinée-Bissau"},"hrv":{"official":"Republika Gvineja
-        Bisau","common":"Gvineja Bisau"},"hun":{"official":"Bissau-Guineai Köztársaság","common":"Bissau-Guinea"},"ita":{"official":"Repubblica
-        di Guinea-Bissau","common":"Guinea-Bissau"},"jpn":{"official":"ギニアビサウ共和国","common":"ギニアビサウ"},"kor":{"official":"기니비사우
-        공화국","common":"기니비사우"},"nld":{"official":"Republiek Guinee-Bissau","common":"Guinee-Bissau"},"per":{"official":"جمهوری
-        گینه بیسائو","common":"گینه بیسائو"},"pol":{"official":"Republika Gwinei Bissau","common":"Gwinea
-        Bissau"},"por":{"official":"República da Guiné-Bissau","common":"Guiné-Bissau"},"rus":{"official":"Республика
-        Гвинея -Бисау","common":"Гвинея-Бисау"},"slk":{"official":"Guinejsko-bissauská
-        republika","common":"Guinea-Bissau"},"spa":{"official":"República de Guinea-Bissau","common":"Guinea-Bisáu"},"swe":{"official":"Republiken
-        Guinea-Bissau","common":"Guinea-Bissau"},"tur":{"official":"Gine-Bissau Cumhuriyeti","common":"Gine-Bissau"},"urd":{"official":"جمہوریہ
-        گنی بساؤ","common":"گنی بساؤ"},"zho":{"official":"几内亚比绍共和国","common":"几内亚比绍"}},"latlng":[12.0,-15.0],"landlocked":false,"borders":["GIN","SEN"],"area":36125.0,"demonyms":{"eng":{"f":"Guinea-Bissauan","m":"Guinea-Bissauan"},"fra":{"f":"Bissau-Guinéenne","m":"Bissau-Guinéen"}},"flag":"\uD83C\uDDEC\uD83C\uDDFC","maps":{"googleMaps":"https://goo.gl/maps/5Wyaz17miUc1zLc67","openStreetMaps":"https://www.openstreetmap.org/relation/192776"},"population":1967998,"gini":{"2010":50.7},"fifa":"GNB","car":{"signs":["RGB"],"side":"right"},"timezones":["UTC"],"continents":["Africa"],"flags":{"png":"https://flagcdn.com/w320/gw.png","svg":"https://flagcdn.com/gw.svg"},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/gw.png","svg":"https://mainfacts.com/media/images/coats_of_arms/gw.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[11.85,-15.58]},"postalCode":{"format":"####","regex":"^(\\d{4})$"}}]'
-  recorded_at: Wed, 16 Nov 2022 19:58:33 GMT
-- request:
-    method: get
-    uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=Guinea-Bissau&type=public
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.7.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: ''
-    headers:
-      Server:
-      - openresty
-      Date:
-      - Wed, 16 Nov 2022 19:58:34 GMT
-      Content-Type:
-      - application/json
-      Content-Length:
-      - '49'
-      Connection:
-      - keep-alive
-      Cache-Control:
-      - private
-      Expires:
-      - Thu, 01 Jan 1970 00:00:00 GMT
-      X-Served-By:
-      - ip-10-0-1-10.ec2.internal/10.0.1.10
-      Strict-Transport-Security:
-      - max-age=15552001
-      X-Request-Id:
-      - 5f7b669bb949e1ce8bda0921a3a9ae23
-    body:
-      encoding: UTF-8
-      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
-  recorded_at: Wed, 16 Nov 2022 19:58:34 GMT
-- request:
-    method: get
     uri: https://restcountries.com/v3.1/name/Kyrgyzstan
     body:
       encoding: US-ASCII
@@ -1418,4 +1325,102 @@ http_interactions:
       encoding: UTF-8
       string: '{"status":"error","message":"Usage limits are exceeded"}'
   recorded_at: Wed, 16 Nov 2022 20:11:57 GMT
+- request:
+    method: get
+    uri: https://restcountries.com/v3.1/name/Guinea-Bissau
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 07 Feb 2023 00:36:25 GMT
+      Server:
+      - Apache/2.4.38 (Debian)
+      Cache-Control:
+      - public, immutable, max-age=31556926
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1523'
+    body:
+      encoding: UTF-8
+      string: '[{"name":{"common":"Guinea-Bissau","official":"Republic of Guinea-Bissau","nativeName":{"por":{"official":"República
+        da Guiné-Bissau","common":"Guiné-Bissau"},"pov":{"official":"República da
+        Guiné-Bissau","common":"Guiné-Bissau"}}},"tld":[".gw"],"cca2":"GW","ccn3":"624","cca3":"GNB","cioc":"GBS","independent":true,"status":"officially-assigned","unMember":false,"currencies":{"XOF":{"name":"West
+        African CFA franc","symbol":"Fr"}},"idd":{"root":"+2","suffixes":["45"]},"capital":["Bissau"],"altSpellings":["GW","Republic
+        of Guinea-Bissau","República da Guiné-Bissau"],"region":"Africa","subregion":"Western
+        Africa","languages":{"por":"Portuguese","pov":"Upper Guinea Creole"},"translations":{"ara":{"official":"جمهورية
+        غينيا بيساو","common":"غينيا بيساو"},"bre":{"official":"Republik Ginea-Bissau","common":"Ginea-Bissau"},"ces":{"official":"Republika
+        Guinea-Bissau","common":"Guinea-Bissau"},"cym":{"official":"Republic of Guinea-Bissau","common":"Guinea-Bissau"},"deu":{"official":"Republik
+        Guinea-Bissau","common":"Guinea-Bissau"},"est":{"official":"Guinea-Bissau
+        Vabariik","common":"Guinea-Bissau"},"fin":{"official":"Guinea-Bissaun tasavalta","common":"Guinea-Bissau"},"fra":{"official":"République
+        de Guinée-Bissau","common":"Guinée-Bissau"},"hrv":{"official":"Republika Gvineja
+        Bisau","common":"Gvineja Bisau"},"hun":{"official":"Bissau-Guineai Köztársaság","common":"Bissau-Guinea"},"ita":{"official":"Repubblica
+        di Guinea-Bissau","common":"Guinea-Bissau"},"jpn":{"official":"ギニアビサウ共和国","common":"ギニアビサウ"},"kor":{"official":"기니비사우
+        공화국","common":"기니비사우"},"nld":{"official":"Republiek Guinee-Bissau","common":"Guinee-Bissau"},"per":{"official":"جمهوری
+        گینه بیسائو","common":"گینه بیسائو"},"pol":{"official":"Republika Gwinei Bissau","common":"Gwinea
+        Bissau"},"por":{"official":"República da Guiné-Bissau","common":"Guiné-Bissau"},"rus":{"official":"Республика
+        Гвинея -Бисау","common":"Гвинея-Бисау"},"slk":{"official":"Guinejsko-bissauská
+        republika","common":"Guinea-Bissau"},"spa":{"official":"República de Guinea-Bissau","common":"Guinea-Bisáu"},"srp":{"official":"Република
+        Гвинеја Бисао","common":"Гвинеја Бисао"},"swe":{"official":"Republiken Guinea-Bissau","common":"Guinea-Bissau"},"tur":{"official":"Gine-Bissau
+        Cumhuriyeti","common":"Gine-Bissau"},"urd":{"official":"جمہوریہ گنی بساؤ","common":"گنی
+        بساؤ"},"zho":{"official":"几内亚比绍共和国","common":"几内亚比绍"}},"latlng":[12.0,-15.0],"landlocked":false,"borders":["GIN","SEN"],"area":36125.0,"demonyms":{"eng":{"f":"Guinea-Bissauan","m":"Guinea-Bissauan"},"fra":{"f":"Bissau-Guinéenne","m":"Bissau-Guinéen"}},"flag":"\uD83C\uDDEC\uD83C\uDDFC","maps":{"googleMaps":"https://goo.gl/maps/5Wyaz17miUc1zLc67","openStreetMaps":"https://www.openstreetmap.org/relation/192776"},"population":1967998,"gini":{"2010":50.7},"fifa":"GNB","car":{"signs":["RGB"],"side":"right"},"timezones":["UTC"],"continents":["Africa"],"flags":{"png":"https://flagcdn.com/w320/gw.png","svg":"https://flagcdn.com/gw.svg","alt":"The
+        flag of Guinea-Bissau features a red vertical band on its hoist side that
+        takes up about two-fifth the width of the field, and two equal horizontal
+        bands of yellow and green adjoining the vertical band. A five-pointed black
+        star is centered in the vertical band."},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/gw.png","svg":"https://mainfacts.com/media/images/coats_of_arms/gw.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[11.85,-15.58]},"postalCode":{"format":"####","regex":"^(\\d{4})$"}}]'
+  recorded_at: Tue, 07 Feb 2023 00:36:25 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=Guinea-Bissau&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 07 Feb 2023 00:36:26 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-48.ec2.internal/10.0.1.48
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - adbbaa8fdc20be2988ac9e86e49c2245
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 07 Feb 2023 00:36:26 GMT
 recorded_with: VCR 6.1.0

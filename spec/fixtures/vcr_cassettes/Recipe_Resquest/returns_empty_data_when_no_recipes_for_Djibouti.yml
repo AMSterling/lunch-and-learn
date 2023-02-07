@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.7.0
+      - Faraday v2.7.4
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 16 Nov 2022 20:24:14 GMT
+      - Tue, 07 Feb 2023 00:27:16 GMT
       Server:
       - Apache/2.4.38 (Debian)
       Cache-Control:
@@ -27,7 +27,7 @@ http_interactions:
       Content-Type:
       - application/json
       Content-Length:
-      - '1251'
+      - '1433'
     body:
       encoding: UTF-8
       string: '[{"name":{"common":"Djibouti","official":"Republic of Djibouti","nativeName":{"ara":{"official":"جمهورية
@@ -44,10 +44,14 @@ http_interactions:
         공화국","common":"지부티"},"nld":{"official":"Republiek Djibouti","common":"Djibouti"},"per":{"official":"جمهوری
         جیبوتی","common":"جیبوتی"},"pol":{"official":"Republika Dżibuti","common":"Dżibuti"},"por":{"official":"República
         do Djibouti","common":"Djibouti"},"rus":{"official":"Республика Джибути","common":"Джибути"},"slk":{"official":"ǅibutská
-        republika","common":"ǅibutsko"},"spa":{"official":"República de Djibouti","common":"Djibouti"},"swe":{"official":"Republiken
-        Djibouti","common":"Djibouti"},"tur":{"official":"Cibuti Cumhuriyeti","common":"Cibuti"},"urd":{"official":"جمہوریہ
-        جبوتی","common":"جبوتی"},"zho":{"official":"吉布提共和国","common":"吉布提"}},"latlng":[11.5,43.0],"landlocked":false,"borders":["ERI","ETH","SOM"],"area":23200.0,"demonyms":{"eng":{"f":"Djibouti","m":"Djibouti"},"fra":{"f":"Djiboutienne","m":"Djiboutien"}},"flag":"\uD83C\uDDE9\uD83C\uDDEF","maps":{"googleMaps":"https://goo.gl/maps/V1HWfzN3bS1kwf4C6","openStreetMaps":"https://www.openstreetmap.org/relation/192801"},"population":988002,"gini":{"2017":41.6},"fifa":"DJI","car":{"signs":["DJI"],"side":"right"},"timezones":["UTC+03:00"],"continents":["Africa"],"flags":{"png":"https://flagcdn.com/w320/dj.png","svg":"https://flagcdn.com/dj.svg"},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/dj.png","svg":"https://mainfacts.com/media/images/coats_of_arms/dj.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[11.58,43.15]}}]'
-  recorded_at: Wed, 16 Nov 2022 20:24:14 GMT
+        republika","common":"ǅibutsko"},"spa":{"official":"República de Djibouti","common":"Djibouti"},"srp":{"official":"Република
+        Џибути","common":"Џибути"},"swe":{"official":"Republiken Djibouti","common":"Djibouti"},"tur":{"official":"Cibuti
+        Cumhuriyeti","common":"Cibuti"},"urd":{"official":"جمہوریہ جبوتی","common":"جبوتی"},"zho":{"official":"吉布提共和国","common":"吉布提"}},"latlng":[11.5,43.0],"landlocked":false,"borders":["ERI","ETH","SOM"],"area":23200.0,"demonyms":{"eng":{"f":"Djibouti","m":"Djibouti"},"fra":{"f":"Djiboutienne","m":"Djiboutien"}},"flag":"\uD83C\uDDE9\uD83C\uDDEF","maps":{"googleMaps":"https://goo.gl/maps/V1HWfzN3bS1kwf4C6","openStreetMaps":"https://www.openstreetmap.org/relation/192801"},"population":988002,"gini":{"2017":41.6},"fifa":"DJI","car":{"signs":["DJI"],"side":"right"},"timezones":["UTC+03:00"],"continents":["Africa"],"flags":{"png":"https://flagcdn.com/w320/dj.png","svg":"https://flagcdn.com/dj.svg","alt":"The
+        flag of Djibouti is composed of two equal horizontal bands of light blue and
+        light green, with a white isosceles triangle superimposed on the hoist side
+        of the field. The triangle has its base on the hoist end, spans about two-fifth
+        the width of the field and bears a red five-pointed star at its center."},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/dj.png","svg":"https://mainfacts.com/media/images/coats_of_arms/dj.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[11.58,43.15]}}]'
+  recorded_at: Tue, 07 Feb 2023 00:27:16 GMT
 - request:
     method: get
     uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=Djibouti&type=public
@@ -56,7 +60,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.7.0
+      - Faraday v2.7.4
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -69,7 +73,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Wed, 16 Nov 2022 20:24:15 GMT
+      - Tue, 07 Feb 2023 00:27:16 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -81,13 +85,13 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 GMT
       X-Served-By:
-      - ip-10-0-1-10.ec2.internal/10.0.1.10
+      - ip-10-0-1-48.ec2.internal/10.0.1.48
       Strict-Transport-Security:
       - max-age=15552001
       X-Request-Id:
-      - c34247910f6ba6e2229438b428e4ce14
+      - ce28fbc125440f4280a2b7c027a92470
     body:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
-  recorded_at: Wed, 16 Nov 2022 20:24:15 GMT
+  recorded_at: Tue, 07 Feb 2023 00:27:16 GMT
 recorded_with: VCR 6.1.0

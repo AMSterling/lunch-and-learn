@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.7.0
+      - Faraday v2.7.4
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 16 Nov 2022 20:24:14 GMT
+      - Tue, 07 Feb 2023 00:27:15 GMT
       Server:
       - Apache/2.4.38 (Debian)
       Cache-Control:
@@ -27,7 +27,7 @@ http_interactions:
       Content-Type:
       - application/json
       Content-Length:
-      - '1381'
+      - '1487'
     body:
       encoding: UTF-8
       string: '[{"name":{"common":"Kyrgyzstan","official":"Kyrgyz Republic","nativeName":{"kir":{"official":"Кыргыз
@@ -43,10 +43,12 @@ http_interactions:
         공화국","common":"키르기스스탄"},"nld":{"official":"Kirgizische Republiek","common":"Kirgizië"},"per":{"official":"جمهوری
         قِرقیزستان","common":"قرقیزستان"},"pol":{"official":"Republika Kirgiska","common":"Kirgistan"},"por":{"official":"República
         do Quirguistão","common":"Quirguistão"},"rus":{"official":"Кыргызская Республика","common":"Киргизия"},"slk":{"official":"Kirgizská
-        republika","common":"Kirgizsko"},"spa":{"official":"República Kirguisa","common":"Kirguizistán"},"swe":{"official":"Republiken
-        Kirgizistan","common":"Kirgizistan"},"tur":{"official":"Kırgızistan Cumhuriyeti","common":"Kırgızistan"},"urd":{"official":"جمہوریہ
-        کرغیزستان","common":"کرغیزستان"},"zho":{"official":"吉尔吉斯斯坦共和国","common":"吉尔吉斯斯坦"}},"latlng":[41.0,75.0],"landlocked":true,"borders":["CHN","KAZ","TJK","UZB"],"area":199951.0,"demonyms":{"eng":{"f":"Kirghiz","m":"Kirghiz"},"fra":{"f":"Kirghize","m":"Kirghize"}},"flag":"\uD83C\uDDF0\uD83C\uDDEC","maps":{"googleMaps":"https://goo.gl/maps/SKG8BSMMQVvxkRkB7","openStreetMaps":"https://www.openstreetmap.org/relation/178009"},"population":6591600,"gini":{"2019":29.7},"fifa":"KGZ","car":{"signs":["KS"],"side":"right"},"timezones":["UTC+06:00"],"continents":["Asia"],"flags":{"png":"https://flagcdn.com/w320/kg.png","svg":"https://flagcdn.com/kg.svg"},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/kg.png","svg":"https://mainfacts.com/media/images/coats_of_arms/kg.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[42.87,74.6]},"postalCode":{"format":"######","regex":"^(\\d{6})$"}}]'
-  recorded_at: Wed, 16 Nov 2022 20:24:14 GMT
+        republika","common":"Kirgizsko"},"spa":{"official":"República Kirguisa","common":"Kirguizistán"},"srp":{"official":"Киргиска
+        Република","common":"Киргизија"},"swe":{"official":"Republiken Kirgizistan","common":"Kirgizistan"},"tur":{"official":"Kırgızistan
+        Cumhuriyeti","common":"Kırgızistan"},"urd":{"official":"جمہوریہ کرغیزستان","common":"کرغیزستان"},"zho":{"official":"吉尔吉斯斯坦共和国","common":"吉尔吉斯斯坦"}},"latlng":[41.0,75.0],"landlocked":true,"borders":["CHN","KAZ","TJK","UZB"],"area":199951.0,"demonyms":{"eng":{"f":"Kirghiz","m":"Kirghiz"},"fra":{"f":"Kirghize","m":"Kirghize"}},"flag":"\uD83C\uDDF0\uD83C\uDDEC","maps":{"googleMaps":"https://goo.gl/maps/SKG8BSMMQVvxkRkB7","openStreetMaps":"https://www.openstreetmap.org/relation/178009"},"population":6591600,"gini":{"2019":29.7},"fifa":"KGZ","car":{"signs":["KS"],"side":"right"},"timezones":["UTC+06:00"],"continents":["Asia"],"flags":{"png":"https://flagcdn.com/w320/kg.png","svg":"https://flagcdn.com/kg.svg","alt":"The
+        flag of Kyrgyzstan features a yellow sun with forty rays at the center of
+        a red field. At the center of the sun is a stylized depiction of a tunduk."},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/kg.png","svg":"https://mainfacts.com/media/images/coats_of_arms/kg.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[42.87,74.6]},"postalCode":{"format":"######","regex":"^(\\d{6})$"}}]'
+  recorded_at: Tue, 07 Feb 2023 00:27:15 GMT
 - request:
     method: get
     uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=Kyrgyzstan&type=public
@@ -55,7 +57,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.7.0
+      - Faraday v2.7.4
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -68,7 +70,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Wed, 16 Nov 2022 20:24:14 GMT
+      - Tue, 07 Feb 2023 00:27:16 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -80,13 +82,13 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 GMT
       X-Served-By:
-      - ip-10-0-1-87.ec2.internal/10.0.1.87
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
       Strict-Transport-Security:
       - max-age=15552001
       X-Request-Id:
-      - 9d8ba924e15ac7817f421914887505fd
+      - daefbd65f11e15732048273d0e085188
     body:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
-  recorded_at: Wed, 16 Nov 2022 20:24:14 GMT
+  recorded_at: Tue, 07 Feb 2023 00:27:16 GMT
 recorded_with: VCR 6.1.0
