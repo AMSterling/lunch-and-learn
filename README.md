@@ -77,7 +77,7 @@ Rails:
   ```sh
   gem install rails --version 5.2.8
   ```
-PostgreSQL<a href="https://www.postgresql.org/download/" target="_blank" rel="noopener noreferrer">(Windows)</a> or if using Homebrew:
+PostgreSQL@14<a href="https://www.postgresql.org/download/" target="_blank" rel="noopener noreferrer">(Windows)</a> or if using Homebrew:
   ```sh
   brew install postgresql
   brew services start postgresql
