@@ -196,7 +196,7 @@ Endpoints to use in Postman running a local server `rails s`
   GET '/api/v1/recipes?country=djibouti'
 ```
 
-**Sample Response**
+**Sample Response(no recipes for random or selected country)**
 
 ```sh
 {
