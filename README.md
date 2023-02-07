@@ -477,7 +477,7 @@ Endpoints to use in Postman running a local server `rails s`
 
 ## Contact
 
-Anna Marie Sterling - [LinkedIn][linkedin-url]
+[AMSterling][GitHub-url] - [LinkedIn][linkedin-url]
 
 Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com/AMSterling/lunch-and-learn)
 
@@ -521,7 +521,7 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 [Git-url]: https://git-scm.com/
 
 [GitHub Badge]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
-[GitHub-url]: https://github.com/<Username>/
+[GitHub-url]: https://github.com/AMSterling/
 
 [GitHub Actions]: https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white
 [GitHub Actions-url]: https://github.com/features/actions
