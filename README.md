@@ -473,6 +473,7 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 [contributors-url]: https://github.com/AMSterling/lunch-and-learn/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/AMSterling/lunch-and-learn.svg?style=for-the-badge
 [forks-url]: https://github.com/AMSterling/lunch-and-learn/network/members
+[gemfile]: https://github.com/AMSterling/lunch-and-learn/blob/main/Gemfile
 [stars-shield]: https://img.shields.io/github/stars/AMSterling/lunch-and-learn.svg?style=for-the-badge
 [stars-url]: https://github.com/AMSterling/lunch-and-learn/stargazers
 [issues-shield]: https://img.shields.io/github/issues/AMSterling/lunch-and-learn.svg?style=for-the-badge
