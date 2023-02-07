@@ -489,7 +489,7 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 [Bootstrap-url]: https://getbootstrap.com/
 
 [Capybara]: https://custom-icon-badges.demolab.com/badge/Capybara-F7F4EF?style=for-the-badge&logo=capybara
-[Capybara-url]: https://rspec.info/
+[Capybara-url]: https://www.patreon.com/capybara
 
 [CircleCI]: https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white
 [CircleCI-url]: https://circleci.com/developer
