@@ -1344,7 +1344,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 07 Feb 2023 01:40:16 GMT
+      - Tue, 07 Feb 2023 01:51:23 GMT
       Server:
       - Apache/2.4.38 (Debian)
       Cache-Control:
@@ -1380,7 +1380,7 @@ http_interactions:
         takes up about two-fifth the width of the field, and two equal horizontal
         bands of yellow and green adjoining the vertical band. A five-pointed black
         star is centered in the vertical band."},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/gw.png","svg":"https://mainfacts.com/media/images/coats_of_arms/gw.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[11.85,-15.58]},"postalCode":{"format":"####","regex":"^(\\d{4})$"}}]'
-  recorded_at: Tue, 07 Feb 2023 01:40:16 GMT
+  recorded_at: Tue, 07 Feb 2023 01:51:22 GMT
 - request:
     method: get
     uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=Guinea-Bissau&type=public
@@ -1402,7 +1402,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Tue, 07 Feb 2023 01:40:16 GMT
+      - Tue, 07 Feb 2023 01:51:23 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -1414,13 +1414,13 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 GMT
       X-Served-By:
-      - ip-10-0-1-48.ec2.internal/10.0.1.48
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
       Strict-Transport-Security:
       - max-age=15552001
       X-Request-Id:
-      - 20a3738c6f64f314707b188381117ed8
+      - 827d4ebd9be7dd947473062e699e19ce
     body:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
-  recorded_at: Tue, 07 Feb 2023 01:40:16 GMT
+  recorded_at: Tue, 07 Feb 2023 01:51:23 GMT
 recorded_with: VCR 6.1.0
