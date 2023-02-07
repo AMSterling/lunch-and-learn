@@ -68,7 +68,8 @@ _For more examples, please refer to the [Documentation](https://backend.turing.e
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them. <a href="https://developer.apple.com/xcode/" target="_blank" rel="noopener noreferrer">Xcode</a> and <a href="https://docs.brew.sh/Installation" target="_blank" rel="noopener noreferrer">Homebrew</a> is recommended for Mac.
+This is an example of how to list things you need to use the software and how to install them.
+_<a href="https://developer.apple.com/xcode/" target="_blank" rel="noopener noreferrer">Xcode</a> and <a href="https://docs.brew.sh/Installation" target="_blank" rel="noopener noreferrer">Homebrew</a> is recommended for Mac._
 
 Ruby:
   ```sh
