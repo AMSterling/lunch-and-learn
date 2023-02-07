@@ -89,7 +89,7 @@ Lunch and Learn uses <a href="https://developer.edamam.com/edamam-recipe-api" ta
 
 Instructions to set up a local version of Lunch and Learn:
 
-Fork and clone the project, then install the required gems with `bundle`. A full list of gems that will be installed can be found in the [gemfile][gemfile-url]
+Fork and clone the project, then install the required gems with `bundle`. A full list of gems that will be installed can be found in the [gemfile][gemfile-url].
 
 ```sh
 bundle install
