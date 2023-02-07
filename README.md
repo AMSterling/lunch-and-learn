@@ -2,7 +2,7 @@
 
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][LinkedIn]][LinkedIn-url]
 
 <br>
 
@@ -496,8 +496,8 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 [issues-url]: https://github.com/AMSterling/lunch-and-learn/issues
 [license-shield]: https://img.shields.io/github/license/AMSterling/lunch-and-learn.svg?style=for-the-badge
 [license-url]: https://github.com/AMSterling/lunch-and-learn/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/sterling-316a6223a/
+[LinkedIn]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[LinkedIn-url]: https://linkedin.com/in/sterling-316a6223a/
 
 [Atom]: https://img.shields.io/badge/Atom-66595C?style=for-the-badge&logo=Atom&logoColor=white
 [Atom-url]: https://github.com/atom/atom/releases/tag/v1.60.0
