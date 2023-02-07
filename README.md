@@ -89,7 +89,8 @@ Lunch and Learn uses <a href="https://developer.edamam.com/edamam-recipe-api" ta
 
 Instructions to set up a local version of Lunch and Learn:
 
-Fork and clone the project, then install the required gems with `bundle`. A full list of gems that will be installed can be found in the [gemfile](https://github.com/AMSterling/lunch-and-learn/blob/main/Gemfile).
+Fork and clone the project, then install the required gems with `bundle`. A full list of gems that will be installed can be found in the [gemfile][gemfile-url]
+<!-- (https://github.com/AMSterling/lunch-and-learn/blob/main/Gemfile). -->
 
 ```sh
 bundle install
@@ -473,7 +474,7 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 [contributors-url]: https://github.com/AMSterling/lunch-and-learn/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/AMSterling/lunch-and-learn.svg?style=for-the-badge
 [forks-url]: https://github.com/AMSterling/lunch-and-learn/network/members
-[gemfile]: https://github.com/AMSterling/lunch-and-learn/blob/main/Gemfile
+[gemfile-url]: https://github.com/AMSterling/lunch-and-learn/blob/main/Gemfile
 [stars-shield]: https://img.shields.io/github/stars/AMSterling/lunch-and-learn.svg?style=for-the-badge
 [stars-url]: https://github.com/AMSterling/lunch-and-learn/stargazers
 [issues-shield]: https://img.shields.io/github/issues/AMSterling/lunch-and-learn.svg?style=for-the-badge
