@@ -63,8 +63,12 @@ Backend SOA application to search for cuisines by country and provide opportunit
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+This is an example of how to list things you need to use the software and how to install them. <a href="https://docs.brew.sh/Installation" target="_blank" rel="noopener noreferrer">Homebrew</a> is recommended for Mac.
 
+Ruby:
+  ```sh
+  rbenv install 2.7.4
+  ```
 Ruby:
   ```sh
   rbenv install 2.7.4
@@ -73,8 +77,13 @@ Rails:
   ```sh
   gem install rails --version 5.2.8
   ```
+PostgreSQL<a href="https://www.postgresql.org/download/" target="_blank" rel="noopener noreferrer">(Windows)</a> or if using Homebrew:
+  ```sh
+  brew install postgresql
+  brew services start postgresql
+  ```
 API Keys:
-Lunch and Learn uses <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, <a href="https://restcountries.com/#api-endpoints-v3" rel="noopener noreferrer">RestCountries API V.3</a>, and , and <a href="https://unsplash.com/developers" rel="noopener noreferrer">Unsplash API</a>
+Lunch and Learn uses <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, <a href="https://www.geoapify.com/get-started-with-maps-api" rel="noopener noreferrer">Geoapify API</a>, <a href="https://restcountries.com/#api-endpoints-v3" rel="noopener noreferrer">RestCountries API V.3</a>, and <a href="https://unsplash.com/developers" rel="noopener noreferrer">Unsplash API</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
