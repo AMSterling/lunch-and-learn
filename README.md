@@ -43,6 +43,7 @@ Backend SOA application to search for cuisines by country and provide opportunit
         <li><a href="#add-favorite">Add Favorite</a></li>
         <li><a href="#get-favorites">Get Favorites</a></li>
         <li><a href="#delete-favorite">Delete Favorite</a></li>
+        <li><a href="#tourist-sights">Tourist Sights</a></li>
       </ul>
     </li>  
     <li><a href="#contact">Contact</a></li>
@@ -109,6 +110,8 @@ YouTube_API: 'YOUR YOUTUBE KEY'
 Secret key: 'YOUR YOUTUBE SECRET KEY'
 
 Unsplash_Access_Key: 'YOUR UNSPLASH ACCESS KEY'
+
+geoapify_key: 'YOUR GEOAPIFY KEY'
 ```
 
 Push to your preferred production server or in your terminal run
@@ -183,6 +186,23 @@ Endpoints to use in Postman running a local server `rails s`
         {...},
         {...},
         {etc},
+    ]
+}
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+```sh
+  GET '/api/v1/recipes?country=djibouti'
+```
+
+**Sample Response**
+
+```sh
+{
+    "data": [
+        "message",
+        "No recipes for Djibouti"
     ]
 }
 ```
@@ -386,6 +406,51 @@ Endpoints to use in Postman running a local server `rails s`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Tourist Sights
+
+```sh
+  GET '/api/v1/tourist_sights?country=France'
+```
+
+  **Sample Response**
+
+```sh
+  {
+    "data": [
+        {
+            "id": null,
+            "type": "tourist_sight",
+            "attributes": {
+                "name": "Tour de l'horloge",
+                "address": "Tour de l'horloge, Allée de l'Horloge, 23200 Aubusson, France",
+                "place_id": "51d28..."
+            }
+        },
+        {
+            "id": null,
+            "type": "tourist_sight",
+            "attributes": {
+                "name": "Le Château",
+                "address": "Le Château, D 18, 23150 Ahun, France",
+                "place_id": "51934..."
+            }
+        },
+        {
+            "id": null,
+            "type": "tourist_sight",
+            "attributes": {
+                "name": "Le Chapître",
+                "address": "Le Chapître, Rue du Chapitre, 23200 Aubusson, France",
+                "place_id": "517182..."
+            }
+        },
+        ...,
+        ...,
+    ]
+}
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
 
