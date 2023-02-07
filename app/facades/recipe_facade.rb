@@ -13,9 +13,7 @@ class RecipeFacade
     case
     when searched_country
       country_result = CountryService.get_country(searched_country)
-      if country_result == [:message, "Page Not Found"]
-        []
-      elsif country_result == [:status, 404]
+      if country_result == [:message, "Page Not Found"] || country_result == [:status, 404]
         []
       else
         valid_country = country_result[:name][:common].parameterize(preserve_case: true, separator: ' ')
