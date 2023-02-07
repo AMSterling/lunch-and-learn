@@ -19,6 +19,7 @@
 ## Description
 
 Backend SOA application to search for cuisines by country and provide opportunity to learn more about that country
+_For more examples, please refer to the [Documentation](https://backend.turing.edu/module3/projects/lunch_and_learn/requirements)_
 
 <br>
 
