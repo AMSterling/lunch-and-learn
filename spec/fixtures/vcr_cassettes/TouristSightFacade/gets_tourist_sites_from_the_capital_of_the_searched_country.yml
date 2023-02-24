@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 07 Feb 2023 01:16:38 GMT
+      - Fri, 24 Feb 2023 02:34:40 GMT
       Server:
       - Apache/2.4.38 (Debian)
       Cache-Control:
@@ -47,7 +47,7 @@ http_interactions:
         Cumhuriyeti","common":"Fransa"},"urd":{"official":"جمہوریہ فرانس","common":"فرانس"},"zho":{"official":"法兰西共和国","common":"法国"}},"latlng":[46.0,2.0],"landlocked":false,"borders":["AND","BEL","DEU","ITA","LUX","MCO","ESP","CHE"],"area":551695.0,"demonyms":{"eng":{"f":"French","m":"French"},"fra":{"f":"Française","m":"Français"}},"flag":"\uD83C\uDDEB\uD83C\uDDF7","maps":{"googleMaps":"https://goo.gl/maps/g7QxxSFsWyTPKuzd7","openStreetMaps":"https://www.openstreetmap.org/relation/1403916"},"population":67391582,"gini":{"2018":32.4},"fifa":"FRA","car":{"signs":["F"],"side":"right"},"timezones":["UTC-10:00","UTC-09:30","UTC-09:00","UTC-08:00","UTC-04:00","UTC-03:00","UTC+01:00","UTC+02:00","UTC+03:00","UTC+04:00","UTC+05:00","UTC+10:00","UTC+11:00","UTC+12:00"],"continents":["Europe"],"flags":{"png":"https://flagcdn.com/w320/fr.png","svg":"https://flagcdn.com/fr.svg","alt":"The
         flag of France is composed of three equal vertical bands of blue, white and
         red."},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/fr.png","svg":"https://mainfacts.com/media/images/coats_of_arms/fr.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[48.87,2.33]},"postalCode":{"format":"#####","regex":"^(\\d{5})$"}}]'
-  recorded_at: Tue, 07 Feb 2023 01:16:38 GMT
+  recorded_at: Fri, 24 Feb 2023 02:34:40 GMT
 - request:
     method: get
     uri: https://api.geoapify.com/v2/places?apiKey=<apiKey>&categories=tourism.sights&filter=circle:2.33,48.87,20000
@@ -67,7 +67,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 07 Feb 2023 01:16:52 GMT
+      - Fri, 24 Feb 2023 02:34:52 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -97,13 +97,13 @@ http_interactions:
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Scjjitx7caceTvTsHKuNn3Tg%2BuauE693eca7gGLBAJKJyZjDVdiDzNOqUo%2FdcvS2JP1WAZM2b3rdIMjKlbfRba%2B9NUFtniVTn9INsnKXUbc6ivzqHctUYteQWLd3rfp6ql4%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7qohKlBsXQnozrOZvnJ6I4CuUwS7L04RGpLshNl%2FGj%2Fl01x2%2Bzif%2FU3JgDal5S8495bZXCDQPXoLu4TmeBoaWROVqo3UUKmL%2B9HUGM%2FJppQbPziXRgLOr40vncJQQB9wdoM%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 79584806cc931f3e-DEN
+      - 79e4cdb17a5cc7a9-DEN
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
@@ -343,5 +343,5 @@ http_interactions:
         des Gobelins","wheelchair":"yes","opening_hours":"Tu-Su 11:00-18:00; Dec 25
         off; Jan 01 off; May 01 off; Dec 31 11:00-17:00","contact:street":"Avenue
         des Gobelins","contact:housenumber":42}},"place_id":"51d6f609e00dd1024059a7f79bdbd56a4840f00102f901d47e9a09000000009203184d616e75666163747572652064657320476f62656c696e73"},"geometry":{"type":"Point","coordinates":[2.3520772460022767,48.83465142360301]}}]}'
-  recorded_at: Tue, 07 Feb 2023 01:16:52 GMT
+  recorded_at: Fri, 24 Feb 2023 02:34:52 GMT
 recorded_with: VCR 6.1.0
