@@ -1,9 +1,14 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
+<div align="right">
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/b27b2c480d68f7a9f058/maintainability)](https://codeclimate.com/github/AMSterling/lunch-and-learn/maintainability)
+            
+</div>
+
 [![Contributors][contributors-shield]][contributors-url]
 [![LinkedIn][LinkedIn]][LinkedIn-url]
-[![Maintainability](https://api.codeclimate.com/v1/badges/b27b2c480d68f7a9f058/maintainability)](https://codeclimate.com/github/AMSterling/lunch-and-learn/maintainability)
 
 <br>
 
