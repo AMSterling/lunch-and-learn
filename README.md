@@ -19,7 +19,7 @@
 
 [![Rails][Rails]][Rails-url] [![Ruby][Ruby]][Ruby-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![PostgreSQL][PostgreSQL]][PostgreSQL-url] [![Postman][Postman]][Postman-url]
 
-[![XCode][XCode]][XCode-url] [![Homebrew][Homebrew]][Homebrew-url] [![MacOS][MacOS]][MacOS-url]
+[![XCode][XCode]][XCode-url] [![Homebrew][Homebrew]][Homebrew-url] [![GitHub Actions][GitHub Actions]][GitHub Actions-url] [![MacOS][MacOS]][MacOS-url]
 
 </div>
 
