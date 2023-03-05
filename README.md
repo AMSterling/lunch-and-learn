@@ -4,6 +4,7 @@
 <div align="right">
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/b27b2c480d68f7a9f058/maintainability)](https://codeclimate.com/github/AMSterling/lunch-and-learn/maintainability)
+[![Ruby on Rails CI](https://github.com/AMSterling/lunch-and-learn/actions/workflows/rails-CI.yml/badge.svg)](https://github.com/AMSterling/lunch-and-learn/actions/workflows/rails-CI.yml)
 
 </div>
 
