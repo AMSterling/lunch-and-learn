@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 24 Feb 2023 02:34:24 GMT
+      - Sun, 05 Mar 2023 00:55:21 GMT
       Server:
       - Apache/2.4.38 (Debian)
       Cache-Control:
@@ -48,7 +48,7 @@ http_interactions:
         Cumhuriyeti","common":"Kırgızistan"},"urd":{"official":"جمہوریہ کرغیزستان","common":"کرغیزستان"},"zho":{"official":"吉尔吉斯斯坦共和国","common":"吉尔吉斯斯坦"}},"latlng":[41.0,75.0],"landlocked":true,"borders":["CHN","KAZ","TJK","UZB"],"area":199951.0,"demonyms":{"eng":{"f":"Kirghiz","m":"Kirghiz"},"fra":{"f":"Kirghize","m":"Kirghize"}},"flag":"\uD83C\uDDF0\uD83C\uDDEC","maps":{"googleMaps":"https://goo.gl/maps/SKG8BSMMQVvxkRkB7","openStreetMaps":"https://www.openstreetmap.org/relation/178009"},"population":6591600,"gini":{"2019":29.7},"fifa":"KGZ","car":{"signs":["KS"],"side":"right"},"timezones":["UTC+06:00"],"continents":["Asia"],"flags":{"png":"https://flagcdn.com/w320/kg.png","svg":"https://flagcdn.com/kg.svg","alt":"The
         flag of Kyrgyzstan features a yellow sun with forty rays at the center of
         a red field. At the center of the sun is a stylized depiction of a tunduk."},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/kg.png","svg":"https://mainfacts.com/media/images/coats_of_arms/kg.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[42.87,74.6]},"postalCode":{"format":"######","regex":"^(\\d{6})$"}}]'
-  recorded_at: Fri, 24 Feb 2023 02:34:24 GMT
+  recorded_at: Sun, 05 Mar 2023 00:55:21 GMT
 - request:
     method: get
     uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=Kyrgyzstan&type=public
@@ -70,7 +70,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Fri, 24 Feb 2023 02:34:24 GMT
+      - Sun, 05 Mar 2023 00:55:22 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -88,9 +88,9 @@ http_interactions:
       Strict-Transport-Security:
       - max-age=15552001
       X-Request-Id:
-      - d34fa4c797e8d408ed9e650e53686b67
+      - 2c0f71df227212aa228de0234bd8f7d1
     body:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
-  recorded_at: Fri, 24 Feb 2023 02:34:24 GMT
+  recorded_at: Sun, 05 Mar 2023 00:55:22 GMT
 recorded_with: VCR 6.1.0

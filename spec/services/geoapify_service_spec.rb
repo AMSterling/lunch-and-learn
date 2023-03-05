@@ -7,6 +7,7 @@ RSpec.describe GeoapifyService, :vcr do
     expect(sights.count).to eq 20
     sights.each do |sight|
       expect(sight.keys).to eq([:type, :properties, :geometry])
+      expect(sight[:properties].keys).to include(:name, :formatted, :place_id)
       expect(sight[:properties]).to have_key(:name)
       expect(sight[:properties]).to have_key(:formatted)
       expect(sight[:properties]).to have_key(:place_id)
