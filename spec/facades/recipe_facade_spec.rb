@@ -48,7 +48,7 @@ RSpec.describe RecipeFacade, :vcr do
   end
 
   it 'returns recipes from a randomly chosen country' do
-    allow(CountryService).to receive(:get_random_country).and_return('Russia')
+    allow(CountryService).to receive(:get_random_country).and_return('France')
     recipes = RecipeFacade.randomized
 
     expect(recipes).to be_an Array
@@ -73,7 +73,7 @@ RSpec.describe RecipeFacade, :vcr do
       expect(recipe[:attributes]).to_not have_key(:digest)
       expect(recipe[:attributes].keys).to eq([:title, :url, :country, :image])
       expect(recipe[:attributes].values).to be_all String
-      expect(recipe[:attributes][:country]).to eq('Russia')
+      expect(recipe[:attributes][:country]).to eq('France')
       recipe[:attributes].values.each do |value|
         expect(value).to be_a String
       end
