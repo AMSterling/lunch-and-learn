@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 19 Apr 2023 00:31:50 GMT
+      - Sun, 14 May 2023 22:37:45 GMT
       Server:
       - Apache/2.4.38 (Debian)
       Cache-Control:
@@ -50,5 +50,5 @@ http_interactions:
         flag of Thailand is composed of five horizontal bands of red, white, blue,
         white and red, with the central blue band twice the height of the other four
         bands."},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/th.png","svg":"https://mainfacts.com/media/images/coats_of_arms/th.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[13.75,100.52]},"postalCode":{"format":"#####","regex":"^(\\d{5})$"}}]'
-  recorded_at: Wed, 19 Apr 2023 00:31:50 GMT
+  recorded_at: Sun, 14 May 2023 22:37:45 GMT
 recorded_with: VCR 6.1.0

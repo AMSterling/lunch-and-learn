@@ -10,6 +10,7 @@ RSpec.describe UnsplashService, :vcr do
     pics.each do |pic|
       expect(pic.keys).to eq([
         :id,
+        :slug,
         :created_at,
         :updated_at,
         :promoted_at,

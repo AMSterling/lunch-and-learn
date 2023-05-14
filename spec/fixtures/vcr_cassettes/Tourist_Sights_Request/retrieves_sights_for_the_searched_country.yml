@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 19 Apr 2023 00:31:27 GMT
+      - Sun, 14 May 2023 22:37:12 GMT
       Server:
       - Apache/2.4.38 (Debian)
       Cache-Control:
@@ -47,7 +47,7 @@ http_interactions:
         Cumhuriyeti","common":"Fransa"},"urd":{"official":"جمہوریہ فرانس","common":"فرانس"},"zho":{"official":"法兰西共和国","common":"法国"}},"latlng":[46.0,2.0],"landlocked":false,"borders":["AND","BEL","DEU","ITA","LUX","MCO","ESP","CHE"],"area":551695.0,"demonyms":{"eng":{"f":"French","m":"French"},"fra":{"f":"Française","m":"Français"}},"flag":"\uD83C\uDDEB\uD83C\uDDF7","maps":{"googleMaps":"https://goo.gl/maps/g7QxxSFsWyTPKuzd7","openStreetMaps":"https://www.openstreetmap.org/relation/1403916"},"population":67391582,"gini":{"2018":32.4},"fifa":"FRA","car":{"signs":["F"],"side":"right"},"timezones":["UTC-10:00","UTC-09:30","UTC-09:00","UTC-08:00","UTC-04:00","UTC-03:00","UTC+01:00","UTC+02:00","UTC+03:00","UTC+04:00","UTC+05:00","UTC+10:00","UTC+11:00","UTC+12:00"],"continents":["Europe"],"flags":{"png":"https://flagcdn.com/w320/fr.png","svg":"https://flagcdn.com/fr.svg","alt":"The
         flag of France is composed of three equal vertical bands of blue, white and
         red."},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/fr.png","svg":"https://mainfacts.com/media/images/coats_of_arms/fr.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[48.87,2.33]},"postalCode":{"format":"#####","regex":"^(\\d{5})$"}}]'
-  recorded_at: Wed, 19 Apr 2023 00:31:27 GMT
+  recorded_at: Sun, 14 May 2023 22:37:11 GMT
 - request:
     method: get
     uri: https://api.geoapify.com/v2/places?apiKey=<apiKey>&bias=proximity:2.33,48.87&categories=tourism.sights&conditions=named&filter=circle:2.33,48.87,20000&limit=20
@@ -67,7 +67,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 19 Apr 2023 00:31:38 GMT
+      - Sun, 14 May 2023 22:37:25 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -84,7 +84,8 @@ http_interactions:
         cf-ray, content-encoding, content-type, date, expect-ct, server, status, vary,
         cache-control, etag, last-modified, expires, host, cf-iplatitude, cf-iplongitude,
         accept-encoding, x-forwarded-for, x-forwarded-proto, cf-visitor, user-agent,
-        cf-connecting-ip, cdn-loop, cf-ipcity, cf-ipcontinent, cf-ipcountry, x-forwarded-port
+        cf-connecting-ip, cf-pseudo-ipv4, cdn-loop, cf-ipcity, cf-ipcontinent, cf-ipcountry,
+        x-forwarded-port
       Access-Control-Allow-Methods:
       - GET, POST, DELETE, OPTIONS, PUT
       Access-Control-Allow-Credentials:
@@ -97,13 +98,13 @@ http_interactions:
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QUYRMtT4kQSYq%2BpwMitB1eKnK%2FFwIiwbgILjopElIKCSyQbnfyPr2EFIYKBh7sPJdYYDpVPgGB5ESEEQorp4%2FXg4YodCpiS1h0Y2pmsyaqfKvpbCX0DNh0HP%2F21K6BZRlaY%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jrdPmzoUJj%2F2qpXid2xb0qI2Rfq7uCWCZmhC0Y2%2F5Q7dBLxmRBmUJTjyCpVFaLqXcTZrD9bPE4%2FNvckJqlduwsS0xp49Ax0ftJAgQz74OjwL%2BF%2FBrjsosWHFQM9lint058kmMGXVWekhRILjTLI%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 7ba10b779aff2707-DEN
+      - 7c769fd6df0e1f4a-DEN
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
@@ -172,7 +173,7 @@ http_interactions:
         hôtel de Latour-Maubourg, Place Vendôme, 75001 Paris, France","address_line1":"Ancien
         hôtel de Latour-Maubourg","address_line2":"Place Vendôme, 75001 Paris, France","categories":["building","building.historic","heritage","tourism","tourism.sights"],"details":["details.building","details.heritage","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Ancien
-        hôtel de Latour-Maubourg","osm_id":-542284,"ref:mhs":"PA00085828","building":"yes","heritage":3,"historic":"building","osm_type":"r","wikidata":"Q22920977","start_date":"C18","heritage:operator":"mhs","mhs:inscription_date":"1927-05-06"}},"distance":324,"place_id":"51c8b4d8d888a4024059adba4cf8f06e4840f00101f9014c46080000000000920320416e6369656e2068c3b474656c206465204c61746f75722d4d6175626f757267"},"geometry":{"type":"Point","coordinates":[2.3303391400464513,48.86672881838363]}},{"type":"Feature","properties":{"name":"anciens
+        hôtel de Latour-Maubourg","osm_id":542284,"ref:mhs":"PA00085828","building":"yes","heritage":3,"historic":"building","osm_type":"r","wikidata":"Q22920977","start_date":"C18","heritage:operator":"mhs","mhs:inscription_date":"1927-05-06"}},"distance":324,"place_id":"51c8b4d8d888a4024059adba4cf8f06e4840f00101f9014c46080000000000920320416e6369656e2068c3b474656c206465204c61746f75722d4d6175626f757267"},"geometry":{"type":"Point","coordinates":[2.3303391400464513,48.86672881838363]}},{"type":"Feature","properties":{"name":"anciens
         Bains Turcs","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","postcode":"75009","district":"Paris","suburb":"9th
         Arrondissement","city_block":"Quartier de la Chaussée-d''Antin","street":"Rue
@@ -205,7 +206,7 @@ http_interactions:
         Cambon, Rue de Mondovi, 75001 Paris, France","address_line1":"Palais Cambon","address_line2":"Rue
         de Mondovi, 75001 Paris, France","categories":["building","building.historic","building.public_and_civil","heritage","tourism","tourism.sights"],"details":["details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Palais
-        Cambon","osm_id":-542460,"ref:mhs":"PA00085791","building":"civic","heritage":3,"historic":"manor","osm_type":"r","wikidata":"Q3292683","wikipedia":"fr:Palais
+        Cambon","osm_id":542460,"ref:mhs":"PA00085791","building":"civic","heritage":3,"historic":"manor","osm_type":"r","wikidata":"Q3292683","wikipedia":"fr:Palais
         Cambon","heritage:operator":"mhs","mhs:inscription_date":"1993-05-18"}},"distance":437,"place_id":"5169e39eb2069a024059c17d5cdafd6e4840f00101f901fc4608000000000092030d50616c6169732043616d626f6e"},"geometry":{"type":"Point","coordinates":[2.325208087419402,48.86712197796033]}},{"type":"Feature","properties":{"name":"Au
         Gagne Petit","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
@@ -266,7 +267,7 @@ http_interactions:
         de la Marine, Place de la Concorde, 75008 Paris, France","address_line1":"Hôtel
         de la Marine","address_line2":"Place de la Concorde, 75008 Paris, France","categories":["building","building.historic","building.tourism","heritage","tourism","tourism.attraction","tourism.sights"],"details":["details","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Hôtel
-        de la Marine","osm_id":-1060822,"ref:mhs":"PA00088817","tourism":"attraction","website":"http://www.hotel-de-la-marine.paris/","alt_name":"Hôtel
+        de la Marine","osm_id":1060822,"ref:mhs":"PA00088817","tourism":"attraction","website":"http://www.hotel-de-la-marine.paris/","alt_name":"Hôtel
         du Garde-Meuble;Garde-Meuble de la Reine","building":"government","heritage":2,"historic":"manor","osm_type":"r","wikidata":"Q2059518","addr:city":"Paris","architect":"Ange-Jacques
         Gabriel;Jacques-Germain Soufflot","wikipedia":"fr:Hôtel de la Marine","addr:street":"Place
         de la Concorde","old_landuse":"military","addr:postcode":75008,"heritage:operator":"mhs","wikimedia_commons":"Category:Hôtel
@@ -330,5 +331,5 @@ http_interactions:
         A la chute de l''Empire, en avril 1814, le diplomate y hébergea le tsar Alexandre
         1er. En 1838, l''hôtel devint la possession de la famille de Rothschild, qui
         le vendit en 1950 aux Etats-Unis d''Amérique."}},"distance":600,"place_id":"517a3c88f8e2960240596ae34401ec6e4840f00103f901172d72350100000092031e48c3b474656c2064652054616c6c657972616e642d50c3a97269676f7264"},"geometry":{"type":"Point","coordinates":[2.3236751,48.86657729972542]}}]}'
-  recorded_at: Wed, 19 Apr 2023 00:31:38 GMT
+  recorded_at: Sun, 14 May 2023 22:37:25 GMT
 recorded_with: VCR 6.1.0
