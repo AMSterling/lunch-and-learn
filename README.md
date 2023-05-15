@@ -80,11 +80,11 @@ _<a href="https://developer.apple.com/xcode/" target="_blank" rel="noopener nore
 
 Ruby:
   ```sh
-  rbenv install 2.7.4
+  rbenv install 3.1.1
   ```
 Rails:
   ```sh
-  gem install rails --version 5.2.8
+  gem install rails --version 7.0.4
   ```
 PostgreSQL@14<a href="https://www.postgresql.org/download/" target="_blank" rel="noopener noreferrer">(Windows)</a> or if using Homebrew:
   ```sh
