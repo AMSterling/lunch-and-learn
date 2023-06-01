@@ -118,6 +118,12 @@ Run:
 ```sh
 bundle exec figaro install
 ```
+```sh
+rails generate rspec:install
+```
+```sh
+bundle update
+```
 
 In `config/application.yml` add API keys:
 
@@ -131,6 +137,12 @@ Unsplash_Access_Key: 'YOUR UNSPLASH ACCESS KEY'
 Secret_key: 'YOUR UNSPLASH SECRET KEY'
 
 geoapify_key: 'YOUR GEOAPIFY KEY'
+```
+
+To run the test suite:
+
+```sh
+bundle exec rspec
 ```
 
 Push to your preferred production server or in your terminal run
