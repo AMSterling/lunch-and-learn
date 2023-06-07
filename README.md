@@ -75,21 +75,17 @@ _For more examples, please refer to the [Documentation](https://backend.turing.e
 
 ### Prerequisites
 
-This lists things you need to use the software and how to install them. <a href="https://developer.apple.com/xcode/" target="_blank" rel="noopener noreferrer">Xcode</a> and <a href="https://docs.brew.sh/Installation" target="_blank" rel="noopener noreferrer">Homebrew</a> is recommended for Mac.
-Ruby version manager <a href="https://github.com/rbenv/rbenv" target="_blank" rel="noopener noreferrer">rbenv</a>
-
 Ruby:
   ```sh
-  rbenv install 3.1.1
+  3.1.1
   ```
 Rails:
   ```sh
-  gem install rails --version 7.0.4
+  7.0.4
   ```
-PostgreSQL@14<a href="https://www.postgresql.org/download/" target="_blank" rel="noopener noreferrer">(Windows)</a> or if using Homebrew:
+Database:
   ```sh
-  brew install postgresql
-  brew services start postgresql
+  postgresql@14
   ```
 API Keys:
 Lunch and Learn uses <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, <a href="https://www.geoapify.com/get-started-with-maps-api" rel="noopener noreferrer">Geoapify API</a>, <a href="https://restcountries.com/#api-endpoints-v3" rel="noopener noreferrer">RestCountries API V.3</a>, and <a href="https://unsplash.com/developers" rel="noopener noreferrer">Unsplash API</a>
