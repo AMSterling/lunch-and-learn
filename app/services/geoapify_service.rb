@@ -7,7 +7,7 @@ class GeoapifyService
       faraday.params['bias'] = "proximity:#{country.lng},#{country.lat}"
       faraday.params['limit'] = 20
     end
-    data = parse(response)
+    parse(response)
   end
 
   private
