@@ -75,21 +75,17 @@ _For more examples, please refer to the [Documentation](https://backend.turing.e
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-_<a href="https://developer.apple.com/xcode/" target="_blank" rel="noopener noreferrer">Xcode</a> and <a href="https://docs.brew.sh/Installation" target="_blank" rel="noopener noreferrer">Homebrew</a> is recommended for Mac._
-
 Ruby:
   ```sh
-  rbenv install 3.1.1
+  3.1.1
   ```
 Rails:
   ```sh
-  gem install rails --version 7.0.4
+  7.0.4
   ```
-PostgreSQL@14<a href="https://www.postgresql.org/download/" target="_blank" rel="noopener noreferrer">(Windows)</a> or if using Homebrew:
+Database:
   ```sh
-  brew install postgresql
-  brew services start postgresql
+  postgresql@14
   ```
 API Keys:
 Lunch and Learn uses <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, <a href="https://www.geoapify.com/get-started-with-maps-api" rel="noopener noreferrer">Geoapify API</a>, <a href="https://restcountries.com/#api-endpoints-v3" rel="noopener noreferrer">RestCountries API V.3</a>, and <a href="https://unsplash.com/developers" rel="noopener noreferrer">Unsplash API</a>
@@ -118,6 +114,12 @@ Run:
 ```sh
 bundle exec figaro install
 ```
+```sh
+rails generate rspec:install
+```
+```sh
+bundle update
+```
 
 In `config/application.yml` add API keys:
 
@@ -131,6 +133,12 @@ Unsplash_Access_Key: 'YOUR UNSPLASH ACCESS KEY'
 Secret_key: 'YOUR UNSPLASH SECRET KEY'
 
 geoapify_key: 'YOUR GEOAPIFY KEY'
+```
+
+To run the test suite:
+
+```sh
+bundle exec rspec
 ```
 
 Push to your preferred production server or in your terminal run
