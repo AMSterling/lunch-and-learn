@@ -494,7 +494,7 @@ Endpoints to use in Postman running a local server `rails s`
 
 [AMSterling](https://terminal.turing.edu/profiles/1525)
 
-[![GitHub][GitHub Badge]][GitHub-url] [![LinkedIn][LinkedIn]][LinkedIn-url]
+[![GitHub][GitHub]][GitHub-url] [![LinkedIn][LinkedIn]][LinkedIn-url]
 
 Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com/AMSterling/lunch-and-learn)
 
@@ -537,10 +537,10 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 [Fly]: https://custom-icon-badges.demolab.com/badge/Fly-DCDCDC?style=for-the-badge&logo=fly-io
 [Fly-url]: https://fly.io/
 
-[Git Badge]: https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white
+[Git]: https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white
 [Git-url]: https://git-scm.com/
 
-[GitHub Badge]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+[GitHub]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 [GitHub-url]: https://github.com/AMSterling/
 
 [GitHub Actions]: https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white
@@ -564,8 +564,8 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 [jQuery]: https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white
 [jQuery-url]: https://github.com/rails/jquery-rails
 
-[LinkedIn Badge]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-[LinkedIn-url]: https://www.linkedin.com/in/<Username>/
+[LinkedIn 2]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+[LinkedIn 2-url]: https://www.linkedin.com/in/enter_url/
 
 [MacOS]: https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0
 [MacOS-url]: https://www.apple.com/macos
@@ -591,6 +591,9 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 [Replit]: https://img.shields.io/badge/replit-667881?style=for-the-badge&logo=replit&logoColor=white
 [Replit-url]: https://replit.com/
 
+[ror]: https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white
+[ror-url]: https://rubyonrails.org/
+
 [RSpec]: https://custom-icon-badges.demolab.com/badge/RSpec-fffcf7?style=for-the-badge&logo=rspec
 [RSpec-url]: https://rspec.info/
 
@@ -605,6 +608,9 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 
 [Tailwind]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
 [Tailwind-url]: https://tailwindcss.com/
+
+[Turing]: https://custom-icon-badges.demolab.com/badge/Turing-DCDCDC?style=for-the-badge&logo=turing_school
+[Turing-url]: https://turing.edu/
 
 [Visual Studio Code]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
 [Visual Studio Code-url]: https://code.visualstudio.com/
