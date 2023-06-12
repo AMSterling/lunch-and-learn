@@ -17,6 +17,12 @@
 
 # Lunch and Learn
 
+  <p>
+    <a href="https://github.com/AMSterling/viewing_party_lite">
+      <img src="https://media.giphy.com/media/UaodLQqYNYbf2/giphy.gif">
+    </a>
+  </p>
+
 [![Rails][Rails]][Rails-url] [![Ruby][Ruby]][Ruby-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![PostgreSQL][PostgreSQL]][PostgreSQL-url] [![Postman][Postman]][Postman-url]
 
 [![XCode][XCode]][XCode-url] [![Homebrew][Homebrew]][Homebrew-url] [![GitHub Actions][GitHub Actions]][GitHub Actions-url] [![MacOS][MacOS]][MacOS-url]
