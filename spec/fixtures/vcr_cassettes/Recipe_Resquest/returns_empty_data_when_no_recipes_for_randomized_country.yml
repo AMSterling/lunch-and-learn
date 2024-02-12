@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Sun, 14 May 2023 22:37:10 GMT
+      - Mon, 12 Feb 2024 23:13:54 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -33,17 +33,17 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 GMT
       X-Served-By:
-      - ip-10-0-1-146.ec2.internal/10.0.1.146
+      - ip-10-0-6-178.ec2.internal/10.0.6.178
       Content-Language:
       - en
       Strict-Transport-Security:
       - max-age=15552001
       X-Request-Id:
-      - ed9e1d97e838f8839b597b86b5a3306b
+      - 4202ed61677077e89a3af3f88005754a
     body:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
-  recorded_at: Sun, 14 May 2023 22:37:10 GMT
+  recorded_at: Mon, 12 Feb 2024 23:13:54 GMT
 - request:
     method: get
     uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=Sao%20Tome%20and%20Principe&type=public
@@ -65,7 +65,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Sun, 14 May 2023 22:37:10 GMT
+      - Mon, 12 Feb 2024 23:13:55 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -77,15 +77,15 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 GMT
       X-Served-By:
-      - ip-10-0-1-38.ec2.internal/10.0.1.38
+      - ip-10-0-6-232.ec2.internal/10.0.6.232
       Content-Language:
       - en
       Strict-Transport-Security:
       - max-age=15552001
       X-Request-Id:
-      - 0f91532cd0080fb69576950cd8572835
+      - a8ca804d38b4ed892ff08b8a11b7b652
     body:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
-  recorded_at: Sun, 14 May 2023 22:37:10 GMT
+  recorded_at: Mon, 12 Feb 2024 23:13:55 GMT
 recorded_with: VCR 6.1.0

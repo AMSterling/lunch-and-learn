@@ -17,7 +17,7 @@ RSpec.describe LearningResourceFacade, :vcr do
     expect(resources.attributes[:video][:youtube_video_id]).to be_a String
     expect(resources.attributes[:video][:youtube_video_id]).to eq('uw8hjVqxMXw')
     expect(resources.attributes[:images]).to be_an Array
-    expect(resources.attributes[:images].count).to eq 10
+    expect(resources.attributes[:images].count).to eq 5
     resources.attributes[:images].each do |image|
       expect(image.keys).to eq([:alt_tag, :url])
       expect(image).to_not have_key(:id)

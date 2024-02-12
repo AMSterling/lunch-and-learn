@@ -3,7 +3,7 @@ class GeoapifyService
     response = conn.get('/v2/places?') do |faraday|
       faraday.params['categories'] = 'tourism.sights'
       faraday.params['conditions'] = 'named'
-      faraday.params['filter'] = "circle:#{country.lng},#{country.lat},20000"
+      faraday.params['filter'] = "circle:#{country.lng},#{country.lat},5000"
       faraday.params['bias'] = "proximity:#{country.lng},#{country.lat}"
       faraday.params['limit'] = 20
     end

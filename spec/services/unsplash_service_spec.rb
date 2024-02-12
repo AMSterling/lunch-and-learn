@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe UnsplashService, :vcr do
   it 'retrieves images related to the searched country' do
-    country = 'laos'
+    country = 'thailand'
     pics = UnsplashService.get_images(country)
 
     expect(pics).to be_an Array
@@ -20,6 +20,7 @@ RSpec.describe UnsplashService, :vcr do
         :blur_hash,
         :description,
         :alt_description,
+        :breadcrumbs,
         :urls,
         :links,
         :likes,

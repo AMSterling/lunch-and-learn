@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 14 May 2023 22:37:47 GMT
+      - Mon, 12 Feb 2024 23:14:19 GMT
       Server:
       - Apache/2.4.38 (Debian)
       Cache-Control:
@@ -47,10 +47,10 @@ http_interactions:
         Cumhuriyeti","common":"Fransa"},"urd":{"official":"جمہوریہ فرانس","common":"فرانس"},"zho":{"official":"法兰西共和国","common":"法国"}},"latlng":[46.0,2.0],"landlocked":false,"borders":["AND","BEL","DEU","ITA","LUX","MCO","ESP","CHE"],"area":551695.0,"demonyms":{"eng":{"f":"French","m":"French"},"fra":{"f":"Française","m":"Français"}},"flag":"\uD83C\uDDEB\uD83C\uDDF7","maps":{"googleMaps":"https://goo.gl/maps/g7QxxSFsWyTPKuzd7","openStreetMaps":"https://www.openstreetmap.org/relation/1403916"},"population":67391582,"gini":{"2018":32.4},"fifa":"FRA","car":{"signs":["F"],"side":"right"},"timezones":["UTC-10:00","UTC-09:30","UTC-09:00","UTC-08:00","UTC-04:00","UTC-03:00","UTC+01:00","UTC+02:00","UTC+03:00","UTC+04:00","UTC+05:00","UTC+10:00","UTC+11:00","UTC+12:00"],"continents":["Europe"],"flags":{"png":"https://flagcdn.com/w320/fr.png","svg":"https://flagcdn.com/fr.svg","alt":"The
         flag of France is composed of three equal vertical bands of blue, white and
         red."},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/fr.png","svg":"https://mainfacts.com/media/images/coats_of_arms/fr.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[48.87,2.33]},"postalCode":{"format":"#####","regex":"^(\\d{5})$"}}]'
-  recorded_at: Sun, 14 May 2023 22:37:47 GMT
+  recorded_at: Mon, 12 Feb 2024 23:14:19 GMT
 - request:
     method: get
-    uri: https://api.geoapify.com/v2/places?apiKey=<apiKey>&bias=proximity:2.33,48.87&categories=tourism.sights&conditions=named&filter=circle:2.33,48.87,20000&limit=20
+    uri: https://api.geoapify.com/v2/places?apiKey=<apiKey>&bias=proximity:2.33,48.87&categories=tourism.sights&conditions=named&filter=circle:2.33,48.87,5000&limit=20
     body:
       encoding: US-ASCII
       string: ''
@@ -67,7 +67,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 14 May 2023 22:37:56 GMT
+      - Mon, 12 Feb 2024 23:14:27 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -82,9 +82,10 @@ http_interactions:
       - accept, accept-language, content-language, access-control-max-age, access-control-allow-headers,
         access-control-allow-methods, access-control-allow-origin, allow, api-version,
         cf-ray, content-encoding, content-type, date, expect-ct, server, status, vary,
-        cache-control, etag, last-modified, expires, host, cf-iplatitude, cf-iplongitude,
+        cache-control, etag, last-modified, expires, host, cf-timezone, cf-pseudo-ipv4,
         accept-encoding, x-forwarded-for, x-forwarded-proto, cf-visitor, user-agent,
-        cf-connecting-ip, cf-pseudo-ipv4, cdn-loop, cf-ipcity, cf-ipcontinent, cf-ipcountry,
+        cf-connecting-ip, cdn-loop, cf-ipcity, cf-ipcontinent, cf-ipcountry, cf-iplatitude,
+        cf-iplongitude, cf-metro-code, cf-postal-code, cf-region, cf-region-code,
         x-forwarded-port
       Access-Control-Allow-Methods:
       - GET, POST, DELETE, OPTIONS, PUT
@@ -98,21 +99,27 @@ http_interactions:
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3T4X3ozukIgPz2uv%2FuLfhKaXSkupkZi64uU8RY0JrA03W09nniNeR7KcnIwV%2BhRyUdG4aP6QnIX%2Fs1myKd1Oo%2FAyV5PGHolcVtAnBdFFqD1pjCjQLL0i83mvSzyHzgdXrTyYKzAM6OjPu783DZY%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=F9BDcNafUOvQUdY8Kti6rG%2BLKkfYHwpBgETSvESQ6xdZN7PGO%2FqItO8%2FIIvMpoBYLRxU4M1%2B67%2FEwV97BDi33KNM125fN0xlfJAwCyJULOl3oaTlOS5Emaf0ZvZInV54jzfSn2BaRyJ1Skc7vxs%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 7c76a0b28b261f2c-DEN
+      - 854886f82b5a520c-DEN
       Alt-Svc:
-      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+      - h3=":443"; ma=86400
     body:
       encoding: UTF-8
-      string: '{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"Crédit
+      string: '{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"Mistinguett","country":"France","country_code":"fr","region":"Metropolitan
+        France","state":"Ile-de-France","city":"Paris","postcode":"75009","district":"Paris","suburb":"9th
+        Arrondissement","city_block":"Quartier de la Chaussée-d''Antin","street":"Boulevard
+        des Capucines","lon":2.3284722,"lat":48.870161,"state_code":"IDF","state_COG":"11","formatted":"Mistinguett,
+        Boulevard des Capucines, 75009 Paris, France","address_line1":"Mistinguett","address_line2":"Boulevard
+        des Capucines, 75009 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details.historic"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Mistinguett","osm_id":10811040647,"historic":"memorial","memorial":"plaque","osm_type":"n"}},"distance":114,"place_id":"5150296508b6a00240592609866f616f4840f00103f901876363840200000092030b4d697374696e6775657474"},"geometry":{"type":"Point","coordinates":[2.3284722,48.87016099972452]}},{"type":"Feature","properties":{"name":"Crédit
         Foncier de France","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","district":"Paris","suburb":"2nd
-        Arrondissement","city_block":"Quartier Gaillon","street":"Rue des Capucines","lon":2.3283688,"lat":48.8697225,"formatted":"Crédit
+        Arrondissement","city_block":"Quartier Gaillon","street":"Rue des Capucines","lon":2.3283688,"lat":48.8697225,"state_code":"IDF","state_COG":"11","formatted":"Crédit
         Foncier de France, Rue des Capucines, Paris, France","address_line1":"Crédit
         Foncier de France","address_line2":"Rue des Capucines, Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial","wheelchair","wheelchair.yes"],"details":["details","details.facilities","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Crédit
@@ -129,7 +136,7 @@ http_interactions:
         attributions ont été étendues dès 1860 aux prêts et aux départements, puis
         à diverses opérations d''intérêt national attribuées par l''État."}},"distance":124,"place_id":"51d03648d27fa0024059d4741e11536f4840f00103f9013aa86933010000009203194372c3a964697420466f6e63696572206465204672616e6365"},"geometry":{"type":"Point","coordinates":[2.3283688,48.869722499724645]}},{"type":"Feature","properties":{"name":"Théâtre
         Daunou","country":"France","country_code":"fr","region":"Metropolitan France","state":"Ile-de-France","city":"Paris","postcode":"75002","district":"Paris","suburb":"2nd
-        Arrondissement","city_block":"Quartier Gaillon","street":"Rue Daunou","lon":2.331856298373986,"lat":48.86926575,"formatted":"Théâtre
+        Arrondissement","city_block":"Quartier Gaillon","street":"Rue Daunou","lon":2.331856298373986,"lat":48.86926575,"state_code":"IDF","state_COG":"11","formatted":"Théâtre
         Daunou, Rue Daunou, 75002 Paris, France","address_line1":"Théâtre Daunou","address_line2":"Rue
         Daunou, 75002 Paris, France","categories":["building","building.entertainment","building.historic","entertainment","entertainment.culture","entertainment.culture.theatre","heritage","tourism","tourism.sights"],"details":["details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Théâtre
@@ -137,14 +144,24 @@ http_interactions:
         Daunou","contact:city":"Paris","contact:street":"Rue Daunou","contact:postcode":75002,"heritage:operator":"mhs","contact:housenumber":7}},"distance":150,"place_id":"5101bfa97ea2a70240591f32932a446f4840f00102f901a61f4303000000009203105468c3a9c3a2747265204461756e6f75"},"geometry":{"type":"Point","coordinates":[2.331852902941933,48.86926777064604]}},{"type":"Feature","properties":{"name":"Edouard
         VII","country":"France","country_code":"fr","region":"Metropolitan France","state":"Ile-de-France","city":"Paris","postcode":"75009","district":"Paris","suburb":"9th
         Arrondissement","city_block":"Quartier de la Chaussée-d''Antin","street":"Place
-        Édouard VII","lon":2.3291888,"lat":48.8712586,"formatted":"Edouard VII, Place
-        Édouard VII, 75009 Paris, France","address_line1":"Edouard VII","address_line2":"Place
+        Édouard VII","lon":2.3291888,"lat":48.8712586,"state_code":"IDF","state_COG":"11","formatted":"Edouard
+        VII, Place Édouard VII, 75009 Paris, France","address_line1":"Edouard VII","address_line2":"Place
         Édouard VII, 75009 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details.historic"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Edouard
-        VII","osm_id":4118826592,"historic":"memorial","memorial":"statue","osm_type":"n"}},"distance":152,"place_id":"5105add1bc2da20240595116dc66856f4840f00103f901604e80f50000000092030b45646f7561726420564949"},"geometry":{"type":"Point","coordinates":[2.3291887999999994,48.871258599724236]}},{"type":"Feature","properties":{"name":"Hôtel
+        VII","osm_id":4118826592,"historic":"memorial","memorial":"statue","osm_type":"n"}},"distance":152,"place_id":"5105add1bc2da20240595116dc66856f4840f00103f901604e80f50000000092030b45646f7561726420564949"},"geometry":{"type":"Point","coordinates":[2.3291887999999994,48.871258599724236]}},{"type":"Feature","properties":{"name":"Place
+        Vendôme","old_name":"Place de Louis Le Grand;Place des Conquêtes;Place des
+        Piques","country":"France","country_code":"fr","region":"Metropolitan France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
+        Arrondissement","city_block":"Quartier Vendôme","street":"Accès Parking Vendôme","lon":2.329428116825194,"lat":48.867463400000005,"state_code":"IDF","state_COG":"11","formatted":"Place
+        Vendôme, Accès Parking Vendôme, 75001 Paris, France","address_line1":"Place
+        Vendôme","address_line2":"Accès Parking Vendôme, 75001 Paris, France","categories":["tourism","tourism.attraction","tourism.sights","tourism.sights.square"],"details":["details","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Place
+        Vendôme","place":"square","osm_id":54175774,"bicycle":"no","name:he":"כיכר
+        ונדום","tourism":"attraction","old_name":"Place de Louis Le Grand;Place des
+        Conquêtes;Place des Piques","osm_type":"w","wikidata":"Q643520","wikipedia":"fr:Place
+        Vendôme"}},"distance":201,"place_id":"51b6b3d476b0a202405924851557096f4840f00102f9011ea83a030000000092030e506c6163652056656e64c3b46d65"},"geometry":{"type":"Point","coordinates":[2.3294381412183283,48.867472539432384]}},{"type":"Feature","properties":{"name":"Hôtel
         de Bourvallais","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
-        Arrondissement","city_block":"Quartier Vendôme","street":"Rue Cambon","lon":2.327720777076975,"lat":48.8680633,"formatted":"Hôtel
+        Arrondissement","city_block":"Quartier Vendôme","street":"Rue Cambon","lon":2.327720777076975,"lat":48.8680633,"state_code":"IDF","state_COG":"11","formatted":"Hôtel
         de Bourvallais, Rue Cambon, 75001 Paris, France","address_line1":"Hôtel de
         Bourvallais","address_line2":"Rue Cambon, 75001 Paris, France","categories":["tourism","tourism.sights"],"details":["details","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Hôtel
@@ -152,14 +169,14 @@ http_interactions:
         de Bourvallais"}},"distance":224,"place_id":"511de26b80539f024059320c8e7d1e6f4840f00102f901530cdb080000000092031548c3b474656c20646520426f757276616c6c616973"},"geometry":{"type":"Point","coordinates":[2.327795985500656,48.86811799465103]}},{"type":"Feature","properties":{"name":"Ministère
         de la Justice","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
-        Arrondissement","city_block":"Quartier Vendôme","street":"Place Vendôme","lon":2.3284917053951233,"lat":48.8677371,"formatted":"Ministère
+        Arrondissement","city_block":"Quartier Vendôme","street":"Place Vendôme","lon":2.3284917053951233,"lat":48.8677371,"state_code":"IDF","state_COG":"11","formatted":"Ministère
         de la Justice, Place Vendôme, 75001 Paris, France","address_line1":"Ministère
         de la Justice","address_line2":"Place Vendôme, 75001 Paris, France","categories":["building","building.historic","building.office","office","office.government","office.government.ministry","tourism","tourism.sights"],"details":["details","details.contact","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Ministère
         de la Justice","layer":1,"office":"government","osm_id":54175265,"building":"yes","historic":"manor","osm_type":"w","wikidata":"Q3145763","government":"ministry","contact:city":"Paris","contact:phone":"+33
         1 44 77 60 60","contact:street":"Place Vendôme","contact:website":"https://www.justice.gouv.fr/","contact:postcode":75001,"contact:housenumber":13}},"distance":250,"place_id":"5160eb9c0c8fa002405963a964f3126f4840f00102f90121a63a03000000009203184d696e697374c3a87265206465206c61204a757374696365"},"geometry":{"type":"Point","coordinates":[2.328397844828416,48.86776583113785]}},{"type":"Feature","properties":{"name":"Colonne
         Vendôme","country":"France","country_code":"fr","region":"Metropolitan France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
-        Arrondissement","city_block":"Quartier Vendôme","street":"Place Vendôme","lon":2.329438205660875,"lat":48.8674726,"formatted":"Colonne
+        Arrondissement","city_block":"Quartier Vendôme","street":"Place Vendôme","lon":2.329438205660875,"lat":48.8674726,"state_code":"IDF","state_COG":"11","formatted":"Colonne
         Vendôme, Place Vendôme, 75001 Paris, France","address_line1":"Colonne Vendôme","address_line2":"Place
         Vendôme, 75001 Paris, France","categories":["building","building.historic","heritage","tourism","tourism.sights","tourism.sights.memorial","tourism.sights.memorial.monument"],"details":["details","details.building","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Colonne
@@ -169,22 +186,29 @@ http_interactions:
         Vendôme","roof:shape":"mansard","addr:street":"Place Vendôme","roof:colour":"#8DF0B8","roof:height":1,"building:part":"yes","heritage:operator":"mhs","mhs:inscription_date":"1992-03-31","building:facade:colour":"#8DF0B8"}},"distance":280,"place_id":"51f4b5dc97b0a2024059ab0dc557096f4840f00102f9014160930d00000000920310436f6c6f6e6e652056656e64c3b46d65"},"geometry":{"type":"Point","coordinates":[2.3294383873205735,48.86747262117145]}},{"type":"Feature","properties":{"name":"Ancien
         hôtel de Latour-Maubourg","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
-        Arrondissement","city_block":"Quartier Vendôme","street":"Place Vendôme","lon":2.3306534350427555,"lat":48.866717300000005,"formatted":"Ancien
+        Arrondissement","city_block":"Quartier Vendôme","street":"Place Vendôme","lon":2.3306534350427555,"lat":48.866717300000005,"state_code":"IDF","state_COG":"11","formatted":"Ancien
         hôtel de Latour-Maubourg, Place Vendôme, 75001 Paris, France","address_line1":"Ancien
         hôtel de Latour-Maubourg","address_line2":"Place Vendôme, 75001 Paris, France","categories":["building","building.historic","heritage","tourism","tourism.sights"],"details":["details.building","details.heritage","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Ancien
-        hôtel de Latour-Maubourg","osm_id":542284,"ref:mhs":"PA00085828","building":"yes","heritage":3,"historic":"building","osm_type":"r","wikidata":"Q22920977","start_date":"C18","heritage:operator":"mhs","mhs:inscription_date":"1927-05-06"}},"distance":324,"place_id":"51c8b4d8d888a4024059adba4cf8f06e4840f00101f9014c46080000000000920320416e6369656e2068c3b474656c206465204c61746f75722d4d6175626f757267"},"geometry":{"type":"Point","coordinates":[2.3303391400464513,48.86672881838363]}},{"type":"Feature","properties":{"name":"anciens
+        hôtel de Latour-Maubourg","osm_id":542284,"ref:mhs":"PA00085828","building":"yes","heritage":3,"historic":"building","osm_type":"r","wikidata":"Q22920977","start_date":"C18","heritage:operator":"mhs","mhs:inscription_date":"1927-05-06"}},"distance":324,"place_id":"51bfc4e9d888a402405977d54bf8f06e4840f00101f9014c46080000000000920320416e6369656e2068c3b474656c206465204c61746f75722d4d6175626f757267"},"geometry":{"type":"Point","coordinates":[2.3303391405430314,48.866728817966695]}},{"type":"Feature","properties":{"name":"anciens
         Bains Turcs","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","postcode":"75009","district":"Paris","suburb":"9th
         Arrondissement","city_block":"Quartier de la Chaussée-d''Antin","street":"Rue
-        des Mathurins","lon":2.328783,"lat":48.873052,"formatted":"anciens Bains Turcs,
-        Rue des Mathurins, 75009 Paris, France","address_line1":"anciens Bains Turcs","address_line2":"Rue
-        des Mathurins, 75009 Paris, France","categories":["heritage","tourism","tourism.sights"],"details":["details.heritage"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        des Mathurins","lon":2.328783,"lat":48.873052,"state_code":"IDF","state_COG":"11","formatted":"anciens
+        Bains Turcs, Rue des Mathurins, 75009 Paris, France","address_line1":"anciens
+        Bains Turcs","address_line2":"Rue des Mathurins, 75009 Paris, France","categories":["heritage","tourism","tourism.sights"],"details":["details.heritage"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"anciens
-        Bains Turcs","osm_id":8927070848,"ref:mhs":"PA00088964","heritage":3,"historic":"building","osm_type":"n","heritage:operator":"mhs","mhs:inscription_date":"1977-12-30"}},"distance":351,"place_id":"519dd843fb58a1024059b542fd2ac06f4840f00103f901804a181402000000920313616e6369656e73204261696e73205475726373"},"geometry":{"type":"Point","coordinates":[2.328783,48.873051999723806]}},{"type":"Feature","properties":{"name":"Couvent
+        Bains Turcs","osm_id":8927070848,"ref:mhs":"PA00088964","heritage":3,"historic":"building","osm_type":"n","heritage:operator":"mhs","mhs:inscription_date":"1977-12-30"}},"distance":351,"place_id":"519dd843fb58a1024059b542fd2ac06f4840f00103f901804a181402000000920313616e6369656e73204261696e73205475726373"},"geometry":{"type":"Point","coordinates":[2.328783,48.873051999723806]}},{"type":"Feature","properties":{"name":"Lavatory
+        Madeleine","country":"France","country_code":"fr","region":"Metropolitan France","state":"Ile-de-France","city":"Paris","postcode":"75008","district":"Paris","suburb":"8th
+        Arrondissement of Paris","city_block":"Quartier de la Madeleine","street":"Place
+        de la Madeleine","lon":2.3247334,"lat":48.8694836,"state_code":"IDF","state_COG":"11","formatted":"Lavatory
+        Madeleine, Place de la Madeleine, 75008 Paris, France","address_line1":"Lavatory
+        Madeleine","address_line2":"Place de la Madeleine, 75008 Paris, France","categories":["access","access.yes","amenity","amenity.toilet","fee","heritage","tourism","tourism.sights"],"details":["details","details.facilities","details.heritage"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"fee":"yes","name":"Lavatory
+        Madeleine","layer":-1,"level":-1,"access":"yes","charge":"2.00 EUR","osm_id":10687258035,"unisex":"yes","amenity":"toilets","ref:mhs":"PA75080008","heritage":3,"historic":"yes","osm_type":"n","wheelchair":"no","opening_hours":"10:00-18:00","toilets:disposal":"flush","heritage:operator":"mhs","mhs:inscription_date":"2011-03-16"}},"distance":391,"place_id":"51e15927d30d99024059eb9c143d4b6f4840f00103f901b39d027d020000009203124c617661746f7279204d6164656c65696e65"},"geometry":{"type":"Point","coordinates":[2.3247334,48.869483599724695]}},{"type":"Feature","properties":{"name":"Couvent
         et Club des Feuillants","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
-        Arrondissement","city_block":"Quartier Vendôme","street":"Rue Saint-Honoré","lon":2.3294683,"lat":48.8660945,"formatted":"Couvent
+        Arrondissement","city_block":"Quartier Vendôme","street":"Rue Saint-Honoré","lon":2.3294683,"lat":48.8660945,"state_code":"IDF","state_COG":"11","formatted":"Couvent
         et Club des Feuillants, Rue Saint-Honoré, 75001 Paris, France","address_line1":"Couvent
         et Club des Feuillants","address_line2":"Rue Saint-Honoré, 75001 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Couvent
@@ -202,24 +226,24 @@ http_interactions:
         siègent au Manège, jusqu''à la destruction de l''ensemble des bâtiments en
         1804."}},"distance":436,"place_id":"51bb8cac46c0a202405987c83f2fdc6e4840f00103f901ada96d330100000092031e436f7576656e7420657420436c75622064657320466575696c6c616e7473"},"geometry":{"type":"Point","coordinates":[2.3294683,48.86609449972553]}},{"type":"Feature","properties":{"name":"Palais
         Cambon","country":"France","country_code":"fr","region":"Metropolitan France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
-        Arrondissement","city_block":"Quartier Vendôme","street":"Rue de Mondovi","lon":2.3257215766564125,"lat":48.8671284,"formatted":"Palais
-        Cambon, Rue de Mondovi, 75001 Paris, France","address_line1":"Palais Cambon","address_line2":"Rue
-        de Mondovi, 75001 Paris, France","categories":["building","building.historic","building.public_and_civil","heritage","tourism","tourism.sights"],"details":["details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        Arrondissement","city_block":"Quartier Vendôme","street":"Place Maurice Barrès","lon":2.3257215766564125,"lat":48.8671284,"state_code":"IDF","state_COG":"11","formatted":"Palais
+        Cambon, Place Maurice Barrès, 75001 Paris, France","address_line1":"Palais
+        Cambon","address_line2":"Place Maurice Barrès, 75001 Paris, France","categories":["building","building.historic","building.public_and_civil","heritage","tourism","tourism.sights"],"details":["details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Palais
         Cambon","osm_id":542460,"ref:mhs":"PA00085791","building":"civic","heritage":3,"historic":"manor","osm_type":"r","wikidata":"Q3292683","wikipedia":"fr:Palais
         Cambon","heritage:operator":"mhs","mhs:inscription_date":"1993-05-18"}},"distance":437,"place_id":"5169e39eb2069a024059c17d5cdafd6e4840f00101f901fc4608000000000092030d50616c6169732043616d626f6e"},"geometry":{"type":"Point","coordinates":[2.325208087419402,48.86712197796033]}},{"type":"Feature","properties":{"name":"Au
         Gagne Petit","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
         Arrondissement","city_block":"Quartier du Palais Royal","street":"Avenue de
-        l''Opéra","lon":2.3337826,"lat":48.8666111,"formatted":"Au Gagne Petit, Avenue
-        de l''Opéra, 75001 Paris, France","address_line1":"Au Gagne Petit","address_line2":"Avenue
-        de l''Opéra, 75001 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial","tourism.sights.memorial.monument"],"details":["details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        l''Opéra","lon":2.3337826,"lat":48.8666111,"state_code":"IDF","state_COG":"11","formatted":"Au
+        Gagne Petit, Avenue de l''Opéra, 75001 Paris, France","address_line1":"Au
+        Gagne Petit","address_line2":"Avenue de l''Opéra, 75001 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial","tourism.sights.memorial.monument"],"details":["details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Au
         Gagne Petit","osm_id":4783203122,"historic":"monument","osm_type":"n","wikidata":"Q22921074","wikipedia":"fr:Au
         gagne petit"}},"distance":468,"place_id":"5172ca373696ab024059ecd5cd1ced6e4840f00103f90132e3191d0100000092030e4175204761676e65205065746974"},"geometry":{"type":"Point","coordinates":[2.3337826,48.86661109972542]}},{"type":"Feature","properties":{"name":"Cour
         des Comptes","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
-        Arrondissement","city_block":"Quartier Vendôme","street":"Rue du Mont Thabor","lon":2.3255134,"lat":48.86675,"formatted":"Cour
+        Arrondissement","city_block":"Quartier Vendôme","street":"Rue du Mont Thabor","lon":2.3255134,"lat":48.86675,"state_code":"IDF","state_COG":"11","formatted":"Cour
         des Comptes, Rue du Mont Thabor, 75001 Paris, France","address_line1":"Cour
         des Comptes","address_line2":"Rue du Mont Thabor, 75001 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial","wheelchair","wheelchair.yes"],"details":["details","details.facilities","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Cour
@@ -236,7 +260,7 @@ http_interactions:
         exigüe, et l''architecte Moyaux construit à partir de 1899 l''actuel bâtiment."}},"distance":489,"place_id":"513447fbc4a69a0240597250fba9f16e4840f00103f901182d723501000000920310436f75722064657320436f6d70746573"},"geometry":{"type":"Point","coordinates":[2.3255134,48.86674999972537]}},{"type":"Feature","properties":{"name":"Hôtel
         de Noailles","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
-        Arrondissement","city_block":"Quartier Vendôme","street":"Rue Saint-Honoré","lon":2.3310774,"lat":48.8652905,"formatted":"Hôtel
+        Arrondissement","city_block":"Quartier Vendôme","street":"Rue Saint-Honoré","lon":2.3310774,"lat":48.8652905,"state_code":"IDF","state_COG":"11","formatted":"Hôtel
         de Noailles, Rue Saint-Honoré, 75001 Paris, France","address_line1":"Hôtel
         de Noailles","address_line2":"Rue Saint-Honoré, 75001 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Hôtel
@@ -254,16 +278,17 @@ http_interactions:
         fut restitué à ses propriétaires en 1814, morcelé et détruit après 1830."}},"distance":530,"place_id":"51c48e6be80ba602405948eeced6c16e4840f00103f9018a1470330100000092031248c3b474656c206465204e6f61696c6c6573"},"geometry":{"type":"Point","coordinates":[2.3310774,48.865290499725745]}},{"type":"Feature","properties":{"name":"Hôtel
         Saint-Florentin","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
-        Arrondissement","city_block":"Quartier Vendôme","street":"Rue de Mondovi","lon":2.3242525240401566,"lat":48.86670675,"formatted":"Hôtel
-        Saint-Florentin, Rue de Mondovi, 75001 Paris, France","address_line1":"Hôtel
-        Saint-Florentin","address_line2":"Rue de Mondovi, 75001 Paris, France","categories":["building","building.historic","tourism","tourism.sights"],"details":["details","details.building","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        Arrondissement","city_block":"Quartier Vendôme","street":"Rue de Rivoli","lon":2.3242525240401566,"lat":48.86670675,"state_code":"IDF","state_COG":"11","formatted":"Hôtel
+        Saint-Florentin, Rue de Rivoli, 75001 Paris, France","address_line1":"Hôtel
+        Saint-Florentin","address_line2":"Rue de Rivoli, 75001 Paris, France","categories":["access_limited","access_limited.customers","building","building.historic","tourism","tourism.sights"],"details":["details","details.building","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Hôtel
-        Saint-Florentin","osm_id":54177935,"alt_name":"Hôtel de Talleyrand-Périgord","building":"yes","historic":"manor","osm_type":"w","wikidata":"Q3145965","wikipedia":"fr:Hôtel
-        Saint-Florentin","contact:city":"Paris","contact:street":"Rue Saint-Florentin","building:levels":4,"contact:postcode":75001,"contact:housenumber":2}},"distance":533,"place_id":"51b1b997bec59702405969a8e875f06e4840f00102f9018fb03a030000000092031648c3b474656c205361696e742d466c6f72656e74696e"},"geometry":{"type":"Point","coordinates":[2.3241076364567665,48.86671327457663]}},{"type":"Feature","properties":{"name":"Hôtel
+        Saint-Florentin","access":"customers","osm_id":54177935,"alt_name":"Hôtel
+        de Talleyrand-Périgord","building":"historic","historic":"manor","osm_type":"w","wikidata":"Q3145965","wikipedia":"fr:Hôtel
+        Saint-Florentin","contact:city":"Paris","contact:street":"Rue Saint-Florentin","building:levels":4,"contact:postcode":75001,"building:material":"stone","contact:housenumber":2}},"distance":533,"place_id":"51b1b997bec59702405969a8e875f06e4840f00102f9018fb03a030000000092031648c3b474656c205361696e742d466c6f72656e74696e"},"geometry":{"type":"Point","coordinates":[2.3241076364567665,48.86671327457663]}},{"type":"Feature","properties":{"name":"Hôtel
         de la Marine","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","postcode":"75008","district":"Paris","suburb":"8th
         Arrondissement of Paris","city_block":"Quartier de la Madeleine","street":"Place
-        de la Concorde","lon":2.3235045127976046,"lat":48.8669402,"formatted":"Hôtel
+        de la Concorde","lon":2.3235045127976046,"lat":48.8669402,"state_code":"IDF","state_COG":"11","formatted":"Hôtel
         de la Marine, Place de la Concorde, 75008 Paris, France","address_line1":"Hôtel
         de la Marine","address_line2":"Place de la Concorde, 75008 Paris, France","categories":["building","building.historic","building.tourism","heritage","tourism","tourism.attraction","tourism.sights"],"details":["details","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Hôtel
@@ -273,63 +298,18 @@ http_interactions:
         de la Concorde","old_landuse":"military","addr:postcode":75008,"heritage:operator":"mhs","wikimedia_commons":"Category:Hôtel
         de la Marine (Paris)"}},"distance":563,"place_id":"51388772e2a895024059b124d037f76e4840f00101f901d62f10000000000092031348c3b474656c206465206c61204d6172696e65"},"geometry":{"type":"Point","coordinates":[2.3230760279847367,48.86691949523209]}},{"type":"Feature","properties":{"name":"Hector
         Fabre","country":"France","country_code":"fr","region":"Metropolitan France","state":"Ile-de-France","city":"Paris","postcode":"75002","district":"Paris","suburb":"2nd
-        Arrondissement","city_block":"Quartier Vivienne","street":"Rue Chabanais","lon":2.3368898,"lat":48.8673428,"formatted":"Hector
+        Arrondissement","city_block":"Quartier Vivienne","street":"Rue Chabanais","lon":2.3368898,"lat":48.8673428,"state_code":"IDF","state_COG":"11","formatted":"Hector
         Fabre, Rue Chabanais, 75002 Paris, France","address_line1":"Hector Fabre","address_line2":"Rue
         Chabanais, 75002 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details.historic"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Hector
         Fabre","osm_id":9063588466,"historic":"memorial","memorial":"plaque","osm_type":"n"}},"distance":586,"place_id":"510cd98a47f3b1024059d69ebf16056f4840f00103f90172623b1c0200000092030c486563746f72204661627265"},"geometry":{"type":"Point","coordinates":[2.3368898,48.86734279972522]}},{"type":"Feature","properties":{"name":"E.J.
         Delécluze et E.N. Viollet le duc","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","postcode":"75002","district":"Paris","suburb":"2nd
-        Arrondissement","city_block":"Quartier Vivienne","street":"Rue Chabanais","lon":2.3365949,"lat":48.8670031,"formatted":"E.J.
+        Arrondissement","city_block":"Quartier Vivienne","street":"Rue Chabanais","lon":2.3365949,"lat":48.8670031,"state_code":"IDF","state_COG":"11","formatted":"E.J.
         Delécluze et E.N. Viollet le duc, Rue Chabanais, 75002 Paris, France","address_line1":"E.J.
         Delécluze et E.N. Viollet le duc","address_line2":"Rue Chabanais, 75002 Paris,
         France","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details.historic"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"E.J.
-        Delécluze et E.N. Viollet le duc","osm_id":9063588459,"historic":"memorial","memorial":"plaque","osm_type":"n"}},"distance":588,"place_id":"51cd00bcaa58b1024059e86c23f5f96e4840f00103f9016b623b1c02000000920326452e4a2e2044656cc3a9636c757a6520657420452e4e2e2056696f6c6c6574206c6520647563"},"geometry":{"type":"Point","coordinates":[2.3365949,48.86700309972531]}},{"type":"Feature","properties":{"name":"Eugène
-        Viollet Le Duc","country":"France","country_code":"fr","region":"Metropolitan
-        France","state":"Ile-de-France","city":"Paris","postcode":"75002","district":"Paris","suburb":"2nd
-        Arrondissement","city_block":"Quartier Vivienne","street":"Rue Chabanais","lon":2.3365797,"lat":48.8669744,"formatted":"Eugène
-        Viollet Le Duc, Rue Chabanais, 75002 Paris, France","address_line1":"Eugène
-        Viollet Le Duc","address_line2":"Rue Chabanais, 75002 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details.historic"],"datasource":{"sourcename":"openstreetmap","attribution":"©
-        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Eugène
-        Viollet Le Duc","osm_id":9063588476,"historic":"memorial","memorial":"plaque","osm_type":"n"}},"distance":588,"place_id":"51dcfa9fb250b10240590ca56204f96e4840f00103f9017c623b1c02000000920316457567c3a86e652056696f6c6c6574204c6520447563"},"geometry":{"type":"Point","coordinates":[2.3365796999999997,48.86697439972531]}},{"type":"Feature","properties":{"name":"Église
-        Saint-Roch","country":"France","country_code":"fr","region":"Metropolitan
-        France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
-        Arrondissement","city_block":"Quartier du Palais Royal","street":"Passage
-        Saint-Roch","lon":2.3323097,"lat":48.8648337,"formatted":"Église Saint-Roch,
-        Passage Saint-Roch, 75001 Paris, France","address_line1":"Église Saint-Roch","address_line2":"Passage
-        Saint-Roch, 75001 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
-        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Église
-        Saint-Roch","title":"Histoire de Paris","osm_id":5157950599,"tourism":"information","historic":"memorial","memorial":"plaque","operator":"Mairie
-        de Paris","osm_type":"n","wikidata":"Q60245401","board_type":"history","information":"board","inscription:1":"En
-        1521 s''élève ici une chapelle dite de Sainte-Suzanne ou des Cinq-Plaies.
-        Agrandie en 1577, elle est placée sous le patronage de saint-Roch. Érigée
-        en 1633 en église paroissiale, Saint-Roch est reconstruite par Le Mercier.
-        Faute d''argent, le chantier","inscription:2":"s''éternise. En 1719, le financier
-        John Law s''y convertir au catholicisme et fait un don de 100 000 livres qui
-        permet de terminer la nef. La façade dessinée par Robert de Cotte est enfin
-        édifiée, et l''église, consacrée le 10 juillet 1740. Le 5 octobre","inscription:3":"1795
-        (13 vendémiaire an IV), le général Bonaparte installe une pièce d''artillerie
-        dans le cul-de-sac Dauphin (prolongement de la rue St-Roch vers le sud) et
-        mitraille les insurgés royalistes massés sur les marches de l''église."}},"distance":599,"place_id":"510826edfc91a80240598d66e4deb26e4840f00103f9018714703301000000920312c389676c697365205361696e742d526f6368"},"geometry":{"type":"Point","coordinates":[2.3323096999999997,48.86483369972584]}},{"type":"Feature","properties":{"name":"Hôtel
-        de Talleyrand-Périgord","country":"France","country_code":"fr","region":"Metropolitan
-        France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
-        Arrondissement","city_block":"Quartier Vendôme","street":"Rue Saint-Florentin","lon":2.3236751,"lat":48.8665773,"formatted":"Hôtel
-        de Talleyrand-Périgord, Rue Saint-Florentin, 75001 Paris, France","address_line1":"Hôtel
-        de Talleyrand-Périgord","address_line2":"Rue Saint-Florentin, 75001 Paris,
-        France","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
-        OpenStreetMap contributors","license":"Open Database Licence","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Hôtel
-        de Talleyrand-Périgord","title":"Histoire de Paris","osm_id":5191642391,"tourism":"information","historic":"memorial","memorial":"plaque","operator":"Mairie
-        de Paris","osm_type":"n","wikidata":"Q60245409","board_type":"history","check_date":"2023-01-19","information":"board","inscription:1":"Construit
-        en 1767 par Chalgrin sur les plans de Gabriel, cet hôtel eut pour premier
-        propriétaire Louis Phélippeaux, duc de la Vrillière, comte de Saint-Florentin,
-        ministre de Louis XV. Après sa mort, en 1777, il appartint au duc de Fitz-James,","inscription:2":"descendant
-        du roi d''Angleterre Jacques II, puis à la princesse de Salm-Salm avant de
-        devenir pour un an, en 1792, l''ambassade de la République de Venise. Transformé
-        en manufacture de salpêtre sous la Révolution, le bâtiment fut acquis par
-        le","inscription:3":"marquis d''Hervas, qui le céda en 1812 à Talleyrand.
-        A la chute de l''Empire, en avril 1814, le diplomate y hébergea le tsar Alexandre
-        1er. En 1838, l''hôtel devint la possession de la famille de Rothschild, qui
-        le vendit en 1950 aux Etats-Unis d''Amérique."}},"distance":600,"place_id":"517a3c88f8e2960240596ae34401ec6e4840f00103f901172d72350100000092031e48c3b474656c2064652054616c6c657972616e642d50c3a97269676f7264"},"geometry":{"type":"Point","coordinates":[2.3236751,48.86657729972542]}}]}'
-  recorded_at: Sun, 14 May 2023 22:37:56 GMT
+        Delécluze et E.N. Viollet le duc","osm_id":9063588459,"historic":"memorial","memorial":"plaque","osm_type":"n"}},"distance":588,"place_id":"51cd00bcaa58b1024059e86c23f5f96e4840f00103f9016b623b1c02000000920326452e4a2e2044656cc3a9636c757a6520657420452e4e2e2056696f6c6c6574206c6520647563"},"geometry":{"type":"Point","coordinates":[2.3365949,48.86700309972531]}}]}'
+  recorded_at: Mon, 12 Feb 2024 23:14:27 GMT
 recorded_with: VCR 6.1.0

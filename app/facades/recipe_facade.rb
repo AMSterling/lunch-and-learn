@@ -10,23 +10,20 @@ class RecipeFacade
   end
 
   def self.recipes_from_country(searched_country)
-    case
-    when searched_country
-      country_result = CountryService.get_country(searched_country)
-      if country_result == [:message, "Page Not Found"] || country_result == [:status, 404]
-        []
-      else
-        valid_country = country_result[:name][:common].parameterize(preserve_case: true, separator: ' ')
-        @recipes = RecipeService.get_recipe_by_country(@country = valid_country)
-          if !@recipes.present?
-            [:message, "No recipes for #{valid_country}"]
-          else
-            recipe_details
-          end
-      end
-    else
-      randomized
-    end
+    return randomized unless searched_country
+
+    country_result = CountryService.get_country(searched_country)
+    return [] if country_not_found?(country_result)
+
+    valid_country = country_result[:name][:common].parameterize(preserve_case: true, separator: ' ')
+    @recipes = RecipeService.get_recipe_by_country(@country = valid_country)
+    return [:message, "No recipes for #{valid_country}"] unless @recipes.present?
+
+    recipe_details
+  end
+
+  def self.country_not_found?(country_result)
+    country_result == [:message, "Page Not Found"] || country_result == [:status, 404]
   end
 
   def self.recipe_details

@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 14 May 2023 22:37:11 GMT
+      - Mon, 12 Feb 2024 23:13:56 GMT
       Server:
       - Apache/2.4.38 (Debian)
       Cache-Control:
@@ -51,7 +51,7 @@ http_interactions:
         light green, with a white isosceles triangle superimposed on the hoist side
         of the field. The triangle has its base on the hoist end, spans about two-fifth
         the width of the field and bears a red five-pointed star at its center."},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/dj.png","svg":"https://mainfacts.com/media/images/coats_of_arms/dj.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[11.58,43.15]}}]'
-  recorded_at: Sun, 14 May 2023 22:37:11 GMT
+  recorded_at: Mon, 12 Feb 2024 23:13:56 GMT
 - request:
     method: get
     uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=Djibouti&type=public
@@ -73,7 +73,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Sun, 14 May 2023 22:37:11 GMT
+      - Mon, 12 Feb 2024 23:13:56 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -85,15 +85,15 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 GMT
       X-Served-By:
-      - ip-10-0-1-146.ec2.internal/10.0.1.146
+      - ip-10-0-6-232.ec2.internal/10.0.6.232
       Content-Language:
       - en
       Strict-Transport-Security:
       - max-age=15552001
       X-Request-Id:
-      - 36f172921d2f2d6c0d7e2687f51d5807
+      - 19398c27b7638c10b8ad870be1234d2a
     body:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
-  recorded_at: Sun, 14 May 2023 22:37:11 GMT
+  recorded_at: Mon, 12 Feb 2024 23:13:56 GMT
 recorded_with: VCR 6.1.0

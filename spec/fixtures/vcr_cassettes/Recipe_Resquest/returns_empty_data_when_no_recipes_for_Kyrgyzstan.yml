@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 14 May 2023 22:37:11 GMT
+      - Mon, 12 Feb 2024 23:13:56 GMT
       Server:
       - Apache/2.4.38 (Debian)
       Cache-Control:
@@ -48,7 +48,7 @@ http_interactions:
         Cumhuriyeti","common":"Kırgızistan"},"urd":{"official":"جمہوریہ کرغیزستان","common":"کرغیزستان"},"zho":{"official":"吉尔吉斯斯坦共和国","common":"吉尔吉斯斯坦"}},"latlng":[41.0,75.0],"landlocked":true,"borders":["CHN","KAZ","TJK","UZB"],"area":199951.0,"demonyms":{"eng":{"f":"Kirghiz","m":"Kirghiz"},"fra":{"f":"Kirghize","m":"Kirghize"}},"flag":"\uD83C\uDDF0\uD83C\uDDEC","maps":{"googleMaps":"https://goo.gl/maps/SKG8BSMMQVvxkRkB7","openStreetMaps":"https://www.openstreetmap.org/relation/178009"},"population":6591600,"gini":{"2019":29.7},"fifa":"KGZ","car":{"signs":["KS"],"side":"right"},"timezones":["UTC+06:00"],"continents":["Asia"],"flags":{"png":"https://flagcdn.com/w320/kg.png","svg":"https://flagcdn.com/kg.svg","alt":"The
         flag of Kyrgyzstan features a yellow sun with forty rays at the center of
         a red field. At the center of the sun is a stylized depiction of a tunduk."},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/kg.png","svg":"https://mainfacts.com/media/images/coats_of_arms/kg.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[42.87,74.6]},"postalCode":{"format":"######","regex":"^(\\d{6})$"}}]'
-  recorded_at: Sun, 14 May 2023 22:37:11 GMT
+  recorded_at: Mon, 12 Feb 2024 23:13:56 GMT
 - request:
     method: get
     uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=Kyrgyzstan&type=public
@@ -70,7 +70,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Sun, 14 May 2023 22:37:11 GMT
+      - Mon, 12 Feb 2024 23:13:56 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -82,15 +82,15 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 GMT
       X-Served-By:
-      - ip-10-0-1-38.ec2.internal/10.0.1.38
+      - ip-10-0-6-232.ec2.internal/10.0.6.232
       Content-Language:
       - en
       Strict-Transport-Security:
       - max-age=15552001
       X-Request-Id:
-      - ea3935b6d6395942cf8896b0146c15b0
+      - 161de5525fcc5fe9f5c6e3ec09d90635
     body:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
-  recorded_at: Sun, 14 May 2023 22:37:11 GMT
+  recorded_at: Mon, 12 Feb 2024 23:13:56 GMT
 recorded_with: VCR 6.1.0
