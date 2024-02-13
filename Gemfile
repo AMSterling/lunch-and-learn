@@ -45,6 +45,7 @@ group :test do
   gem 'faker'
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
+  gem 'simplecov-shields-badge', require: false
   gem 'vcr'
   gem 'webmock'
 end

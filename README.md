@@ -5,6 +5,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/1b81ab2f64a9c31b3372/maintainability)](https://codeclimate.com/github/AMSterling/lunch-and-learn/maintainability)
 [![Ruby on Rails CI](https://github.com/AMSterling/lunch-and-learn/actions/workflows/rails-CI.yml/badge.svg)](https://github.com/AMSterling/lunch-and-learn/actions/workflows/rails-CI.yml)
+[![Coverage](badge.svg)](https://github.com/AMSterling/lunch-and-learn)
 
 </div>
 
