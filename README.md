@@ -523,7 +523,7 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 [LinkedIn]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [LinkedIn-url]: https://linkedin.com/in/sterling-316a6223a/
 
-[Atom]: https://img.shields.io/badge/Atom-66595C?style=for-the-badge&logo=Atom&logoColor=white
+[Atom]: https://custom-icon-badges.demolab.com/badge/Atom-5FB57D?style=for-the-badge&logo=atom
 [Atom-url]: https://github.com/atom/atom/releases/tag/v1.60.0
 
 [Bootstrap]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
@@ -535,7 +535,7 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 [CircleCI]: https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white
 [CircleCI-url]: https://circleci.com/developer
 
-[CodeClimate]: https://a11ybadges.com/badge?style=for-the-badge&logo=codeclimate
+[CodeClimate]: https://img.shields.io/badge/Code%20Climate-000?style=for-the-badge&logo=codeclimate&logoColor=fff
 [CodeClimate-url]: https://codeclimate.com
 
 [CSS]: https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
