@@ -405,7 +405,7 @@ Endpoints to use in Postman running a local server `rails s`
 
 ```sh
  {
-   "api_key": "jgn983hy48thw9begh98h4539h4"
+   "api_key": "jgnExample983Ofhy4Some8thGeneratedw9begKeyh98h4539h4"
  }
 ```
 
