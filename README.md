@@ -195,7 +195,7 @@ Endpoints to use in Postman running a local server `rails s`
 
 **Sample Response**
 
-```sh
+```json
 {
     "data": [
         {
@@ -235,7 +235,7 @@ Endpoints to use in Postman running a local server `rails s`
 
 **Sample Response(no recipes for random or selected country)**
 
-```sh
+```json
 {
     "data": [
         "message",
@@ -255,7 +255,7 @@ Endpoints to use in Postman running a local server `rails s`
 
 **Sample Response(country missing from endpoint)**
 
-```sh
+```json
   {
     "data": []
   }
@@ -280,7 +280,7 @@ Endpoints to use in Postman running a local server `rails s`
 
 **Sample Response**
 
-```sh
+```json
 {
     "data": {
         "id": null,
@@ -316,7 +316,7 @@ Endpoints to use in Postman running a local server `rails s`
 
 **Sample Response(no video or images found)**
 
-```sh
+```json
 {
   "data": {
       "id": null,
@@ -341,7 +341,7 @@ Endpoints to use in Postman running a local server `rails s`
 
 **Sample Body**
 
-```sh
+```json
  {
    "name": "Athena Dao",
    "email": "athenadao@bestgirlever.com"
@@ -350,7 +350,7 @@ Endpoints to use in Postman running a local server `rails s`
 
 **Sample Response**
 
-```sh
+```json
   {
     "data": {
       "type": "user",
@@ -375,7 +375,7 @@ Endpoints to use in Postman running a local server `rails s`
 
 **Sample Body**
 
-```sh
+```json
  {
     "api_key": "jgn983hy48thw9begh98h4539h4",
     "country": "thailand",
@@ -386,7 +386,7 @@ Endpoints to use in Postman running a local server `rails s`
 
 **Sample Response**
 
-```sh
+```json
  {
     "success": "Favorite added successfully"
  }
@@ -403,15 +403,15 @@ Endpoints to use in Postman running a local server `rails s`
 
 **Sample Body**
 
-```sh
+```json
  {
-   "api_key": "jgnExample983Ofhy4Some8thGeneratedw9begKeyh98h4539h4"
+   "api_key": "jgn983hy48thw9begh98h4539h4"
  }
 ```
 
 **Sample Response**
 
-```sh
+```json
 {
    "data": [
        {
@@ -458,7 +458,7 @@ Endpoints to use in Postman running a local server `rails s`
 
   **Sample Response**
 
-```sh
+```json
   {
     "data": [
         {
