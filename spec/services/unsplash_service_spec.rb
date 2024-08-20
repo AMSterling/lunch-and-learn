@@ -11,6 +11,7 @@ RSpec.describe UnsplashService, :vcr do
       expect(pic.keys).to eq([
         :id,
         :slug,
+        :alternative_slugs,
         :created_at,
         :updated_at,
         :promoted_at,
@@ -28,6 +29,7 @@ RSpec.describe UnsplashService, :vcr do
         :current_user_collections,
         :sponsorship,
         :topic_submissions,
+        :asset_type,
         :user,
         :tags
         ])

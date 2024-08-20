@@ -18,16 +18,18 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Date:
-      - Mon, 12 Feb 2024 23:13:55 GMT
       Server:
-      - Apache/2.4.38 (Debian)
-      Cache-Control:
-      - public, immutable, max-age=31556926
+      - nginx/1.22.1
+      Date:
+      - Tue, 20 Aug 2024 01:14:21 GMT
       Content-Type:
       - application/json
       Content-Length:
       - '1523'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, immutable, max-age=31556926
     body:
       encoding: UTF-8
       string: '[{"name":{"common":"Guinea-Bissau","official":"Republic of Guinea-Bissau","nativeName":{"por":{"official":"República
@@ -55,7 +57,7 @@ http_interactions:
         takes up about two-fifth the width of the field, and two equal horizontal
         bands of yellow and green adjoining the vertical band. A five-pointed black
         star is centered in the vertical band."},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/gw.png","svg":"https://mainfacts.com/media/images/coats_of_arms/gw.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[11.85,-15.58]},"postalCode":{"format":"####","regex":"^(\\d{4})$"}}]'
-  recorded_at: Mon, 12 Feb 2024 23:13:55 GMT
+  recorded_at: Tue, 20 Aug 2024 01:14:21 GMT
 - request:
     method: get
     uri: https://api.edamam.com/api/recipes/v2?app_id=<app_id>&app_key=<app_key>&q=Guinea-Bissau&type=public
@@ -77,7 +79,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Mon, 12 Feb 2024 23:13:55 GMT
+      - Tue, 20 Aug 2024 01:14:21 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -89,15 +91,15 @@ http_interactions:
       Expires:
       - Thu, 01 Jan 1970 00:00:00 GMT
       X-Served-By:
-      - ip-10-0-6-232.ec2.internal/10.0.6.232
+      - ip-10-0-6-140.ec2.internal/10.0.6.140
       Content-Language:
       - en
       Strict-Transport-Security:
       - max-age=15552001
       X-Request-Id:
-      - 15b133a7fc1ac4dff68fbf6600b4c181
+      - 4814e83a92f02c7f1115e29a5d186c15
     body:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
-  recorded_at: Mon, 12 Feb 2024 23:13:55 GMT
+  recorded_at: Tue, 20 Aug 2024 01:14:21 GMT
 recorded_with: VCR 6.1.0
