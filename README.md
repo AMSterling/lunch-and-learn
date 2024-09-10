@@ -280,7 +280,7 @@ Endpoints to use in Postman running a local server `rails s`
 #### Random Country Resources
 
 ```sh
-  GET  '/api/v1/learning_resources'
+  GET '/api/v1/learning_resources'
 ```
 
 or
@@ -349,7 +349,7 @@ or
 ### Create User
 
 ```sh
-  POST /api/v1/user
+  POST '/api/v1/user'
 ```
 
 **Sample Body**
