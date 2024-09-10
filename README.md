@@ -104,7 +104,14 @@ Database:
   postgresql@14
   ```
 API Keys:
+
 Lunch and Learn uses <a href="https://developer.edamam.com/edamam-recipe-api" target="_blank" rel="noopener noreferrer">Edamam API</a>, <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank" rel="noopener noreferrer">YouTube API</a>, <a href="https://www.geoapify.com/get-started-with-maps-api" rel="noopener noreferrer">Geoapify API</a>, <a href="https://restcountries.com/#api-endpoints-v3" rel="noopener noreferrer">RestCountries API V.3</a>, and <a href="https://unsplash.com/developers" rel="noopener noreferrer">Unsplash API</a>
+
+<div align="center">
+
+[![YouTube][YouTube]][YouTube-API-url] [![Unsplash][Unsplash]][Unsplash-API-url]
+
+</div>
 
 ---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -633,13 +640,16 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 [Turing-url]: https://turing.edu/
 
 [Unsplash]: https://img.shields.io/badge/Unsplash-000000.svg?style=for-the-badge&logo=Unsplash&logoColor=white
-[Unsplash-url]: https://unsplash.com/developers
+[Unsplash-API-url]: https://unsplash.com/developers
 
 [Visual Studio Code]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
 [Visual Studio Code-url]: https://code.visualstudio.com/
 
 [XCode]: https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white
 [XCode-url]: https://developer.apple.com/xcode/
+
+[YouTube]: https://img.shields.io/badge/YouTube-FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white
+[YouTube-API-url]: https://developers.google.com/youtube/v3/getting-started
 
 [Zoom]: https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white
 [Zoom-url]: https://zoom.us/
