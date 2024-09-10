@@ -63,8 +63,8 @@ _For more examples, please refer to the [Documentation](https://backend.turing.e
           </ul>
         <li><a href="#learning-resources">Learning Resources</a></li>
         <ul>
-          <li><a href="#random-country">Random Country</a></li>
-          <li><a href="#selected-country">Selected Country</a></li>
+          <li><a href="#random-country-resources">Random Country Resources</a></li>
+          <li><a href="#selected-country-resources">Selected Country Resources</a></li>
         </ul>          
         <li><a href="#create-user">Create User</a></li>
         <li><a href="#add-favorite">Add Favorite</a></li>
@@ -277,7 +277,7 @@ Endpoints to use in Postman running a local server `rails s`
 
 ### Learning Resources
 
-#### Random Country
+#### Random Country Resources
 
 ```sh
   GET  '/api/v1/learning_resources'
@@ -285,7 +285,7 @@ Endpoints to use in Postman running a local server `rails s`
 
 or
 
-#### Selected Country
+#### Selected Country Resources
 
 ```sh
   GET '/api/v1/learning_resources?country=<country of your choice as parameter>'
