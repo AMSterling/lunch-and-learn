@@ -619,6 +619,9 @@ Project Link: [https://github.com/AMSterling/lunch-and-learn](https://github.com
 [Turing]: https://custom-icon-badges.demolab.com/badge/Turing-DCDCDC?style=for-the-badge&logo=turing_school
 [Turing-url]: https://turing.edu/
 
+[Unsplash]: https://img.shields.io/badge/Unsplash-000000.svg?style=for-the-badge&logo=Unsplash&logoColor=white
+[Unsplash-url]: https://unsplash.com/developers
+
 [Visual Studio Code]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
 [Visual Studio Code-url]: https://code.visualstudio.com/
 
