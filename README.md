@@ -55,8 +55,17 @@ _For more examples, please refer to the [Documentation](https://backend.turing.e
       <a href="#endpoints">Endpoints</a>
       <ul>
         <li><a href="#recipes">Recipes</a></li>
-        <li><a href="#country-missing">Country Missing</a></li>
+          <ul>
+            <li><a href="#random-country">Random Country</a></li>
+            <li><a href="#selected-country">Selected Country</a></li>
+            <li><a href="#country-with-no-data">Country With No Data</a></li>
+            <li><a href="#country-missing">Country Missing</a></li>
+          </ul>
         <li><a href="#learning-resources">Learning Resources</a></li>
+        <ul>
+          <li><a href="#random-country">Random Country</a></li>
+          <li><a href="#selected-country">Selected Country</a></li>
+        </ul>          
         <li><a href="#create-user">Create User</a></li>
         <li><a href="#add-favorite">Add Favorite</a></li>
         <li><a href="#get-favorites">Get Favorites</a></li>
@@ -229,11 +238,13 @@ Endpoints to use in Postman running a local server `rails s`
 ---
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-```sh
-  GET '/api/v1/recipes?country=djibouti'
-```
+#### Country With No Data
 
-**Sample Response(no recipes for random or selected country)**
+  ```sh
+  GET '/api/v1/recipes?country=djibouti'
+  ```
+
+**Sample Response**
 
 ```json
 {
@@ -249,11 +260,11 @@ Endpoints to use in Postman running a local server `rails s`
 
 #### Country Missing
 
-```sh
+  ```sh
   GET '/api/v1/recipes?country='
-```
+  ```
 
-**Sample Response(country missing from endpoint)**
+**Sample Response**
 
 ```json
   {
@@ -272,7 +283,9 @@ Endpoints to use in Postman running a local server `rails s`
   GET  '/api/v1/learning_resources'
 ```
 
-  #### or select a country
+or
+
+#### Selected Country
 
 ```sh
   GET '/api/v1/learning_resources?country=<country of your choice as parameter>'
