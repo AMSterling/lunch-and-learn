@@ -30,8 +30,7 @@ RSpec.describe UnsplashService, :vcr do
         :sponsorship,
         :topic_submissions,
         :asset_type,
-        :user,
-        :tags
+        :user
         ])
       expect(pic[:alt_description]).to be_a String
       expect(pic[:urls]).to be_a Hash

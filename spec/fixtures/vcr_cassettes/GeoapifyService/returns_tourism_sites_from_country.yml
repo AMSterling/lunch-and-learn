@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.22.1
       Date:
-      - Tue, 20 Aug 2024 01:14:44 GMT
+      - Tue, 01 Oct 2024 23:40:44 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -49,7 +49,7 @@ http_interactions:
         Cumhuriyeti","common":"Fransa"},"urd":{"official":"جمہوریہ فرانس","common":"فرانس"},"zho":{"official":"法兰西共和国","common":"法国"}},"latlng":[46.0,2.0],"landlocked":false,"borders":["AND","BEL","DEU","ITA","LUX","MCO","ESP","CHE"],"area":551695.0,"demonyms":{"eng":{"f":"French","m":"French"},"fra":{"f":"Française","m":"Français"}},"flag":"\uD83C\uDDEB\uD83C\uDDF7","maps":{"googleMaps":"https://goo.gl/maps/g7QxxSFsWyTPKuzd7","openStreetMaps":"https://www.openstreetmap.org/relation/1403916"},"population":67391582,"gini":{"2018":32.4},"fifa":"FRA","car":{"signs":["F"],"side":"right"},"timezones":["UTC-10:00","UTC-09:30","UTC-09:00","UTC-08:00","UTC-04:00","UTC-03:00","UTC+01:00","UTC+02:00","UTC+03:00","UTC+04:00","UTC+05:00","UTC+10:00","UTC+11:00","UTC+12:00"],"continents":["Europe"],"flags":{"png":"https://flagcdn.com/w320/fr.png","svg":"https://flagcdn.com/fr.svg","alt":"The
         flag of France is composed of three equal vertical bands of blue, white and
         red."},"coatOfArms":{"png":"https://mainfacts.com/media/images/coats_of_arms/fr.png","svg":"https://mainfacts.com/media/images/coats_of_arms/fr.svg"},"startOfWeek":"monday","capitalInfo":{"latlng":[48.87,2.33]},"postalCode":{"format":"#####","regex":"^(\\d{5})$"}}]'
-  recorded_at: Tue, 20 Aug 2024 01:14:44 GMT
+  recorded_at: Tue, 01 Oct 2024 23:40:44 GMT
 - request:
     method: get
     uri: https://api.geoapify.com/v2/places?apiKey=<apiKey>&bias=proximity:2.33,48.87&categories=tourism.sights&conditions=named&filter=circle:2.33,48.87,5000&limit=20
@@ -69,7 +69,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 20 Aug 2024 01:14:52 GMT
+      - Tue, 01 Oct 2024 23:40:51 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -102,9 +102,7 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 8b5e873cf9ec7989-DEN
-      Alt-Svc:
-      - h3=":443"; ma=86400
+      - 8cc04cadac7f537f-DEN
     body:
       encoding: UTF-8
       string: '{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"Mistinguett","country":"France","country_code":"fr","region":"Metropolitan
@@ -115,10 +113,10 @@ http_interactions:
         des Capucines, 75009 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details.historic"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database License","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Mistinguett","osm_id":10811040647,"historic":"memorial","memorial":"plaque","osm_type":"n"}},"historic":{"type":"memorial","memorial":"plaque"},"distance":114,"place_id":"5150296508b6a00240592609866f616f4840f00103f901876363840200000092030b4d697374696e6775657474"},"geometry":{"type":"Point","coordinates":[2.3284722,48.87016099972452]}},{"type":"Feature","properties":{"name":"Crédit
         Foncier de France","country":"France","country_code":"fr","region":"Metropolitan
-        France","state":"Ile-de-France","city":"Paris","district":"Paris","suburb":"2nd
+        France","state":"Ile-de-France","city":"Paris","postcode":"75002","district":"Paris","suburb":"2nd
         Arrondissement","city_block":"Quartier Gaillon","street":"Rue des Capucines","lon":2.3283688,"lat":48.8697225,"state_code":"IDF","state_COG":"11","formatted":"Crédit
-        Foncier de France, Rue des Capucines, Paris, France","address_line1":"Crédit
-        Foncier de France","address_line2":"Rue des Capucines, Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial","wheelchair","wheelchair.yes"],"details":["details","details.facilities","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        Foncier de France, Rue des Capucines, 75002 Paris, France","address_line1":"Crédit
+        Foncier de France","address_line2":"Rue des Capucines, 75002 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial","wheelchair","wheelchair.yes"],"details":["details","details.facilities","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database License","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Crédit
         Foncier de France","title":"Histoire de Paris","osm_id":5157529658,"tourism":"information","historic":"memorial","memorial":"plaque","operator":"Mairie
         de Paris","osm_type":"n","wikidata":"Q60245392","board_type":"history","wheelchair":"yes","information":"board","inscription:1":"Sur
@@ -147,12 +145,12 @@ http_interactions:
         VII, Place Édouard VII, 75009 Paris, France","address_line1":"Edouard VII","address_line2":"Place
         Édouard VII, 75009 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details.historic"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database License","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Edouard
-        VII","osm_id":4118826592,"historic":"memorial","memorial":"statue","osm_type":"n"}},"historic":{"type":"memorial","memorial":"statue"},"distance":152,"place_id":"5105add1bc2da20240595116dc66856f4840f00103f901604e80f50000000092030b45646f7561726420564949"},"geometry":{"type":"Point","coordinates":[2.3291887999999994,48.871258599724236]}},{"type":"Feature","properties":{"name":"Place
-        Vendôme","old_name":"Place de Louis Le Grand;Place des Conquêtes;Place des
-        Piques","country":"France","country_code":"fr","region":"Metropolitan France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
-        Arrondissement","city_block":"Quartier Vendôme","street":"Accès Parking Vendôme","lon":2.329428116825194,"lat":48.867463400000005,"state_code":"IDF","state_COG":"11","formatted":"Place
-        Vendôme, Accès Parking Vendôme, 75001 Paris, France","address_line1":"Place
-        Vendôme","address_line2":"Accès Parking Vendôme, 75001 Paris, France","categories":["tourism","tourism.attraction","tourism.sights","tourism.sights.square","wheelchair","wheelchair.yes"],"details":["details","details.facilities","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        VII","osm_id":4118826592,"historic":"memorial","memorial":"statue","osm_type":"n"}},"historic":{"type":"memorial","memorial":"statue"},"distance":152,"place_id":"5105add1bc2da20240595116dc66856f4840f00103f901604e80f50000000092030b45646f7561726420564949"},"geometry":{"type":"Point","coordinates":[2.3291887999999994,48.871258599724236]}},{"type":"Feature","properties":{"old_name":"Place
+        de Louis Le Grand;Place des Conquêtes;Place des Piques","country":"France","country_code":"fr","region":"Metropolitan
+        France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
+        Arrondissement","city_block":"Quartier Vendôme","street":"Place Vendôme","lon":2.329428116825194,"lat":48.867463400000005,"state_code":"IDF","state_COG":"11","formatted":"Place
+        Vendôme, 75001 Paris, France","address_line1":"Place Vendôme","address_line2":"75001
+        Paris, France","name":"Place Vendôme","categories":["tourism","tourism.attraction","tourism.sights","tourism.sights.square","wheelchair","wheelchair.yes"],"details":["details","details.facilities","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database License","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Place
         Vendôme","place":"square","osm_id":54175774,"bicycle":"no","name:he":"כיכר
         ונדום","tourism":"attraction","old_name":"Place de Louis Le Grand;Place des
@@ -196,7 +194,13 @@ http_interactions:
         hôtel de Latour-Maubourg, Place Vendôme, 75001 Paris, France","address_line1":"Ancien
         hôtel de Latour-Maubourg","address_line2":"Place Vendôme, 75001 Paris, France","categories":["building","building.historic","heritage","tourism","tourism.sights"],"details":["details","details.building","details.heritage","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database License","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Ancien
-        hôtel de Latour-Maubourg","osm_id":-542284,"ref:mhs":"PA00085828","building":"yes","heritage":3,"historic":"building","osm_type":"r","wikidata":"Q22920977","start_date":"C18","heritage:operator":"mhs","mhs:inscription_date":"1927-05-06"}},"ref_other":{"mhs":"PA00085828"},"wiki_and_media":{"wikidata":"Q22920977"},"historic":{"type":"building","start_date":"C18"},"heritage":{"level":3,"operator":"mhs","ref":"PA00085828","inscription_date":"1927-05-06"},"building":{"start_date":"C18"},"distance":324,"place_id":"51a08ccea02da50240595599ac97f06e4840f00101f9014c46080000000000920320416e6369656e2068c3b474656c206465204c61746f75722d4d6175626f757267"},"geometry":{"type":"Point","coordinates":[2.3306534350427484,48.86671729972537]}},{"type":"Feature","properties":{"name":"anciens
+        hôtel de Latour-Maubourg","osm_id":-542284,"ref:mhs":"PA00085828","building":"yes","heritage":3,"historic":"building","osm_type":"r","wikidata":"Q22920977","start_date":"C18","heritage:operator":"mhs","mhs:inscription_date":"1927-05-06"}},"ref_other":{"mhs":"PA00085828"},"wiki_and_media":{"wikidata":"Q22920977"},"historic":{"type":"building","start_date":"C18"},"heritage":{"level":3,"operator":"mhs","ref":"PA00085828","inscription_date":"1927-05-06"},"building":{"start_date":"C18"},"distance":324,"place_id":"51a08ccea02da50240595599ac97f06e4840f00101f9014c46080000000000920320416e6369656e2068c3b474656c206465204c61746f75722d4d6175626f757267"},"geometry":{"type":"Point","coordinates":[2.3306534350427484,48.86671729972537]}},{"type":"Feature","properties":{"name":"Place
+        Gaillon","country":"France","country_code":"fr","region":"Metropolitan France","state":"Ile-de-France","city":"Paris","postcode":"75002","district":"Paris","suburb":"2nd
+        Arrondissement","city_block":"Quartier Gaillon","lon":2.3343073,"lat":48.8688582,"state_code":"IDF","state_COG":"11","formatted":"Place
+        Gaillon, 75002 Paris, France","address_line1":"Place Gaillon","address_line2":"75002
+        Paris, France","categories":["tourism","tourism.sights","tourism.sights.square"],"details":["details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database License","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Place
+        Gaillon","place":"square","osm_id":11953681879,"osm_type":"n","wikidata":"Q3389821","wikipedia":"fr:Place_Gaillon","wikimedia_commons":"Category:Place_Gaillon_(Paris)"}},"wiki_and_media":{"wikidata":"Q3389821","wikipedia":"fr:Place_Gaillon","wikimedia_commons":"Category:Place_Gaillon_(Paris)"},"distance":341,"place_id":"513283424ea9ac024059fd56d8be366f4840f00103f901d7b57ec80200000092030d506c616365204761696c6c6f6e"},"geometry":{"type":"Point","coordinates":[2.3343073,48.86885819972483]}},{"type":"Feature","properties":{"name":"anciens
         Bains Turcs","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","postcode":"75009","district":"Paris","suburb":"9th
         Arrondissement","city_block":"Quartier de la Chaussée-d''Antin","street":"Rue
@@ -204,7 +208,26 @@ http_interactions:
         Bains Turcs, Rue des Mathurins, 75009 Paris, France","address_line1":"anciens
         Bains Turcs","address_line2":"Rue des Mathurins, 75009 Paris, France","categories":["heritage","tourism","tourism.sights"],"details":["details","details.heritage"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database License","url":"https://www.openstreetmap.org/copyright","raw":{"name":"anciens
-        Bains Turcs","osm_id":8927070848,"ref:mhs":"PA00088964","heritage":3,"historic":"building","osm_type":"n","heritage:operator":"mhs","mhs:inscription_date":"1977-12-30"}},"ref_other":{"mhs":"PA00088964"},"historic":{"type":"building"},"heritage":{"level":3,"operator":"mhs","ref":"PA00088964","inscription_date":"1977-12-30"},"distance":351,"place_id":"519dd843fb58a1024059b542fd2ac06f4840f00103f901804a181402000000920313616e6369656e73204261696e73205475726373"},"geometry":{"type":"Point","coordinates":[2.328783,48.873051999723806]}},{"type":"Feature","properties":{"name":"Lavatory
+        Bains Turcs","osm_id":8927070848,"ref:mhs":"PA00088964","heritage":3,"historic":"building","osm_type":"n","heritage:operator":"mhs","mhs:inscription_date":"1977-12-30"}},"ref_other":{"mhs":"PA00088964"},"historic":{"type":"building"},"heritage":{"level":3,"operator":"mhs","ref":"PA00088964","inscription_date":"1977-12-30"},"distance":351,"place_id":"519dd843fb58a1024059b542fd2ac06f4840f00103f901804a181402000000920313616e6369656e73204261696e73205475726373"},"geometry":{"type":"Point","coordinates":[2.328783,48.873051999723806]}},{"type":"Feature","properties":{"name":"Embassy
+        of Texas","country":"France","country_code":"fr","region":"Metropolitan France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
+        Arrondissement","city_block":"Quartier Vendôme","street":"Place Vendôme","housenumber":"1","lon":2.3286084,"lat":48.8668176,"state_code":"IDF","state_COG":"11","formatted":"Embassy
+        of Texas, 1 Place Vendôme, 75001 Paris, France","address_line1":"Embassy of
+        Texas","address_line2":"1 Place Vendôme, 75001 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details","details.historic","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database License","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Embassy
+        of Texas","image":"https://commons.wikimedia.org/wiki/Category:Legation_of_the_Republic_of_Texas,_Paris#/media/File:Plaque_Ambassade_du_Texas,_1_place_Vend%C3%B4me,_Paris_1.jpg","osm_id":11913797860,"name:fr":"Ambassade
+        du Texas","historic":"memorial","material":"stone","memorial":"plaque","osm_type":"n","wikidata":"Q7707805","addr:city":"Paris","wikipedia":"en:Texas
+        Legation","start_date":1842,"addr:street":"Place Vendôme","description":"Legation
+        of Republic of Texas","inscription":"Embassy of Texas\nIn 1842-1843 this building
+        was the seat of the Embassy of the Republic of Texas in Paris.\nBy the French-Texan
+        Treaty of 29 September 1839, France was the first nation to recognise the
+        Republic of Texas, an independent state between 1836 a","addr:country":"FR","addr:postcode":75001,"addr:housenumber":1,"subject:wikidata":"Q170588","subject:wikipedia":"en:Republic
+        of Texas","wikimedia_commons":"https://commons.wikimedia.org/wiki/Category:Legation_of_the_Republic_of_Texas,_Paris"}},"description":"Legation
+        of Republic of Texas","name_international":{"fr":"Ambassade du Texas"},"wiki_and_media":{"wikidata":"Q7707805","wikipedia":"en:Texas
+        Legation","wikimedia_commons":"https://commons.wikimedia.org/wiki/Category:Legation_of_the_Republic_of_Texas,_Paris","image":"https://commons.wikimedia.org/wiki/Category:Legation_of_the_Republic_of_Texas,_Paris#/media/File:Plaque_Ambassade_du_Texas,_1_place_Vend%C3%B4me,_Paris_1.jpg"},"historic":{"type":"memorial","start_date":1842,"memorial":"plaque","inscription":"Embassy
+        of Texas\nIn 1842-1843 this building was the seat of the Embassy of the Republic
+        of Texas in Paris.\nBy the French-Texan Treaty of 29 September 1839, France
+        was the first nation to recognise the Republic of Texas, an independent state
+        between 1836 a"},"distance":368,"place_id":"51ef86d970fda002405974350de1f36e4840f00103f901e4201ec602000000920310456d6261737379206f66205465786173"},"geometry":{"type":"Point","coordinates":[2.3286084,48.86681759972535]}},{"type":"Feature","properties":{"name":"Lavatory
         Madeleine","country":"France","country_code":"fr","region":"Metropolitan France","state":"Ile-de-France","city":"Paris","postcode":"75008","district":"Paris","suburb":"8th
         Arrondissement of Paris","city_block":"Quartier de la Madeleine","street":"Place
         de la Madeleine","lon":2.3247334,"lat":48.8694836,"state_code":"IDF","state_COG":"11","formatted":"Lavatory
@@ -213,9 +236,9 @@ http_interactions:
         OpenStreetMap contributors","license":"Open Database License","url":"https://www.openstreetmap.org/copyright","raw":{"fee":"yes","name":"Lavatory
         Madeleine","layer":-1,"level":-1,"access":"yes","charge":"2.00 EUR","osm_id":10687258035,"unisex":"yes","amenity":"toilets","ref:mhs":"PA75080008","heritage":3,"historic":"yes","osm_type":"n","wheelchair":"no","opening_hours":"10:00-18:00","toilets:disposal":"flush","heritage:operator":"mhs","mhs:inscription_date":"2011-03-16"}},"opening_hours":"10:00-18:00","ref_other":{"mhs":"PA75080008"},"facilities":{"wheelchair":false},"heritage":{"level":3,"operator":"mhs","ref":"PA75080008","inscription_date":"2011-03-16"},"restrictions":{"access":"permissive","access_details":{"unisex":true}},"distance":391,"place_id":"51e15927d30d99024059eb9c143d4b6f4840f00103f901b39d027d020000009203124c617661746f7279204d6164656c65696e65"},"geometry":{"type":"Point","coordinates":[2.3247334,48.869483599724695]}},{"type":"Feature","properties":{"name":"Palais
         Cambon","country":"France","country_code":"fr","region":"Metropolitan France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
-        Arrondissement","city_block":"Quartier Vendôme","street":"Rue de Mondovi","lon":2.3257215766564125,"lat":48.8671284,"state_code":"IDF","state_COG":"11","formatted":"Palais
-        Cambon, Rue de Mondovi, 75001 Paris, France","address_line1":"Palais Cambon","address_line2":"Rue
-        de Mondovi, 75001 Paris, France","categories":["building","building.historic","building.public_and_civil","heritage","tourism","tourism.sights"],"details":["details","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        Arrondissement","city_block":"Quartier Vendôme","street":"Place Maurice Barrès","lon":2.3257215766564125,"lat":48.8671284,"state_code":"IDF","state_COG":"11","formatted":"Palais
+        Cambon, Place Maurice Barrès, 75001 Paris, France","address_line1":"Palais
+        Cambon","address_line2":"Place Maurice Barrès, 75001 Paris, France","categories":["building","building.historic","building.public_and_civil","heritage","tourism","tourism.sights"],"details":["details","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
         OpenStreetMap contributors","license":"Open Database License","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Palais
         Cambon","osm_id":-542460,"ref:mhs":"PA00085791","building":"civic","heritage":3,"historic":"manor","osm_type":"r","wikidata":"Q3292683","wikipedia":"fr:Palais
         Cambon","heritage:operator":"mhs","mhs:inscription_date":"1993-05-18"}},"ref_other":{"mhs":"PA00085791"},"wiki_and_media":{"wikidata":"Q3292683","wikipedia":"fr:Palais
@@ -266,7 +289,14 @@ http_interactions:
         d''Orsay,","inscription:3":"incendié sous la Commune en mai 1871. Les conseillers
         se replient alors sur l''aile Montpensier du Palais-Royal, rapidement trop
         exigüe, et l''architecte Moyaux construit à partir de 1899 l''actuel bâtiment."}},"operator":"Mairie
-        de Paris","facilities":{"wheelchair":true},"wiki_and_media":{"wikidata":"Q60245394"},"historic":{"type":"memorial","memorial":"plaque"},"distance":489,"place_id":"513447fbc4a69a0240597250fba9f16e4840f00103f901182d723501000000920310436f75722064657320436f6d70746573"},"geometry":{"type":"Point","coordinates":[2.3255134,48.86674999972537]}},{"type":"Feature","properties":{"name":"Hôtel
+        de Paris","facilities":{"wheelchair":true},"wiki_and_media":{"wikidata":"Q60245394"},"historic":{"type":"memorial","memorial":"plaque"},"distance":489,"place_id":"513447fbc4a69a0240597250fba9f16e4840f00103f901182d723501000000920310436f75722064657320436f6d70746573"},"geometry":{"type":"Point","coordinates":[2.3255134,48.86674999972537]}},{"type":"Feature","properties":{"name":"Alphonse
+        Allais","country":"France","country_code":"fr","region":"Metropolitan France","state":"Ile-de-France","city":"Paris","postcode":"75008","district":"Paris","suburb":"8th
+        Arrondissement of Paris","city_block":"Quartier de la Madeleine","street":"Cité
+        Berryer","lon":2.3234349,"lat":48.8690688,"state_code":"IDF","state_COG":"11","formatted":"Alphonse
+        Allais, Cité Berryer, 75008 Paris, France","address_line1":"Alphonse Allais","address_line2":"Cité
+        Berryer, 75008 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details.historic"],"datasource":{"sourcename":"openstreetmap","attribution":"©
+        OpenStreetMap contributors","license":"Open Database License","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Alphonse
+        Allais","osm_id":11935261433,"historic":"memorial","memorial":"plaque","osm_type":"n"}},"historic":{"type":"memorial","memorial":"plaque"},"distance":493,"place_id":"518b146f0965960240595f657ca53d6f4840f00103f901f9a265c70200000092030f416c70686f6e736520416c6c616973"},"geometry":{"type":"Point","coordinates":[2.3234349,48.86906879972479]}},{"type":"Feature","properties":{"name":"Hôtel
         de Noailles","country":"France","country_code":"fr","region":"Metropolitan
         France","state":"Ile-de-France","city":"Paris","postcode":"75001","district":"Paris","suburb":"1st
         Arrondissement","city_block":"Quartier Vendôme","street":"Rue Saint-Honoré","lon":2.33108,"lat":48.8652823,"state_code":"IDF","state_COG":"11","formatted":"Hôtel
@@ -299,34 +329,6 @@ http_interactions:
         de Talleyrand-Périgord","building":"historic","historic":"manor","osm_type":"w","wikidata":"Q3145965","wikipedia":"fr:Hôtel
         Saint-Florentin","contact:city":"Paris","contact:street":"Rue Saint-Florentin","building:levels":4,"contact:postcode":75001,"building:material":"stone","contact:housenumber":2}},"name_other":{"alt_name":"Hôtel
         de Talleyrand-Périgord"},"wiki_and_media":{"wikidata":"Q3145965","wikipedia":"fr:Hôtel
-        Saint-Florentin"},"historic":{"type":"manor"},"restrictions":{"access":"customers"},"building":{"levels":4,"type":"historic","material":"stone"},"distance":533,"place_id":"51f02e13b511980240597fa52c3ff06e4840f00102f9018fb03a030000000092031648c3b474656c205361696e742d466c6f72656e74696e"},"geometry":{"type":"Point","coordinates":[2.324252524040155,48.866706749725374]}},{"type":"Feature","properties":{"name":"Hôtel
-        de la Marine","country":"France","country_code":"fr","region":"Metropolitan
-        France","state":"Ile-de-France","city":"Paris","postcode":"75008","district":"Paris","suburb":"8th
-        Arrondissement of Paris","city_block":"Quartier de la Madeleine","street":"Place
-        de la Concorde","lon":2.3235045127976046,"lat":48.8669402,"state_code":"IDF","state_COG":"11","formatted":"Hôtel
-        de la Marine, Place de la Concorde, 75008 Paris, France","address_line1":"Hôtel
-        de la Marine","address_line2":"Place de la Concorde, 75008 Paris, France","categories":["building","building.historic","building.tourism","heritage","tourism","tourism.attraction","tourism.sights"],"details":["details","details.heritage","details.wiki_and_media"],"datasource":{"sourcename":"openstreetmap","attribution":"©
-        OpenStreetMap contributors","license":"Open Database License","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Hôtel
-        de la Marine","osm_id":-1060822,"ref:mhs":"PA00088817","tourism":"attraction","website":"https://www.hotel-de-la-marine.paris/","alt_name":"Hôtel
-        du Garde-Meuble;Garde-Meuble de la Reine","building":"government","heritage":2,"historic":"manor","osm_type":"r","wikidata":"Q2059518","addr:city":"Paris","architect":"Ange-Jacques
-        Gabriel;Jacques-Germain Soufflot","wikipedia":"fr:Hôtel de la Marine","addr:street":"Place
-        de la Concorde","old_landuse":"military","addr:postcode":75008,"heritage:operator":"mhs","wikimedia_commons":"Category:Hôtel
-        de la Marine (Paris)"}},"website":"https://www.hotel-de-la-marine.paris/","name_other":{"alt_name":"Hôtel
-        du Garde-Meuble;Garde-Meuble de la Reine"},"ref_other":{"mhs":"PA00088817"},"wiki_and_media":{"wikidata":"Q2059518","wikipedia":"fr:Hôtel
-        de la Marine","wikimedia_commons":"Category:Hôtel de la Marine (Paris)"},"historic":{"type":"manor"},"heritage":{"level":2,"operator":"mhs","ref":"PA00088817"},"building":{"type":"government"},"distance":563,"place_id":"51d697b488899602405938b47ee5f76e4840f00101f901d62f10000000000092031348c3b474656c206465206c61204d6172696e65"},"geometry":{"type":"Point","coordinates":[2.3235045127976077,48.86694019972532]}},{"type":"Feature","properties":{"name":"Hector
-        Fabre","country":"France","country_code":"fr","region":"Metropolitan France","state":"Ile-de-France","city":"Paris","postcode":"75002","district":"Paris","suburb":"2nd
-        Arrondissement","city_block":"Quartier Vivienne","street":"Rue Chabanais","lon":2.3368898,"lat":48.8673428,"state_code":"IDF","state_COG":"11","formatted":"Hector
-        Fabre, Rue Chabanais, 75002 Paris, France","address_line1":"Hector Fabre","address_line2":"Rue
-        Chabanais, 75002 Paris, France","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details.historic"],"datasource":{"sourcename":"openstreetmap","attribution":"©
-        OpenStreetMap contributors","license":"Open Database License","url":"https://www.openstreetmap.org/copyright","raw":{"name":"Hector
-        Fabre","osm_id":9063588466,"historic":"memorial","memorial":"plaque","osm_type":"n"}},"historic":{"type":"memorial","memorial":"plaque"},"distance":586,"place_id":"510cd98a47f3b1024059d69ebf16056f4840f00103f90172623b1c0200000092030c486563746f72204661627265"},"geometry":{"type":"Point","coordinates":[2.3368898,48.86734279972522]}},{"type":"Feature","properties":{"name":"E.J.
-        Delécluze et E.N. Viollet le duc","country":"France","country_code":"fr","region":"Metropolitan
-        France","state":"Ile-de-France","city":"Paris","postcode":"75002","district":"Paris","suburb":"2nd
-        Arrondissement","city_block":"Quartier Vivienne","street":"Rue Chabanais","lon":2.3365949,"lat":48.8670031,"state_code":"IDF","state_COG":"11","formatted":"E.J.
-        Delécluze et E.N. Viollet le duc, Rue Chabanais, 75002 Paris, France","address_line1":"E.J.
-        Delécluze et E.N. Viollet le duc","address_line2":"Rue Chabanais, 75002 Paris,
-        France","categories":["tourism","tourism.sights","tourism.sights.memorial"],"details":["details.historic"],"datasource":{"sourcename":"openstreetmap","attribution":"©
-        OpenStreetMap contributors","license":"Open Database License","url":"https://www.openstreetmap.org/copyright","raw":{"name":"E.J.
-        Delécluze et E.N. Viollet le duc","osm_id":9063588459,"historic":"memorial","memorial":"plaque","osm_type":"n"}},"historic":{"type":"memorial","memorial":"plaque"},"distance":588,"place_id":"51cd00bcaa58b1024059e86c23f5f96e4840f00103f9016b623b1c02000000920326452e4a2e2044656cc3a9636c757a6520657420452e4e2e2056696f6c6c6574206c6520647563"},"geometry":{"type":"Point","coordinates":[2.3365949,48.86700309972531]}}]}'
-  recorded_at: Tue, 20 Aug 2024 01:14:52 GMT
+        Saint-Florentin"},"historic":{"type":"manor"},"restrictions":{"access":"customers"},"building":{"levels":4,"type":"historic","material":"stone"},"distance":533,"place_id":"51f02e13b511980240597fa52c3ff06e4840f00102f9018fb03a030000000092031648c3b474656c205361696e742d466c6f72656e74696e"},"geometry":{"type":"Point","coordinates":[2.324252524040155,48.866706749725374]}}]}'
+  recorded_at: Tue, 01 Oct 2024 23:40:51 GMT
 recorded_with: VCR 6.1.0
