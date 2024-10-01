@@ -19,7 +19,7 @@
 # Lunch and Learn
 
   <p>
-    <a href="https://github.com/AMSterling/viewing_party_lite">
+    <a href="https://github.com/AMSterling/lunch-and-learn">
       <img src="https://media.giphy.com/media/UaodLQqYNYbf2/giphy.gif">
     </a>
   </p>
